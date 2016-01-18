@@ -16,10 +16,11 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/section1"
+        android:text="@string/section1_1"
         android:id="@+id/textView5"
-        android:textSize="@dimen/h1"
-        android:layout_centerHorizontal="true" />
+        android:textSize="@dimen/h2"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold" />
 
     <Button
         android:layout_width="match_parent"
