@@ -2,6 +2,8 @@ package appbsru.supergolf.healthrecord;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.RadioButton;
@@ -17,8 +19,9 @@ public class Section1Activity extends AppCompatActivity {
             pressureNoHaveRadioButton, pressureHaveRadioButton,
             diabetesNoHaveRadioButton, diabetesHaveRadioButton;
     private EditText heightEditText, weightEditText, widthEditText;
-    private String ageString, sexString, pressureString, diabetesString,
+    private String sexString, pressureString, diabetesString,
             heightString, weightString, widthString;
+    private int ageAnInt;
 
 
     @Override
@@ -44,6 +47,17 @@ public class Section1Activity extends AppCompatActivity {
         ArrayAdapter<String> ageAdapter = new ArrayAdapter<String>(this,
                 android.R.layout.simple_list_item_1, chioceStrings);
         ageSpinner.setAdapter(ageAdapter);
+        ageSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                ageAnInt = position;
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
+        });
 
     }// CreateAgeSpinner
 
