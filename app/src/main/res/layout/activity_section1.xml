@@ -207,6 +207,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="clickSection11"
         android:text="@string/section1"
         android:id="@+id/button"
         android:layout_alignParentBottom="true" />

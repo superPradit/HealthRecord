@@ -2,6 +2,7 @@ package appbsru.supergolf.healthrecord;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -37,6 +38,13 @@ public class Section1Activity extends AppCompatActivity {
 
     } // Main Method
 
+    public void clickSection11(View view) {
+
+        String tag = "section11";
+        Log.d(tag, "ageAnInt = " + ageAnInt);
+
+    } //clickSection11
+
     private void createAgeSpinner() {
 
         String[] chioceStrings = new String[3];
@@ -55,7 +63,7 @@ public class Section1Activity extends AppCompatActivity {
 
             @Override
             public void onNothingSelected(AdapterView<?> parent) {
-
+                ageAnInt = 0;
             }
         });
 
