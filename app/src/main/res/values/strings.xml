@@ -24,4 +24,7 @@
     <string name="have">มี</string>
     <string name="nohave">ไม่มี</string>
 
+    <string name="risk">ความเสี่ยง</string>
+    <string name="intro">คำแนะนำ</string>
+
 </resources>

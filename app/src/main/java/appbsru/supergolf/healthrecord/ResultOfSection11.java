@@ -7,7 +7,8 @@ import android.util.Log;
 public class ResultOfSection11 extends AppCompatActivity {
 
     //Explicit
-    private int ageAnInt, sexAnInt, pressureAnInt, diabetesAnInt, indexMassAnInt, widthAnInt;
+    private int ageAnInt, sexAnInt, pressureAnInt, diabetesAnInt,
+                indexMassAnInt, widthAnInt ,summaryAnInt;
     private Double heightADouble, weightADouble, widthADouble, indexMassADouble;
 
     @Override
@@ -19,16 +20,53 @@ public class ResultOfSection11 extends AppCompatActivity {
 
         indexMassAnInt = findIndexMass();
 
+        widthAnInt = findIndexWidth();
+
+        summaryAnInt = summaryHealth();
+
         //show Log
         showLog();
 
     }// Main method
+
+    private int summaryHealth() {
+        int intSummary = 0;
+
+        intSummary = ageAnInt + sexAnInt + indexMassAnInt + widthAnInt + pressureAnInt + diabetesAnInt;
+
+        return intSummary;
+    }
+
+    private int findIndexWidth() {
+
+        int intIndex = 0;
+        if (sexAnInt == 0) {
+            //Male
+            if (widthADouble < 90.0) {
+                intIndex = 0;
+            } else {
+                intIndex = 2;
+            }
+
+        } else {
+            //Female
+            if (widthADouble < 80.0) {
+                intIndex = 0;
+            } else {
+                intIndex = 2;
+            }
+        }
+
+        return intIndex;
+    }
 
     private void showLog() {
 
         String tag = "Result";
         Log.d(tag, "indexDouble = " + indexMassADouble);
         Log.d(tag, "indexAnInt = " + indexMassAnInt);
+        Log.d(tag, "indexWidth = " + widthAnInt);
+        Log.d(tag, "indexHealth = " + summaryAnInt);
 
     } // showLog
 
