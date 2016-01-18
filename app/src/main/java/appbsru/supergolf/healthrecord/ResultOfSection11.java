@@ -33,6 +33,8 @@ public class ResultOfSection11 extends AppCompatActivity {
 
         summaryAnInt = summaryHealth();
 
+        showIntro();
+
         showTxT();
 
         //show Log
@@ -40,15 +42,33 @@ public class ResultOfSection11 extends AppCompatActivity {
 
     }// Main method
 
+
+
+    private void showIntro() {
+        if (summaryAnInt <= 2) {
+            introTextView.setText("ออกกำลังกายสม่ำเสมอ\nควมคุมน้ำหนักตัวให้อยู่ในเกณฑ์ที่เหมาะสม\nตรวจวัดความดันโลหิต\nควรประเมินความเสี่ยงซ้ำทุก 3 ปี");
+        } else if (summaryAnInt <= 5) {
+            introTextView.setText("ออกกำลังกายสม่ำเสมอ\nควมคุมน้ำหนักตัวให้อยู่ในเกณฑ์ที่เหมาะสม\nตรวจวัดความดันโลหิต\nควรประเมินความเสี่ยงซ้ำทุก 1-3 ปี");
+        } else if (summaryAnInt <= 8) {
+            introTextView.setText("ออกกำลังกายสม่ำเสมอ\nควมคุมน้ำหนักตัวให้อยู่ในเกณฑ์ที่เหมาะสม\nตรวจวัดความดันโลหิต\nตรวจระดับน้ำตาลในเลือด\nควรประเมินความเสี่ยงซ้ำทุก 1-3 ปี\n");
+        } else {
+            introTextView.setText("ออกกำลังกายสม่ำเสมอ\nควมคุมน้ำหนักตัวให้อยู่ในเกณฑ์ที่เหมาะสม\nตรวจวัดความดันโลหิต\nตรวจระดับน้ำตาลในเลือด\nควรประเมินความเสี่ยงซ้ำทุก 1 ปี");
+        }
+    }
+
     private void showTxT() {
         if (summaryAnInt <= 2) {
             riskTextView.setText("น้อย");
+            riskTextView.setTextColor(Color.parseColor("#70FF00"));
         } else if (summaryAnInt <= 5) {
             riskTextView.setText("ปานกลาง");
+            riskTextView.setTextColor(Color.parseColor("#FFFF00"));
         } else if (summaryAnInt <= 8) {
             riskTextView.setText("สูง");
+            riskTextView.setTextColor(Color.parseColor("#FF9900"));
         } else {
             riskTextView.setText("สูงมาก");
+            riskTextView.setTextColor(Color.parseColor("#FF0000"));
         }
     }
 
