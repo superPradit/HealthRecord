@@ -44,6 +44,7 @@ public class MainHoldSection1 extends AppCompatActivity implements View.OnClickL
                 startActivity(new Intent(MainHoldSection1.this, Section1Activity.class));
                 break;
             case R.id.imageView6:
+                startActivity(new Intent(MainHoldSection1.this, Section12Activity.class));
                 break;
         }// switch
 

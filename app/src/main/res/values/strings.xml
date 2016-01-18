@@ -27,4 +27,7 @@
     <string name="risk">ความเสี่ยง</string>
     <string name="intro">คำแนะนำ</string>
 
+    <string name="age1">อายุ</string>
+    <string name="year">ปี</string>
+
 </resources>
