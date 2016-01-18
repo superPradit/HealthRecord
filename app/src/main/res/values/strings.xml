@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Health Record</string>
+
+    <string name="section1">ประเมินความเสี่ยง</string>
+    <string name="section2">หลักปฎิบัติ</string>
+    <string name="section3">โภชนาการ</string>
+    <string name="section4">แนะนำแพทย์</string>
+
 </resources>
