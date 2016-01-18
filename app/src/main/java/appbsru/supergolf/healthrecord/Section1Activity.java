@@ -22,7 +22,7 @@ public class Section1Activity extends AppCompatActivity {
     private EditText heightEditText, weightEditText, widthEditText;
     private String sexString, pressureString, diabetesString,
             heightString, weightString, widthString;
-    private int ageAnInt, sexAnInt = 0, pressureAnInt = 0;
+    private int ageAnInt, sexAnInt = 0, pressureAnInt = 0, diabetesAnInt = 0;
 
 
     @Override
@@ -42,8 +42,30 @@ public class Section1Activity extends AppCompatActivity {
         //pressure Choose
         pressureChoose();
 
+        //diabetesChoose
+        diabetesChoose();
+
 
     } // Main Method
+
+    private void diabetesChoose() {
+        diabetesRadioGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(RadioGroup group, int checkedId) {
+                switch (checkedId) {
+                    case R.id.radioButton5:
+                        diabetesAnInt = 0;
+                        break;
+                    case R.id.radioButton6:
+                        diabetesAnInt = 4;
+                        break;
+                }
+
+            }
+        });
+
+
+    }
 
     private void pressureChoose() {
 
@@ -87,6 +109,7 @@ public class Section1Activity extends AppCompatActivity {
         Log.d(tag, "ageAnInt = " + ageAnInt);
         Log.d(tag, "sexAnInt = " + sexAnInt);
         Log.d(tag, "pressureAnInt = " + pressureAnInt);
+        Log.d(tag, "diabetesAnInt = " + diabetesAnInt);
     } //clickSection11
 
     private void createAgeSpinner() {
