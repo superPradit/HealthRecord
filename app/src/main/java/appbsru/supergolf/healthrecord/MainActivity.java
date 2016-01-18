@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         switch (v.getId()) {
             case R.id.imageView:
-                startActivity(new Intent(MainActivity.this, Section1Activity.class));
+                startActivity(new Intent(MainActivity.this, MainHoldSection1.class));
                 break;
             case R.id.imageView2:
                 break;

@@ -15,7 +15,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Section1Activity"></activity>
+        <activity android:name=".Section1Activity" />
+        <activity android:name=".MainHoldSection1"></activity>
     </application>
 
 </manifest>
