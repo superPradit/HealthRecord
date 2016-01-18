@@ -36,11 +36,10 @@ public class Section1Activity extends AppCompatActivity {
 
     private void createAgeSpinner() {
 
-        String[] chioceStrings = new String[4];
-        chioceStrings[0] = "0 - 39 ปี";
-        chioceStrings[1] = "40 - 44 ปี";
-        chioceStrings[2] = "45 - 49 ปี";
-        chioceStrings[3] = "50 ปี ขึ้นไป";
+        String[] chioceStrings = new String[3];
+        chioceStrings[0] = "0 - 44 ปี";
+        chioceStrings[1] = "45 - 49 ปี";
+        chioceStrings[2] = "50 ปี ขึ้นไป";
 
         ArrayAdapter<String> ageAdapter = new ArrayAdapter<String>(this,
                 android.R.layout.simple_list_item_1, chioceStrings);
