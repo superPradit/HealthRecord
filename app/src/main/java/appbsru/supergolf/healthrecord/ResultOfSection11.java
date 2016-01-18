@@ -3,18 +3,26 @@ package appbsru.supergolf.healthrecord;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.TextView;
 
 public class ResultOfSection11 extends AppCompatActivity {
 
     //Explicit
     private int ageAnInt, sexAnInt, pressureAnInt, diabetesAnInt,
                 indexMassAnInt, widthAnInt ,summaryAnInt;
+
     private Double heightADouble, weightADouble, widthADouble, indexMassADouble;
+
+    private TextView riskTextView, introTextView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_result_of_section11);
+
+        //bind widget
+        bindwidget();
+
         //Receive Value Intent
         receiveValueFormIntent();
 
@@ -28,6 +36,11 @@ public class ResultOfSection11 extends AppCompatActivity {
         showLog();
 
     }// Main method
+
+    private void bindwidget() {
+        riskTextView = (TextView) findViewById(R.id.txtShowRisk);
+        introTextView = (TextView) findViewById(R.id.txtShowIntro);
+    }
 
     private int summaryHealth() {
         int intSummary = 0;
