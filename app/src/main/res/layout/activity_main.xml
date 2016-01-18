@@ -7,7 +7,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="appbsru.supergolf.healthrecord.MainActivity">
+    tools:context="appbsru.supergolf.healthrecord.MainActivity"
+    android:background="@drawable/bg9">
 
     <LinearLayout
         android:orientation="vertical"
@@ -40,22 +41,24 @@
             android:layout_height="wrap_content">
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="New Text"
+                android:text="@string/section1"
                 android:id="@+id/textView"
                 android:textSize="@dimen/h1"
                 android:layout_weight="1"
-                android:gravity="center_horizontal" />
+                android:gravity="center_horizontal"
+                android:textColor="@color/text" />
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="New Text"
+                android:text="@string/section2"
                 android:id="@+id/textView2"
                 android:textSize="@dimen/h1"
                 android:layout_weight="1"
-                android:gravity="center_horizontal" />
+                android:gravity="center_horizontal"
+                android:textColor="@color/text" />
         </LinearLayout>
 
         <LinearLayout
@@ -84,22 +87,24 @@
             android:layout_height="wrap_content" >
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="New Text"
+                android:text="@string/section3"
                 android:id="@+id/textView3"
                 android:textSize="@dimen/h1"
                 android:layout_weight="1"
-                android:gravity="center_horizontal" />
+                android:gravity="center_horizontal"
+                android:textColor="@color/text" />
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="New Text"
+                android:text="@string/section4"
                 android:id="@+id/textView4"
                 android:textSize="@dimen/h1"
                 android:layout_weight="1"
-                android:gravity="center_horizontal" />
+                android:gravity="center_horizontal"
+                android:textColor="@color/text" />
         </LinearLayout>
     </LinearLayout>
 </RelativeLayout>
