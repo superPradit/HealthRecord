@@ -16,7 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".Section1Activity" />
-        <activity android:name=".MainHoldSection1"></activity>
+        <activity android:name=".MainHoldSection1" />
+        <activity android:name=".ResultOfSection11"></activity>
     </application>
 
 </manifest>
