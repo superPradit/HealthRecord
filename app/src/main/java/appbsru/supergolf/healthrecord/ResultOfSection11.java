@@ -1,5 +1,6 @@
 package appbsru.supergolf.healthrecord;
 
+import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -32,14 +33,29 @@ public class ResultOfSection11 extends AppCompatActivity {
 
         summaryAnInt = summaryHealth();
 
+        showTxT();
+
         //show Log
         showLog();
 
     }// Main method
 
+    private void showTxT() {
+        if (summaryAnInt <= 2) {
+            riskTextView.setText("น้อย");
+        } else if (summaryAnInt <= 5) {
+            riskTextView.setText("ปานกลาง");
+        } else if (summaryAnInt <= 8) {
+            riskTextView.setText("สูง");
+        } else {
+            riskTextView.setText("สูงมาก");
+        }
+    }
+
     private void bindwidget() {
         riskTextView = (TextView) findViewById(R.id.txtShowRisk);
         introTextView = (TextView) findViewById(R.id.txtShowIntro);
+
     }
 
     private int summaryHealth() {
