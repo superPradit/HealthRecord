@@ -20,9 +20,9 @@ public class Section1Activity extends AppCompatActivity {
             pressureNoHaveRadioButton, pressureHaveRadioButton,
             diabetesNoHaveRadioButton, diabetesHaveRadioButton;
     private EditText heightEditText, weightEditText, widthEditText;
-    private String sexString, pressureString, diabetesString,
-            heightString, weightString, widthString;
+    private String heightString, weightString, widthString;
     private int ageAnInt, sexAnInt = 0, pressureAnInt = 0, diabetesAnInt = 0;
+    private Double heightADouble, weightADouble, widthADouble;
 
 
     @Override
@@ -105,11 +105,33 @@ public class Section1Activity extends AppCompatActivity {
 
     public void clickSection11(View view) {
 
+        heightString = heightEditText.getText().toString().trim();
+        weightString = weightEditText.getText().toString().trim();
+        widthString = widthEditText.getText().toString().trim();
+
+        if (heightString.equals("")||weightString.equals("")||widthString.equals("")) {
+            //Have Space
+            MyAlertDialog objMyAlertDialog = new MyAlertDialog();
+            objMyAlertDialog.myDialog(Section1Activity.this, R.drawable.icon_question,
+                    "มีช่องว่าง", "กรุณากรอกทุกช่อง คะ");
+
+        } else {
+            //no Space
+            heightADouble = Double.parseDouble(heightString);
+            weightADouble = Double.parseDouble(weightString);
+            widthADouble = Double.parseDouble(widthString);
+
+        }//if
+
         String tag = "section11";
         Log.d(tag, "ageAnInt = " + ageAnInt);
         Log.d(tag, "sexAnInt = " + sexAnInt);
         Log.d(tag, "pressureAnInt = " + pressureAnInt);
         Log.d(tag, "diabetesAnInt = " + diabetesAnInt);
+        Log.d(tag, "height = " + heightADouble);
+        Log.d(tag, "weight = " + weightADouble);
+        Log.d(tag, "width = " + widthADouble);
+
     } //clickSection11
 
     private void createAgeSpinner() {
@@ -148,7 +170,9 @@ public class Section1Activity extends AppCompatActivity {
         pressureHaveRadioButton = (RadioButton) findViewById(R.id.radioButton4);
         diabetesNoHaveRadioButton = (RadioButton) findViewById(R.id.radioButton5);
         diabetesHaveRadioButton = (RadioButton) findViewById(R.id.radioButton6);
-
+        heightEditText = (EditText) findViewById(R.id.editText);
+        weightEditText = (EditText) findViewById(R.id.editText2);
+        widthEditText = (EditText) findViewById(R.id.editText3);
     }
 
 }  //Main Class
