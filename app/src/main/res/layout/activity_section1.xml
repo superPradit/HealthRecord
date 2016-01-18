@@ -53,6 +53,7 @@
             <RadioGroup
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:id="@+id/ragSex"
                 android:orientation="horizontal">
 
                 <RadioButton
@@ -149,6 +150,7 @@
             <RadioGroup
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:id="@+id/ragPressure"
                 android:orientation="horizontal" >
 
                 <RadioButton
@@ -179,6 +181,7 @@
             <RadioGroup
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:id="@+id/ragDiabetes"
                 android:orientation="horizontal" >
 
                 <RadioButton
