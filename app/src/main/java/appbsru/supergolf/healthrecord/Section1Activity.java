@@ -86,6 +86,7 @@ public class Section1Activity extends AppCompatActivity {
         String tag = "section11";
         Log.d(tag, "ageAnInt = " + ageAnInt);
         Log.d(tag, "sexAnInt = " + sexAnInt);
+        Log.d(tag, "pressureAnInt = " + pressureAnInt)
     } //clickSection11
 
     private void createAgeSpinner() {
