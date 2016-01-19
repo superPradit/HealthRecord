@@ -18,6 +18,12 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/banner12"></LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
             android:layout_height="@dimen/icon">
 
             <ImageView
@@ -25,14 +31,14 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/imageView"
                 android:layout_weight="1"
-                android:src="@drawable/blue" />
+                android:src="@drawable/icon22" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/imageView2"
                 android:layout_weight="1"
-                android:src="@drawable/gray" />
+                android:src="@drawable/icon11" />
 
         </LinearLayout>
 
@@ -44,12 +50,12 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="@string/section1"
+                android:text="@string/section1icon"
                 android:id="@+id/textView"
                 android:textSize="@dimen/h1"
                 android:layout_weight="1"
                 android:gravity="center_horizontal"
-                android:textColor="@color/text" />
+                android:textColor="@color/primary_material_dark" />
 
             <TextView
                 android:layout_width="0dp"
@@ -59,7 +65,7 @@
                 android:textSize="@dimen/h1"
                 android:layout_weight="1"
                 android:gravity="center_horizontal"
-                android:textColor="@color/text" />
+                android:textColor="@color/primary_material_dark" />
 
         </LinearLayout>
 
@@ -73,14 +79,14 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/imageView3"
                 android:layout_weight="1"
-                android:src="@drawable/green" />
+                android:src="@drawable/icon55" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/imageView4"
                 android:layout_weight="1"
-                android:src="@drawable/orange" />
+                android:src="@drawable/icon11" />
         </LinearLayout>
 
         <LinearLayout
@@ -96,7 +102,7 @@
                 android:textSize="@dimen/h1"
                 android:layout_weight="1"
                 android:gravity="center_horizontal"
-                android:textColor="@color/text" />
+                android:textColor="@color/primary_material_dark" />
 
             <TextView
                 android:layout_width="0dp"
@@ -106,7 +112,8 @@
                 android:textSize="@dimen/h1"
                 android:layout_weight="1"
                 android:gravity="center_horizontal"
-                android:textColor="@color/text" />
+                android:textColor="@color/primary_material_dark" />
         </LinearLayout>
+
     </LinearLayout>
 </RelativeLayout>
