@@ -5,12 +5,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     //Explicit
     private ImageView section1ImageView, section2ImageView,
             section3ImageView, section4ImageView;
+
+    private TextView section1TextView, section2TextView, section3TextView, section4TextView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,7 +26,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         //Image Controller
         imageController();
 
+        //TextView Controller
+        textViewController();
+
     } //Main Method
+
+    private void textViewController() {
+        section1TextView.setOnClickListener(this);
+        section2TextView.setOnClickListener(this);
+        section3TextView.setOnClickListener(this);
+        section4TextView.setOnClickListener(this);
+    }
 
     private void imageController() {
         section1ImageView.setOnClickListener(this);
@@ -37,6 +50,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         section2ImageView = (ImageView) findViewById(R.id.imageView2);
         section3ImageView = (ImageView) findViewById(R.id.imageView3);
         section4ImageView = (ImageView) findViewById(R.id.imageView4);
+        section1TextView = (TextView) findViewById(R.id.textView);
+        section2TextView = (TextView) findViewById(R.id.textView2);
+        section3TextView = (TextView) findViewById(R.id.textView3);
+        section4TextView = (TextView) findViewById(R.id.textView4);
     }
 
     @Override
@@ -53,6 +70,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.imageView4:
                 break;
         } //switch
+
+        switch (v.getId()) {
+            case R.id.textView:
+                startActivity(new Intent(MainActivity.this, MainHoldSection1.class));
+                break;
+            case R.id.textView2:
+                break;
+            case R.id.textView3:
+                break;
+            case R.id.textView4:
+                break;
+        }//switch TextView
 
     } // onClick
 
