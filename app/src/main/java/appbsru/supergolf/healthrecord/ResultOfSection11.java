@@ -111,7 +111,7 @@ public class ResultOfSection11 extends AppCompatActivity {
 
     private void showLog() {
 
-        String tag = "Result";
+        String tag = "Result11";
         Log.d(tag, "indexDouble = " + indexMassADouble);
         Log.d(tag, "indexAnInt = " + indexMassAnInt);
         Log.d(tag, "indexWidth = " + widthAnInt);

@@ -90,7 +90,7 @@ public class Section12Activity extends AppCompatActivity {
         objIntent.putExtra("Height", heightADouble);
         objIntent.putExtra("Weight", weightADouble);
         objIntent.putExtra("Pressure", pressureAnInt);
-
+        startActivity(objIntent);
     }
 
     private void bindwidget() {

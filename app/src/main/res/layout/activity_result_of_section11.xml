@@ -42,7 +42,7 @@
                 android:id="@+id/txtShowRisk"
                 android:textSize="@dimen/h1"
                 android:layout_weight="1"
-                android:textColor="@color/text" />
+                android:textColor="@color/primary_material_dark" />
         </LinearLayout>
 
         <TextView

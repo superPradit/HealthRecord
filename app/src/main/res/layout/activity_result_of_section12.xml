@@ -18,7 +18,8 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
 
             <TextView
                 android:layout_width="match_parent"
@@ -32,15 +33,17 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:background="#96ffffff">
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:text="New Text"
-                android:id="@+id/textView23"
-                android:layout_margin="10dp" />
+                android:id="@+id/txtSection12"
+                android:layout_margin="20dp"
+                android:textColor="@color/primary_material_dark"
+                android:textSize="@dimen/h2" />
         </LinearLayout>
     </LinearLayout>
 </RelativeLayout>
