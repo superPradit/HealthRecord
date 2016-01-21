@@ -22,7 +22,7 @@
     <string name="width">เส้นรอบเอว</string>
     <string name="centi">เซนติเมตร</string>
     <string name="presser">ความดันโลหิต</string>
-    <string name="DM">โรคเบาหวานในญาติสายตรง</string>
+    <string name="DM">โรคเบาหวานในญาติสายตรง\n(พ่อ แม่ พี่ หรือน้อง)</string>
     <string name="have">มี</string>
     <string name="nohave">ไม่มี</string>
 

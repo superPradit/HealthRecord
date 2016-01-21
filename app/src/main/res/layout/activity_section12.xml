@@ -15,8 +15,9 @@
         android:layout_height="wrap_content"
         android:text="@string/section1_2"
         android:id="@+id/textView17"
-        android:textSize="@dimen/h2"
-        android:layout_centerHorizontal="true" />
+        android:textSize="22dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/primary_material_dark" />
 
     <LinearLayout
         android:orientation="vertical"
@@ -39,7 +40,8 @@
                 android:text="@string/age1"
                 android:id="@+id/textAge"
                 android:layout_weight="1"
-                android:textSize="@dimen/h1" />
+                android:textSize="@dimen/h3"
+                android:textColor="@color/primary_material_dark" />
 
             <EditText
                 android:layout_width="0dp"
@@ -60,7 +62,8 @@
                 android:text="@string/weight"
                 android:id="@+id/textView19"
                 android:layout_weight="1"
-                android:textSize="@dimen/h1" />
+                android:textSize="@dimen/h3"
+                android:textColor="@color/primary_material_dark" />
 
             <EditText
                 android:layout_width="0dp"
@@ -81,7 +84,8 @@
                 android:text="@string/height"
                 android:id="@+id/textView20"
                 android:layout_weight="1"
-                android:textSize="@dimen/h1" />
+                android:textSize="@dimen/h3"
+                android:textColor="@color/primary_material_dark" />
 
             <EditText
                 android:layout_width="0dp"
@@ -96,7 +100,8 @@
             android:layout_height="wrap_content"
             android:text="@string/presser"
             android:id="@+id/textView21"
-            android:textSize="@dimen/h1" />
+            android:textSize="@dimen/h3"
+            android:textColor="@color/primary_material_dark" />
 
         <RadioGroup
             android:layout_width="match_parent"

@@ -11,10 +11,10 @@
         android:layout_height="wrap_content"
         android:text="@string/section1_1"
         android:id="@+id/textView5"
-        android:textSize="@dimen/h2"
+        android:textSize="22dp"
         android:layout_centerHorizontal="true"
         android:textStyle="bold"
-        android:textColor="@color/text" />
+        android:textColor="@color/primary_material_dark" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -36,7 +36,8 @@
                 android:layout_height="wrap_content"
                 android:text="@string/age"
                 android:id="@+id/textView9"
-                android:textSize="@dimen/h1" />
+                android:textSize="@dimen/h3"
+                android:textColor="@color/primary_material_dark" />
 
             <Spinner
                 android:layout_width="match_parent"
@@ -48,7 +49,8 @@
                 android:layout_height="wrap_content"
                 android:text="@string/sex"
                 android:id="@+id/textView10"
-                android:textSize="@dimen/h1" />
+                android:textSize="@dimen/h3"
+                android:textColor="@color/primary_material_dark" />
 
             <RadioGroup
                 android:layout_width="match_parent"
@@ -84,8 +86,9 @@
                     android:layout_height="wrap_content"
                     android:text="@string/height"
                     android:id="@+id/textView11"
-                    android:textSize="@dimen/h1"
-                    android:layout_weight="1" />
+                    android:textSize="@dimen/h3"
+                    android:layout_weight="1"
+                    android:textColor="@color/primary_material_dark" />
 
                 <EditText
                     android:layout_width="0dp"
@@ -106,8 +109,9 @@
                     android:layout_height="wrap_content"
                     android:text="@string/weight"
                     android:id="@+id/textView12"
-                    android:textSize="@dimen/h1"
-                    android:layout_weight="1" />
+                    android:textSize="@dimen/h3"
+                    android:layout_weight="1"
+                    android:textColor="@color/primary_material_dark" />
 
                 <EditText
                     android:layout_width="0dp"
@@ -128,8 +132,9 @@
                     android:layout_height="wrap_content"
                     android:text="@string/width"
                     android:id="@+id/textView13"
-                    android:textSize="@dimen/h1"
-                    android:layout_weight="1" />
+                    android:textSize="@dimen/h3"
+                    android:layout_weight="1"
+                    android:textColor="@color/primary_material_dark" />
 
                 <EditText
                     android:layout_width="0dp"
@@ -145,7 +150,8 @@
                 android:layout_height="wrap_content"
                 android:text="@string/presser"
                 android:id="@+id/textView14"
-                android:textSize="@dimen/h1" />
+                android:textSize="@dimen/h3"
+                android:textColor="@color/primary_material_dark" />
 
             <RadioGroup
                 android:layout_width="match_parent"
@@ -176,7 +182,8 @@
                 android:layout_height="wrap_content"
                 android:text="@string/DM"
                 android:id="@+id/textView15"
-                android:textSize="@dimen/h1" />
+                android:textSize="@dimen/h3"
+                android:textColor="@color/primary_material_dark" />
 
             <RadioGroup
                 android:layout_width="match_parent"
