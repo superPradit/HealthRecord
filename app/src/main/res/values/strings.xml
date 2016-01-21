@@ -41,5 +41,9 @@
     <string name="perform7">เบาหวานขณะตั้งครรภ์</string>
     <string name="perform8">ภาวะฉุกเฉินในผู้ป่วยเบาหวาน</string>
     <string name="perform9">โรคแทรกซ้อนที่เกิดจากเบาหวาน</string>
+    
+    <string name="exercise1">แนวทางการออกกำลังกาย</string>
+    <string name="exercise2">หลักการออกกำลังกาย</string>
+    <string name="exercise3">ขั้นตอนการออกกำลังกาย</string>
 
 </resources>
