@@ -19,7 +19,9 @@
         <activity android:name=".MainHoldSection1" />
         <activity android:name=".ResultOfSection11" />
         <activity android:name=".Section12Activity" />
-        <activity android:name=".ResultOfSection12"></activity>
+        <activity android:name=".ResultOfSection12" />
+        <activity android:name=".Section2Activity" />
+        <activity android:name=".Section2HoldActivity"></activity>
     </application>
 
 </manifest>
