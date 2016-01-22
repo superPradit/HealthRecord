@@ -30,7 +30,10 @@
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="5dp">
 
             <TextView
                 android:layout_width="match_parent"
@@ -38,8 +41,7 @@
                 android:text="@string/perform2"
                 android:id="@+id/smbgTextView"
                 android:textColor="@color/primary_material_dark"
-                android:textSize="@dimen/h2"
-                android:layout_margin="10dp" />
+                android:textSize="@dimen/h2" />
         </LinearLayout>
 
         <LinearLayout

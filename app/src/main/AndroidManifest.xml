@@ -22,7 +22,8 @@
         <activity android:name=".ResultOfSection12" />
         <activity android:name=".Section2Activity" />
         <activity android:name=".Section2HoldActivity" />
-        <activity android:name=".Section2Hold2Activity"></activity>
+        <activity android:name=".Section2Hold2Activity" />
+        <activity android:name=".Section2Hold3Activity"></activity>
     </application>
 
 </manifest>

@@ -49,5 +49,9 @@
     <string name="smbg1">ความถี่ของการทำ SMBG</string>
     <string name="smbg2">เทคนิคการตรวจ</string>
 
+    <string name="urinalysis1">ความถี่การตรวจปัสสาวะ</string>
+    <string name="urinalysis2">ขั้นตอนการตรวจปัสสาวะ</string>
+    <string name="urinalysis3">ข้อแนะนำการตรวจปัสสาวะด้วยแถบ</string>
+    <string name="urinalysis4">การตรวจหาสารคีโตนในปัสสาวะ</string>
 
 </resources>
