@@ -62,9 +62,16 @@
     <string name="pregnant1">ความเสี่ยงเบาหวานขณะตั้งครรภ์</string>
     <string name="pregnant2">โรคแทรกซ้อน</string>
     <string name="pregnant3">หลักปฏิบัติเบาหวานขณะตั้งครรภ์</string>
-    
+
     <string name="emergency1">ภาวะคีโตซีส</string>
     <string name="emergency2">ภาวะโคม่าจากน้ำตาลในเลือดสูง</string>
     <string name="emergency3">ภาวะน้ำตาลในเลือดต่ำ</string>
+
+    <string name="complication1">โรคความดันโลหิตสูง</string>
+    <string name="complication2">โรคไขมันในเลือดสูง</string>
+    <string name="complication3">โรคหลอดเลือดแข็ง</string>
+    <string name="complication4">โรคตา</string>
+    <string name="complication5">โรคไต</string>
+    <string name="complication6">โรคปลายประสาทอักเสบ</string>
 
 </resources>
