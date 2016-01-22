@@ -54,4 +54,9 @@
     <string name="urinalysis3">ข้อแนะนำการตรวจปัสสาวะด้วยแถบ</string>
     <string name="urinalysis4">การตรวจหาสารคีโตนในปัสสาวะ</string>
 
+    <string name="foot1">การตรวจดูเท้าด้วยตนเอง</string>
+    <string name="foot2">การบริหารเท้า</string>
+    <string name="foot3">วิธีป้องกันโรคแทรกซ้อนที่เท้า</string>
+    <string name="foot4">วิธีเลือกรองเท้า</string>
+
 </resources>
