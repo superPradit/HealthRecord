@@ -59,4 +59,8 @@
     <string name="foot3">วิธีป้องกันโรคแทรกซ้อนที่เท้า</string>
     <string name="foot4">วิธีเลือกรองเท้า</string>
 
+    <string name="pregnant1">ความเสี่ยงเบาหวานขณะตั้งครรภ์</string>
+    <string name="pregnant2">โรคแทรกซ้อน</string>
+    <string name="pregnant3">หลักปฏิบัติเบาหวานขณะตั้งครรภ์</string>
+
 </resources>

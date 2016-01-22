@@ -73,6 +73,7 @@ public class Section2Activity extends AppCompatActivity implements View.OnClickL
                 startActivity(new Intent(Section2Activity.this, Section2Hold4Activity.class));
                 break;
             case R.id.perform7Button:
+                startActivity(new Intent(Section2Activity.this, Section2Hold5Activity.class));
                 break;
             case R.id.perform8Button:
                 break;

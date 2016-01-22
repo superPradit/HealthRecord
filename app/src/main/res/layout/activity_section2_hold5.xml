@@ -7,6 +7,81 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="appbsru.supergolf.healthrecord.Section2Hold5Activity">
+    tools:context="appbsru.supergolf.healthrecord.Section2Hold5Activity"
+    android:background="@drawable/bg500">
 
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView12"
+                android:background="@drawable/bnpractice" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/perform7"
+                android:id="@+id/pregnantTextView"
+                android:textColor="@color/primary_material_dark"
+                android:textSize="@dimen/h2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pregnant1"
+                android:id="@+id/pn1Button"
+                android:textColor="@color/primary_material_dark"
+                android:textSize="@dimen/h4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pregnant2"
+                android:id="@+id/pn2Button"
+                android:textColor="@color/primary_material_dark"
+                android:textSize="@dimen/h4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pregnant3"
+                android:id="@+id/pn3Button"
+                android:textColor="@color/primary_material_dark"
+                android:textSize="@dimen/h4" />
+        </LinearLayout>
+    </LinearLayout>
 </RelativeLayout>
