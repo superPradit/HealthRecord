@@ -33,7 +33,7 @@
                 android:text="@string/perform1"
                 android:id="@+id/exerciseTextView"
                 android:textSize="@dimen/h2"
-                android:textColor="@color/primary_material_dark" />
+                android:textColor="@color/text" />
         </LinearLayout>
 
         <LinearLayout
@@ -47,7 +47,7 @@
                 android:text="@string/exercise1"
                 android:id="@+id/exercise1Button"
                 android:textSize="@dimen/h4"
-                android:textColor="@color/primary_material_dark" />
+                android:textColor="@color/text" />
         </LinearLayout>
 
         <LinearLayout
@@ -61,7 +61,7 @@
                 android:text="@string/exercise2"
                 android:id="@+id/exercise2Button"
                 android:textSize="@dimen/h4"
-                android:textColor="@color/primary_material_dark" />
+                android:textColor="@color/text" />
         </LinearLayout>
 
         <LinearLayout
@@ -75,7 +75,7 @@
                 android:text="@string/exercise3"
                 android:id="@+id/exercise3Button"
                 android:textSize="@dimen/h4"
-                android:textColor="@color/primary_material_dark" />
+                android:textColor="@color/text" />
         </LinearLayout>
 
     </LinearLayout>

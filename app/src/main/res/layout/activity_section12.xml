@@ -17,7 +17,7 @@
         android:id="@+id/textView17"
         android:textSize="22dp"
         android:layout_centerHorizontal="true"
-        android:textColor="@color/primary_material_dark" />
+        android:textColor="@color/text" />
 
     <LinearLayout
         android:orientation="vertical"
@@ -41,7 +41,7 @@
                 android:id="@+id/textAge"
                 android:layout_weight="1"
                 android:textSize="@dimen/h3"
-                android:textColor="@color/primary_material_dark" />
+                android:textColor="@color/text" />
 
             <EditText
                 android:layout_width="0dp"
@@ -63,7 +63,7 @@
                 android:id="@+id/textView19"
                 android:layout_weight="1"
                 android:textSize="@dimen/h3"
-                android:textColor="@color/primary_material_dark" />
+                android:textColor="@color/text" />
 
             <EditText
                 android:layout_width="0dp"
@@ -85,7 +85,7 @@
                 android:id="@+id/textView20"
                 android:layout_weight="1"
                 android:textSize="@dimen/h3"
-                android:textColor="@color/primary_material_dark" />
+                android:textColor="@color/text" />
 
             <EditText
                 android:layout_width="0dp"
@@ -101,7 +101,7 @@
             android:text="@string/presser"
             android:id="@+id/textView21"
             android:textSize="@dimen/h3"
-            android:textColor="@color/primary_material_dark" />
+            android:textColor="@color/text" />
 
         <RadioGroup
             android:layout_width="match_parent"
@@ -116,7 +116,8 @@
                 android:id="@+id/radioButton7"
                 android:checked="true"
                 android:layout_weight="1"
-                android:textSize="@dimen/h2" />
+                android:textSize="@dimen/h2"
+                android:textColor="@color/text" />
 
             <RadioButton
                 android:layout_width="wrap_content"
@@ -124,7 +125,8 @@
                 android:text="@string/have"
                 android:id="@+id/radioButton8"
                 android:layout_weight="1"
-                android:textSize="@dimen/h2" />
+                android:textSize="@dimen/h2"
+                android:textColor="@color/text" />
         </RadioGroup>
     </LinearLayout>
 
@@ -135,5 +137,6 @@
         android:text="@string/section1"
         android:id="@+id/button2"
         android:layout_alignParentBottom="true"
-        android:textSize="@dimen/h2" />
+        android:textSize="@dimen/h2"
+        android:textColor="@color/text" />
 </RelativeLayout>

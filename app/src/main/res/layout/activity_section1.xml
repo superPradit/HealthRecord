@@ -14,7 +14,7 @@
         android:textSize="22dp"
         android:layout_centerHorizontal="true"
         android:textStyle="bold"
-        android:textColor="@color/primary_material_dark" />
+        android:textColor="@color/text" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -37,7 +37,7 @@
                 android:text="@string/age"
                 android:id="@+id/textView9"
                 android:textSize="@dimen/h3"
-                android:textColor="@color/primary_material_dark" />
+                android:textColor="@color/text" />
 
             <Spinner
                 android:layout_width="match_parent"
@@ -50,7 +50,7 @@
                 android:text="@string/sex"
                 android:id="@+id/textView10"
                 android:textSize="@dimen/h3"
-                android:textColor="@color/primary_material_dark" />
+                android:textColor="@color/text" />
 
             <RadioGroup
                 android:layout_width="match_parent"
@@ -65,7 +65,8 @@
                     android:id="@+id/radioButton"
                     android:layout_weight="1"
                     android:textSize="@dimen/h2"
-                    android:checked="true" />
+                    android:checked="true"
+                    android:textColor="@color/text" />
 
                 <RadioButton
                     android:layout_width="wrap_content"
@@ -73,7 +74,8 @@
                     android:text="@string/female"
                     android:id="@+id/radioButton2"
                     android:layout_weight="1"
-                    android:textSize="@dimen/h2" />
+                    android:textSize="@dimen/h2"
+                    android:textColor="@color/text" />
             </RadioGroup>
 
             <LinearLayout
@@ -88,7 +90,7 @@
                     android:id="@+id/textView11"
                     android:textSize="@dimen/h3"
                     android:layout_weight="1"
-                    android:textColor="@color/primary_material_dark" />
+                    android:textColor="@color/text" />
 
                 <EditText
                     android:layout_width="0dp"
@@ -111,7 +113,7 @@
                     android:id="@+id/textView12"
                     android:textSize="@dimen/h3"
                     android:layout_weight="1"
-                    android:textColor="@color/primary_material_dark" />
+                    android:textColor="@color/text" />
 
                 <EditText
                     android:layout_width="0dp"
@@ -134,7 +136,7 @@
                     android:id="@+id/textView13"
                     android:textSize="@dimen/h3"
                     android:layout_weight="1"
-                    android:textColor="@color/primary_material_dark" />
+                    android:textColor="@color/text" />
 
                 <EditText
                     android:layout_width="0dp"
@@ -151,7 +153,7 @@
                 android:text="@string/presser"
                 android:id="@+id/textView14"
                 android:textSize="@dimen/h3"
-                android:textColor="@color/primary_material_dark" />
+                android:textColor="@color/text" />
 
             <RadioGroup
                 android:layout_width="match_parent"
@@ -166,7 +168,8 @@
                     android:id="@+id/radioButton3"
                     android:layout_weight="1"
                     android:textSize="@dimen/h2"
-                    android:checked="true" />
+                    android:checked="true"
+                    android:textColor="@color/text" />
 
                 <RadioButton
                     android:layout_width="wrap_content"
@@ -174,7 +177,8 @@
                     android:text="@string/have"
                     android:id="@+id/radioButton4"
                     android:layout_weight="1"
-                    android:textSize="@dimen/h2" />
+                    android:textSize="@dimen/h2"
+                    android:textColor="@color/text" />
             </RadioGroup>
 
             <TextView
@@ -183,7 +187,7 @@
                 android:text="@string/DM"
                 android:id="@+id/textView15"
                 android:textSize="@dimen/h3"
-                android:textColor="@color/primary_material_dark" />
+                android:textColor="@color/text" />
 
             <RadioGroup
                 android:layout_width="match_parent"
@@ -198,7 +202,8 @@
                     android:id="@+id/radioButton5"
                     android:layout_weight="1"
                     android:textSize="@dimen/h2"
-                    android:checked="true" />
+                    android:checked="true"
+                    android:textColor="@color/text" />
 
                 <RadioButton
                     android:layout_width="wrap_content"
@@ -206,7 +211,8 @@
                     android:text="@string/have"
                     android:id="@+id/radioButton6"
                     android:layout_weight="1"
-                    android:textSize="@dimen/h2" />
+                    android:textSize="@dimen/h2"
+                    android:textColor="@color/text" />
             </RadioGroup>
         </LinearLayout>
     </ScrollView>
@@ -217,5 +223,6 @@
         android:onClick="clickSection11"
         android:text="@string/section1"
         android:id="@+id/button"
-        android:layout_alignParentBottom="true" />
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/text" />
 </RelativeLayout>

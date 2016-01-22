@@ -38,7 +38,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/perform8"
                 android:id="@+id/emergencyTextView"
-                android:textColor="@color/primary_material_dark"
+                android:textColor="@color/text"
                 android:textSize="@dimen/h2" />
         </LinearLayout>
 
@@ -53,7 +53,7 @@
                 android:text="@string/emergency1"
                 android:id="@+id/emg1Button"
                 android:textSize="@dimen/h4"
-                android:textColor="@color/primary_material_dark" />
+                android:textColor="@color/text" />
         </LinearLayout>
 
         <LinearLayout
@@ -67,7 +67,7 @@
                 android:text="@string/emergency2"
                 android:id="@+id/emg2Button"
                 android:textSize="@dimen/h4"
-                android:textColor="@color/primary_material_dark" />
+                android:textColor="@color/text" />
         </LinearLayout>
 
         <LinearLayout
@@ -81,7 +81,7 @@
                 android:text="@string/emergency3"
                 android:id="@+id/emg3Button"
                 android:textSize="@dimen/h4"
-                android:textColor="@color/primary_material_dark" />
+                android:textColor="@color/text" />
         </LinearLayout>
     </LinearLayout>
 </RelativeLayout>

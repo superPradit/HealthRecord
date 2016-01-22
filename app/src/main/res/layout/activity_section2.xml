@@ -46,7 +46,8 @@
                     android:layout_height="match_parent"
                     android:text="@string/perform1"
                     android:id="@+id/perform1Button"
-                    android:textSize="18sp" />
+                    android:textSize="@dimen/h4"
+                    android:textColor="@color/text" />
 
             </LinearLayout>
 
@@ -60,7 +61,8 @@
                     android:layout_height="match_parent"
                     android:text="@string/perform2"
                     android:id="@+id/perform2Button"
-                    android:textSize="18sp" />
+                    android:textSize="@dimen/h4"
+                    android:textColor="@color/text" />
             </LinearLayout>
 
             <LinearLayout
@@ -73,7 +75,8 @@
                     android:layout_height="wrap_content"
                     android:text="@string/perform3"
                     android:id="@+id/perform3Button"
-                    android:textSize="18sp" />
+                    android:textSize="@dimen/h4"
+                    android:textColor="@color/text" />
             </LinearLayout>
 
             <LinearLayout
@@ -86,7 +89,8 @@
                     android:layout_height="wrap_content"
                     android:text="@string/perform4"
                     android:id="@+id/perform4Button"
-                    android:textSize="18sp" />
+                    android:textSize="@dimen/h4"
+                    android:textColor="@color/text" />
             </LinearLayout>
 
             <LinearLayout
@@ -99,7 +103,8 @@
                     android:layout_height="wrap_content"
                     android:text="@string/perform5"
                     android:id="@+id/perform5Button"
-                    android:textSize="18sp" />
+                    android:textSize="@dimen/h4"
+                    android:textColor="@color/text" />
             </LinearLayout>
 
             <LinearLayout
@@ -112,7 +117,8 @@
                     android:layout_height="wrap_content"
                     android:text="@string/perform6"
                     android:id="@+id/perform6Button"
-                    android:textSize="18sp" />
+                    android:textSize="@dimen/h4"
+                    android:textColor="@color/text" />
             </LinearLayout>
 
             <LinearLayout
@@ -125,7 +131,8 @@
                     android:layout_height="wrap_content"
                     android:text="@string/perform7"
                     android:id="@+id/perform7Button"
-                    android:textSize="18sp" />
+                    android:textSize="@dimen/h4"
+                    android:textColor="@color/text" />
             </LinearLayout>
 
             <LinearLayout
@@ -138,7 +145,8 @@
                     android:layout_height="wrap_content"
                     android:text="@string/perform8"
                     android:id="@+id/perform8Button"
-                    android:textSize="18sp" />
+                    android:textSize="@dimen/h4"
+                    android:textColor="@color/text" />
             </LinearLayout>
 
             <LinearLayout
@@ -151,7 +159,8 @@
                     android:layout_height="wrap_content"
                     android:text="@string/perform9"
                     android:id="@+id/perform9Button"
-                    android:textSize="18sp" />
+                    android:textSize="@dimen/h4"
+                    android:textColor="@color/text" />
             </LinearLayout>
 
         </LinearLayout>

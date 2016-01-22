@@ -38,7 +38,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/perform6"
                 android:id="@+id/footTextView"
-                android:textColor="@color/primary_material_dark"
+                android:textColor="@color/text"
                 android:textSize="@dimen/h2" />
         </LinearLayout>
 
@@ -53,7 +53,7 @@
                 android:text="@string/foot1"
                 android:id="@+id/f1Button"
                 android:textSize="@dimen/h4"
-                android:textColor="@color/primary_material_dark" />
+                android:textColor="@color/text" />
         </LinearLayout>
 
         <LinearLayout
@@ -67,7 +67,7 @@
                 android:text="@string/foot2"
                 android:id="@+id/f2Button"
                 android:textSize="@dimen/h4"
-                android:textColor="@color/primary_material_dark" />
+                android:textColor="@color/text" />
         </LinearLayout>
 
         <LinearLayout
@@ -81,7 +81,7 @@
                 android:text="@string/foot3"
                 android:id="@+id/f3Button"
                 android:textSize="@dimen/h4"
-                android:textColor="@color/primary_material_dark" />
+                android:textColor="@color/text" />
         </LinearLayout>
 
         <LinearLayout
@@ -95,7 +95,7 @@
                 android:text="@string/foot4"
                 android:id="@+id/f4Button"
                 android:textSize="@dimen/h4"
-                android:textColor="@color/primary_material_dark" />
+                android:textColor="@color/text" />
         </LinearLayout>
     </LinearLayout>
 </RelativeLayout>

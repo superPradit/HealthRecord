@@ -33,7 +33,7 @@
                 android:textSize="@dimen/h1"
                 android:layout_weight="1"
                 android:textStyle="bold"
-                android:textColor="@color/primary_material_dark" />
+                android:textColor="@color/text" />
 
             <TextView
                 android:layout_width="0dp"
@@ -42,7 +42,7 @@
                 android:id="@+id/txtShowRisk"
                 android:textSize="@dimen/h1"
                 android:layout_weight="1"
-                android:textColor="@color/primary_material_dark" />
+                android:textColor="@color/text" />
         </LinearLayout>
 
         <TextView
@@ -52,7 +52,7 @@
             android:id="@+id/textView18"
             android:textSize="@dimen/h1"
             android:textStyle="bold"
-            android:textColor="@color/primary_material_dark" />
+            android:textColor="@color/text" />
 
         <LinearLayout
             android:orientation="vertical"
@@ -68,7 +68,7 @@
                 android:id="@+id/txtShowIntro"
                 android:textSize="@dimen/h2"
                 android:padding="20dp"
-                android:textColor="@color/primary_material_dark" />
+                android:textColor="@color/text" />
         </LinearLayout>
     </LinearLayout>
 </RelativeLayout>

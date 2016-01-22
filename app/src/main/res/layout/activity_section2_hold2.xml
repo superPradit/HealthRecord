@@ -40,7 +40,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/perform2"
                 android:id="@+id/smbgTextView"
-                android:textColor="@color/primary_material_dark"
+                android:textColor="@color/text"
                 android:textSize="@dimen/h2" />
         </LinearLayout>
 
@@ -54,7 +54,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/smbg1"
                 android:id="@+id/smbg1Button"
-                android:textColor="@color/primary_material_dark"
+                android:textColor="@color/text"
                 android:textSize="@dimen/h4" />
         </LinearLayout>
 
@@ -68,7 +68,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/smbg2"
                 android:id="@+id/smbg2Button"
-                android:textColor="@color/primary_material_dark"
+                android:textColor="@color/text"
                 android:textSize="@dimen/h4" />
         </LinearLayout>
     </LinearLayout>

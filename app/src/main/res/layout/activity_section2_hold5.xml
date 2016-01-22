@@ -38,7 +38,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/perform7"
                 android:id="@+id/pregnantTextView"
-                android:textColor="@color/primary_material_dark"
+                android:textColor="@color/text"
                 android:textSize="@dimen/h2" />
         </LinearLayout>
 
@@ -52,7 +52,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/pregnant1"
                 android:id="@+id/pn1Button"
-                android:textColor="@color/primary_material_dark"
+                android:textColor="@color/text"
                 android:textSize="@dimen/h4" />
         </LinearLayout>
 
@@ -66,7 +66,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/pregnant2"
                 android:id="@+id/pn2Button"
-                android:textColor="@color/primary_material_dark"
+                android:textColor="@color/text"
                 android:textSize="@dimen/h4" />
         </LinearLayout>
 
@@ -80,7 +80,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/pregnant3"
                 android:id="@+id/pn3Button"
-                android:textColor="@color/primary_material_dark"
+                android:textColor="@color/text"
                 android:textSize="@dimen/h4" />
         </LinearLayout>
     </LinearLayout>

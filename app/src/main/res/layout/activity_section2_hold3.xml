@@ -38,7 +38,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/perform3"
                 android:id="@+id/urinalysisTextView"
-                android:textColor="@color/primary_material_dark"
+                android:textColor="@color/text"
                 android:textSize="@dimen/h2" />
         </LinearLayout>
 
@@ -53,7 +53,7 @@
                 android:text="@string/urinalysis1"
                 android:id="@+id/u1Button"
                 android:textSize="@dimen/h4"
-                android:textColor="@color/primary_material_dark" />
+                android:textColor="@color/text" />
         </LinearLayout>
 
         <LinearLayout
@@ -67,7 +67,7 @@
                 android:text="@string/urinalysis2"
                 android:id="@+id/u2Button"
                 android:textSize="@dimen/h4"
-                android:textColor="@color/primary_material_dark" />
+                android:textColor="@color/text" />
         </LinearLayout>
 
         <LinearLayout
@@ -81,7 +81,7 @@
                 android:text="@string/urinalysis3"
                 android:id="@+id/u3Button"
                 android:textSize="@dimen/h4"
-                android:textColor="@color/primary_material_dark" />
+                android:textColor="@color/text" />
         </LinearLayout>
 
         <LinearLayout
@@ -95,7 +95,7 @@
                 android:text="@string/urinalysis4"
                 android:id="@+id/u4Button"
                 android:textSize="@dimen/h4"
-                android:textColor="@color/primary_material_dark" />
+                android:textColor="@color/text" />
         </LinearLayout>
     </LinearLayout>
 </RelativeLayout>

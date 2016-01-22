@@ -57,20 +57,20 @@
                     android:layout_height="wrap_content"
                     android:text="@string/section1icon"
                     android:id="@+id/textView"
-                    android:textSize="22dp"
+                    android:textSize="@dimen/h6"
                     android:layout_weight="1"
                     android:gravity="center_horizontal"
-                    android:textColor="@color/primary_material_dark" />
+                    android:textColor="@color/text" />
 
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="@string/section2"
                     android:id="@+id/textView2"
-                    android:textSize="22dp"
+                    android:textSize="@dimen/h6"
                     android:layout_weight="1"
                     android:gravity="center_horizontal"
-                    android:textColor="@color/primary_material_dark" />
+                    android:textColor="@color/text" />
 
             </LinearLayout>
 
@@ -104,20 +104,20 @@
                     android:layout_height="wrap_content"
                     android:text="@string/section3"
                     android:id="@+id/textView3"
-                    android:textSize="22dp"
+                    android:textSize="@dimen/h6"
                     android:layout_weight="1"
                     android:gravity="center_horizontal"
-                    android:textColor="@color/primary_material_dark" />
+                    android:textColor="@color/text" />
 
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="@string/section4"
                     android:id="@+id/textView4"
-                    android:textSize="22dp"
+                    android:textSize="@dimen/h6"
                     android:layout_weight="1"
                     android:gravity="center_horizontal"
-                    android:textColor="@color/primary_material_dark" />
+                    android:textColor="@color/text" />
             </LinearLayout>
 
             <LinearLayout
@@ -144,9 +144,10 @@
                     android:text="@string/section5"
                     android:id="@+id/meetDoctorText"
                     android:layout_weight="1"
-                    android:textSize="22dp"
+                    android:textSize="@dimen/h6"
                     android:gravity="center|center_horizontal"
-                    android:textColor="@color/primary_material_dark" />
+                    android:textColor="@color/text"
+                    android:textIsSelectable="false" />
             </LinearLayout>
 
         </LinearLayout>
