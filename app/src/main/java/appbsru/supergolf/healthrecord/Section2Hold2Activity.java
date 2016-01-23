@@ -39,10 +39,10 @@ public class Section2Hold2Activity extends AppCompatActivity implements View.OnC
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.smbg1Button:
-                startActivity(new Intent(Section2Hold2Activity.this,Section2Sup21Activity.class));
+                startActivity(new Intent(Section2Hold2Activity.this, Section2Sup21Activity.class));
                 break;
             case R.id.smbg2Button:
-
+                startActivity(new Intent(Section2Hold2Activity.this, Section2Sup22Activity.class));
                 break;
         } //switch
     }

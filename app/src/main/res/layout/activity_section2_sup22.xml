@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="appbsru.supergolf.healthrecord.Section2Sup22Activity"
+    android:background="@drawable/bg500">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView4">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView19"
+                    android:background="@drawable/bnpractice" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/perform2"
+                    android:id="@+id/sup221TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/smbg2"
+                    android:id="@+id/sup222TextView"
+                    android:layout_marginLeft="30dp"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h4" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice221TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:text="  อุปกรณ์"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" 1. เครื่องกลูโคสมิเตอร์\n
+2. แถบตรวจกลูโคส\n
+3. อุปกรณ์สำหรับเจาะเลือดปลายนิ้ว หรือเข็มเจาะเลือด\n
+4. สำลีที่อบฆ่าเชื้อแล้ว\n
+5. แอลกอฮอล์ 70%"
+                    android:id="@+id/pactice222TextView"
+                    android:background="#96ffffff"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  ขั้นตอนการตรวจ"
+                    android:id="@+id/pactice223TextView"
+                    android:background="#96ffffff"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:textStyle="bold"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" 1. ล้างมือให้สะอาดและเช็ดให้แห้ง ห้อยแขนข้างที่เจาะเลือดลงไว้เป็นเวลา 10-15 วินาที\n
+2. เช็ดปลายนิ้วที่เจาะเลือดด้วยสำลีชุบแอลกอฮอล์ อให้แห้งก่อนใช้อปุกรณ์เจาะ ถ้าไม่มีอาจใช้เข็มหมายเลข 25 แทนตำแหน่งเจาะที่เหมาะสม คือ บริเวณด้านข้างของนิ้วจะเจ็บน้อย เจาะที่นิ้วใดก็ได้ แต่มักนิยมที่นิ้วนางและนิ้วกลาง การจำครั้งต่อไปควรเปลี่ยนตำแหน่งเจาะเลือดทุกครั้ง สำหรับบางเครื่องที่ใช้เลือดน้อยสามารถตรวจเลือดที่เจาะจากผิวหนังบริเวณอื่น ได้แก่ แขนส่วนปลาย ต้นขา และฝ่ามือ เป็นต้น\n
+3. กดปุ่มเปิดเครื่อง และเสียบแผ่นทดสอบ\n
+4. เช็ดหยดเลือดแรกทิ้งด้วยสำลีแห้ง\n
+5. บีบบริเวณเหนือข้อสุดท้ายของนิ้วเบาๆ (ไม่ควรบีบเค้น) จนได้หยดเลือดจากปลายนิ้ว แล้วหยดลงแบนแถบทดสอบให้เต็มบริเวณที่รับหยดเลือด เครื่องบางรุ่นอาจใช้แรงดันแคปิลลารีดูดเลือดจากหยดเลือดเข้าไปแถบทดสอบ\n
+6. หน้าจอเครื่องจะแสดงผล ตามเวลาที่ระบุในคู่มือประจำเครื่อง\n
+7. บันทึกผลในสมุดประจำตัว"
+                    android:id="@+id/pactice224TextView"
+                    android:background="#96ffffff"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  การดูแลรักษาเครื่องกลูโคสมิเตอร์"
+                    android:id="@+id/pactice225TextView"
+                    android:background="#96ffffff"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  เก็บเครื่องไว้ที่อุณหภูมิ 18-30 องศาเซลเซียส ซึ่งมีความชื้นพอเหมาะ (ค่าความชื้นสัมพัทธ์ที่ร้อยละ 10-90) สำหรับเครื่องกลูโคสมิเตอร์ที่อ่านผลโดยใช้การเทียบสี ซึ่งต้องสอดแถบตรวจส่วนที่ทำปฏิกิริยากับเลือดเข้าสู่ช่องอ่านผล ต้องทำความสะอาดผลเป็นครั้งคราวเพื่อมิให้เลือดรบกวนการอ่านผล"
+                    android:id="@+id/pactice226TextView"
+                    android:background="#96ffffff"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
