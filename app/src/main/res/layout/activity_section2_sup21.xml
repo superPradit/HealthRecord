@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="appbsru.supergolf.healthrecord.Section2Sup21Activity"
+    android:background="@drawable/bg500">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView4">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView18"
+                    android:background="@drawable/bnpractice" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/perform2"
+                    android:id="@+id/ex211TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/smbg1"
+                    android:id="@+id/ex212TextView"
+                    android:layout_marginLeft="30dp"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h4" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/exercise21TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:text="     เป้าหมายการควบคุมระดับน้ำตาลในเลือดที่ตั้งไว้ มีข้อแนะนำโดยทั่วไปดังนี้\n
+1. ผู้ป่วยเบาหวานระหว่างการตั้งครรภ์ ควรทำ SMBG ก่อนอาหารและหลังอาหาร 1-2 ชั่วโมงทั้ง 3 มื้อ และก่อนนอน ลดจำนวนครั้งลงเมื่อควบคุมระดับน้ำตาลในเลือดได้ดี\n
+2. ผู้ป่วยเบาหวานที่ฉีดอินซูลินตั้งแต่ 3 ครั้งขึ้นไป ควรทำ SMBG ก่อนอาหาร 3 มื้อ ทุกวันควรทำ SMBG ก่อนนอน และหลังอาหาร 2 ชม.เป็นครั้งคราว หากสงสัยว่ามีภาวะน้ำตาลต่ำในเลือดกลางดึกหรือมีความเสี่ยงที่จะเกิด ควรตวรจระดับน้ำตาลช่วงเวลา 2.00-4.00น.\n
+3. ผู้ป่วยเบาหวานชนิดที่ 1 ที่ได้รับการรักษาด้วย insulin pump ควรทำ SMBG วันละ 4-6 ครั้ง\n
+4. ผู้ป่วยเบาหวานที่ฉีดอินซูลินวันละ 2 ครั้ง ควรทำ SMBG อย่างน้อยวันละ 2 ครั้ง โดยตรวจก่อนอาหารเช้าและเย็น อาจมีการตวรจก่อนอาหารและหลังอาหารมื้ออื่นๆ เพื่อดูแนวโน้มการเปลี่ยนแปลงของระดับน้ำตาลในเลือด และใช้เป็นข้อมูลในการปรับยา\n
+5. ในภาวะเจ็บป่วยควรทำ SMBG อย่างน้อยละ 4 ครั้ง ทุก 4 ถึง 6 ชั่วโมง หรือก่อนมื้ออาหาร\n
+6. ในผู้ป่วยเบาหวานชนิดที่ 2 ซึ่งฉีดอินซูลินก่อนนอน ควรทำ SMBG ก่อนอาหารเช้าทุวันหรืออย่างน้อย 3 ครั้ง/สัปดาห์ ในช่วงที่มีการปรับขนาดอินซูลินหลังจากนั้นควรทำ SMBG ก่อนและหลังอาหารมื้ออื่นๆ สลับกัน\n
+    ทั้งนี้ ต้องมีมีการทบทวนข้อมูล รูปแบบการเปลี่ยนแปลงระดับน้ำตาลในเลือดกับแพทย์หรือทีมงานเบาหวาน เพื่อความเข้าใจและปรับเปลี่ยนการรักษาที่เหมาะสม"
+                    android:padding="10dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

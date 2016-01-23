@@ -28,7 +28,7 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/imageView15"
+                    android:id="@+id/imageView17"
                     android:background="@drawable/bnpractice" />
             </LinearLayout>
 
@@ -44,7 +44,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/perform1"
-                    android:id="@+id/ex111TextView"
+                    android:id="@+id/ex131TextView"
                     android:textColor="@color/text"
                     android:textSize="@dimen/h2" />
 
@@ -52,7 +52,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/exercise3"
-                    android:id="@+id/ex112TextView"
+                    android:id="@+id/ex132TextView"
                     android:layout_marginLeft="30dp"
                     android:textColor="@color/text"
                     android:textSize="@dimen/h4" />
@@ -67,7 +67,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/exercise11TextView"
+                    android:id="@+id/exercise13TextView"
                     android:textColor="@color/text"
                     android:textSize="@dimen/h5"
                     android:background="#96ffffff"
