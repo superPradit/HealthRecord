@@ -51,7 +51,7 @@ public class Section2Hold3Activity extends AppCompatActivity implements View.OnC
                 startActivity(new Intent(Section2Hold3Activity.this, Section2Sup32Activity.class));
                 break;
             case R.id.u3Button:
-
+                startActivity(new Intent(Section2Hold3Activity.this, Section2Sup33Activity.class));
                 break;
             case R.id.u4Button:
 
