@@ -7,13 +7,13 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="appbsru.supergolf.healthrecord.Section2Sup11Activity"
+    tools:context="appbsru.supergolf.healthrecord.Section2Sup13Activity"
     android:background="@drawable/bg500">
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/scrollView4">
+        android:id="@+id/scrollView6">
 
         <LinearLayout
             android:orientation="vertical"
@@ -51,7 +51,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/exercise1"
+                    android:text="@string/exercise3"
                     android:id="@+id/ex112TextView"
                     android:layout_marginLeft="30dp"
                     android:textColor="@color/text"
@@ -71,20 +71,21 @@
                     android:textColor="@color/text"
                     android:textSize="@dimen/h5"
                     android:background="#96ffffff"
-                    android:text=" • ปรึกษาแพทย์และได้รับการตรวจร่างกายจากแพทย์อย่างละเอียด\n
-• ผู้ป่วยต้องมีป้ายแสดงตัวว่าเป็นเบาหวานติดตัวไว้เสมอ\n
-• ควบคุมน้ำตาลไม่ให้สูงเกินไป คือไม่เกิน 250 มก.%ในเบาหวานชนิดที่ 1 ไม่เกิน 300 มก.%ในเบาหวานชนิดที่ 2\n
-• เรียนรู้อาการ และวิธีป้องกันภาวะน้ำตาลในเลือดต่ำ\n
-• ตรวจดูเท้าว่ามีแผล ตาปลา หรือการอักเสบใดๆ\n
-• ใส่รองเท้าอย่างเหมาะสมสำหรับการออกกำลังกาย และต้องสวมถุงเท้าทุกครั้ง\n
-• ผู้ป่วยที่ใช้ยาฉีดอินซูลินแนะนำให้เลี่ยงการออกกำลังกายช่วงขณะที่ยาออกฤทธิ์สูงสุด และไม่ฉีดอินซูลินบริเวณที่ออกกำลังกายให้ฉีดบริเวณหน้าท้องแทน\n
-• ถ้าผู้ป่วยฉีดอินซูลินชนิดออกฤทธิ์ระยะกลางให้ลดขนาดยาลง 30-35%\n
-• ถ้าผู้ป่วยฉีดอินซูลินชนิดออกฤทธิ์ระยะกลางร่วมกับอินซูลินชนิดออกฤทธิ์ระยะสั้น ให้ลดหรืองดอินซูลินชนิดออกฤทธิ์ระยะสั้น และลดอินซูลินชนิดออกฤทธิ์ระยะกลางลง 1/3\n
-• ถ้าผู้ป่วยฉีดอินซูลินชนิดออกฤทธิ์ระยะสั้น ให้ลดยาฉีดก่อนออกกำลังกาย\n
-• ดื่มน้ำให้พอทั้งก่อนและหลังออกกำลังกาย\n"
+                    android:text=" 1. จะต้อง warm up cool down อย่างละ 5 นาทีโดยต้องออกกำลังกายวันละ 20-40 นาที\n
+2. วิธีการออกกำลังกายอาจทำได้โดย การวิ่งอยู่กับที วิ่งเหยาะๆ เดินเร็วๆ ขี่จักรยาน ว่ายน้ำ\n
+3. แนะนำให้ออกช่วงเย็น\n
+4. เริ่มต้นออกกำลังกายแบบเบาๆก่อน และเพิ่มขึ้นเมื่อท่านแข็งแรงขึ้น\n
+5. พยายามออกกำลังกายเวลาเดียวกัน สำหรับผู้ที่ฉีดอินซูลินควรหลีกเลี่ยงการออกกำลังเวลาที่อินซูลินออกฤทธิ์สูงสุด\n
+6. อินซูลินควรจะฉีดที่หน้าท้อง\n
+7. ไม่ควรออกกำลังกายหลังอาหารมื้อหนักโดยทันที\n
+8. งดออกกำลังกายเมื่อรู้สึกไม่สบาย\n
+9. จับชีพขจรขณะออกกำลังกาย และควบคุมมิให้การเต้นของหัวใจเกินเป้าหมาย\n
+10. ควรออกกำลังกายเป็นกลุ่ม\n
+11. พกบัตรประจำตัวว่าเป็นเบาหวาน\n"
                     android:padding="10dp" />
             </LinearLayout>
 
         </LinearLayout>
     </ScrollView>
+
 </RelativeLayout>
