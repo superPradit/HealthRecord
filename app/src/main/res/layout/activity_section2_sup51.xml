@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="appbsru.supergolf.healthrecord.Section2Sup51Activity"
+    android:background="@drawable/bg500">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView11">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice511ImageView"
+                    android:background="@drawable/bnpractice" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/perform5"
+                    android:id="@+id/sup511TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h2" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice511TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:text="  หลักปฏิบัติการดูแลผิวหนัง"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice512TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:text=" 1. รักษาผิวหนังให้สะอาดและแห้งอยู่เสมอ\n
+2. ส่วนบริเวณขาหนีบหรือรักแร้อหลังอาบน้ำซับให้แห้ง และโรยแป้งฝุ่น\n
+3. หลีกเลี่ยงความอับชื้น โดยเฉพาะคนที่อ้วน เพราะอาจจะเกิดเชื้อราได้ได้ง่าย\n
+4. กรณีผิวแห้ง ควรทาครีมให้ความชุ่มชื้นแก่ผิวหนังเพื่อไม่ให้เกิดรอยแตก\n
+5. ถ้ามีเหงื่อมากอาจจะทาแป้งฝุ่นบางๆเพื่อให้สบายตัว\n
+6. ใช้ครีมกันแดดเมื่อออดแดด\n
+7. หลีกเลี่ยงการเกาหรือขีดข่วน\n
+8. สำรวจผิวหนังตัวเองทุกวัน ว่ามีตุ่ม ก้อน หรือแผลหรือไม่\n
+9. ถ้าฉีดอินซูลินต้องดูบริเวณที่ฉีดว่ามีแผล หรือการอักเสบหรือไม่\n
+10. ไม่ควรอาบน้ำที่ร้อนเกินไป ไม่ควรแช่น้ำฟองสบู่เพราะจะทำให้ผิวแห้งมากขึ้น ให้ใช้สบู่ที่ให้ความชื้น\n
+11. หลังอาบน้ำให้ใช้ครีบบำรุงผิวที่ให้ความชุ่มชื้น\n
+12. ไม่ควรทาครีบที่ซอกนิ้วเพราะจะทำให้เกิดเชื้อรา\n
+13. ทำแผลเล็กน้อยอย่างถูกต้อง การทำแผลสดให้ใช้น้ำเกลือสะอาดทำแผล ห้ามใช้แอลกอออลล์ ยาแดง ไอโอดีนทำแผลเพราะจะระคายเคืองแผล และปิดแผลด้วยผ้าทำแผลที่สะอาด\n
+14. ในฤดูหนาว หรือภาวะที่อากาศแห้งให้ใช้เครื่องให้ความชื้นในบ้าน"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
