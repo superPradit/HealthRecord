@@ -7,13 +7,13 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="appbsru.supergolf.healthrecord.Section2Sup34Activity"
+    tools:context="appbsru.supergolf.healthrecord.Section2Sup41Activity"
     android:background="@drawable/bg500">
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/scrollView9">
+        android:id="@+id/scrollView10">
 
         <LinearLayout
             android:orientation="vertical"
@@ -28,7 +28,7 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/pactice341ImageView"
+                    android:id="@+id/pactice411ImageView"
                     android:background="@drawable/bnpractice" />
             </LinearLayout>
 
@@ -43,19 +43,11 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/perform3"
-                    android:id="@+id/sup341TextView"
+                    android:text="@string/perform4"
+                    android:id="@+id/sup411TextView"
                     android:textColor="@color/text"
                     android:textSize="@dimen/h2" />
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/urinalysis4"
-                    android:id="@+id/sup342TextView"
-                    android:layout_marginLeft="30dp"
-                    android:textColor="@color/text"
-                    android:textSize="@dimen/h4" />
             </LinearLayout>
 
             <LinearLayout
@@ -67,11 +59,11 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/pactice341TextView"
+                    android:id="@+id/pactice411TextView"
                     android:textColor="@color/text"
                     android:textSize="@dimen/h5"
                     android:background="#96ffffff"
-                    android:text="  การตรวจหาสารคีโตนในปัสสาวะ"
+                    android:text="  หลักปฏิบัติการดูแลช่องปาก"
                     android:paddingLeft="10dp"
                     android:paddingTop="10dp"
                     android:paddingRight="10dp"
@@ -80,37 +72,31 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/pactice342TextView"
+                    android:id="@+id/pactice412TextView"
                     android:textColor="@color/text"
                     android:textSize="@dimen/h5"
                     android:background="#96ffffff"
-                    android:text="  สารคีโตนเป็นสารเคมีที่ร่างกายสร้างขึ้น เมื่อร่างกายไม่สามารถใช้น้ำตาล หรือเมื่อเราอดอาหาร ทำให้ร่างกายเผาผลาญไขมันในเนื้อเยื่อมาใช้ทำให้เกิดสารคีโตน และกรดแลคติกเกิดขึ้น หากขาดอินซูลินนานๆจะมีสารคีโตนและกรดแลคติกมากที่เรียกว่า คีโตอะซีโดซีส ( Ketoacidosis ) ดังนั้นการตรวจหาคีโตนในปัสสาวะจะทำให้ทราบว่าร่างกายขาดอินซูลินหรือไม่ ควรตรวจหาสารคีโตนในปัสสาวะเมื่อไร\n
-• ระดับน้ำตาลในเลือดสูงมากกว่า 300 มก.%ขึ้นไป หรือมีระดับน้ำตาลในปัสสาวะ 3บวกถึง 4บวก\n
-• เมื่อผู้ป่วยเบาหวานชนิดที่1ไม่สบาย"
+                    android:text=" 1.เบาหวานที่ควบคุมไม่ดีอาจเป็นสาเหตุของเหงือกอักเสบ ดังนั้นจึงจำเป็นต้องคุมเบาหวานให้ดี\n
+2. สำหรับผู้ที่ควบคุมระดับน้ำตาลได้ไม่ดีจะมีน้ำลายลดลงทำให้ปากแห้ง ซึ่งจะทำให้เกิดอาการเจ็บคอ เกิดแผลในปาก การติดเชื้อ และฟันผุ อาจจะแก้ไขโดยการดื่มน้ำมากขึ้น หรือเคี้ยวหมากฝรั่งที่ไม่มีน้ำตาล หรือลูกอมที่ไม่มีน้ำตาล\n
+3. ให้พบทันต์แพทย์ทุก 6 เดือน\n
+4. แปรงฟันวันอย่างน้อยวันละ 2 ครั้ง ทั้งด้านหน้า และด้านหลัง รวมทั้งด้านบนควรจะแปรงฟันหลังจากรับประทานอาหารหรืออาหารว่าง\n
+5. เปลี่ยนแปรงสีฟันทุก 3 เดือน\n
+6. แปรงด้านบนของลิ้นเพื่อขจัดคราบสกปรก\n
+7. ใช้ใยสังเคราะห์ [dental floss] วันละครั้งเพื่อขจัดเชื้อ bacteria\n
+8. สำหรับท่านที่ใช้ฟันปลอมก็ถอดและนำไปทำความสะอาด\n
+9. หากน้ำตาลยังไม่ดีให้เลื่อนการผ่าตัดที่รอได้ จนกระทั่งคุมน้ำตาลได้ดี\n
+10. ให้หยุดสูบบุหรี่"
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp" />
-
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="#96ffffff">
-
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/sup341ImageView"
-                        android:background="@drawable/sup341" />
-                </LinearLayout>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/pactice343TextView"
+                    android:id="@+id/pactice413TextView"
                     android:textColor="@color/text"
                     android:textSize="@dimen/h5"
                     android:background="#96ffffff"
-                    android:text="  ข้อดีของการตรวจสารคีโตน"
+                    android:text="  ควรพบทันตแพทย์เมื่อมีอาการ"
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
                     android:textStyle="bold" />
@@ -118,15 +104,16 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/pactice344TextView"
+                    android:id="@+id/pactice414TextView"
                     android:textColor="@color/text"
                     android:textSize="@dimen/h5"
                     android:background="#96ffffff"
-                    android:text=" • สามารถป้องกันภาวะคีโตอะซิโดซิส\n
-• สามารถแก้ไขภาวะเกิดคีโตอะซีโดซีสได้ทันท่วงที\n
-• สามารถควบคุมระดับน้ำตาลให้ใกล้เคียงปกติ\n
-• สามารถเข้าเล่นกีฬาได้อย่างปลอดภัย\n
-• ทำให้ผู้ป่วยเบาหวานชนิดที่1 มีชีวิตยืนยาวอย่างมีความสุข"
+                    android:text=" 1.เลือดออกจากเหงือกหรือฟันเวลาแปรงฟันหรือใช้ไหมขัดฟัน\n
+2. เหงือกแดงและบวม และเจ็บ\n
+3. เหงือกแยกจากฟันหรือเหงือกร่น\n
+4. มีหนองออกจากเหงือกหรือฟัน\n
+5. ฟันสบกันไม่ดีเวลาเคี้ยว\n
+6. มีกลิ่นปากตลอดเวลา"
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
                     android:paddingBottom="10dp" />
