@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="appbsru.supergolf.healthrecord.Section2Sup61Activity"
+    android:background="@drawable/bg500">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView11">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice611ImageView"
+                    android:background="@drawable/bnpractice" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/perform6"
+                    android:id="@+id/sup611TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h2"
+                    android:textIsSelectable="false" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/foot1"
+                    android:id="@+id/sup612TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h2"
+                    android:layout_marginLeft="30dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice611TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:text="  1. สีผิว"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/pactice612TextView"
+                android:textColor="@color/text"
+                android:textSize="@dimen/h5"
+                android:background="#96ffffff"
+                android:text="  สีผิวสีผิวที่เท้าจะมีสีผิวเหมือนกับสีผิวที่อื่น สีผิวที่ผิดปกติสำหรับผู้ป่วยโรคเบาหวานได้แก่\n
+• สีที่ออกดำ\n
+   หากบริเวณดังกล่าวดำเข้มและผิวแห้งจะหมายถึงเนื้อเยื่อดังกล่าวตายไปแล้ว\n
+• สีผิวออกแดง\n
+   ผิวที่มีสีออกแดงจะหมายถึงการอักเสบ สิ่งที่พบร่วมอาจจะมีแผล หรือหนอง หรือมีไข้"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice613TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:text="  อุณหภูมิ"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice614TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:text="  โดยปกติอุณหภูมิผิวหนังของเท้าทั้งสองข้างควรจะเท่ากัน วิธีการตรวจเองโดยการใช้มือสัมผัสส่วนที่ต้องการตรวจ เมื่อเทียบกับอีกข้างหนึ่งหรือส่วนอื่นของร่างกาย ความผิดปกติที่พบได้แก่\n
+• อุณภูมิของผิวเพิ่มขึ้นเมื่อเทียบกับอีกข้าง หมายถึงมีการอักเสบของผิวหนังดังกล่าว หากดูผิวหนังพบว่าสีแดง แสดงว่ามีการอักเสบของผิวหนัง\n
+• อุณหภูมิเย็นกว่าปกติ ร่วมกับการคลำชีพขจรได้เบาและมีผิวดำและมัน แสดงว่าเลือดไปเลี้ยงไม่พอ"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice615TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:text="  3. ตรวจขน"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice616TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:text="  ปกติจะพบขนบริเวณหน้าแข้ง และบริเวณนิ้วหัวแม่เท้า หากขนดังกล่าวหลุดร่วงหมายถึงว่า อาจจะมีปัญหาเรื่องเลือดไปเลี้ยงบริเวณดังกล่าวไม่พอ"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice617TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:text="  4. การติดเชื้อและเชื้อรา"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice618TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:text="  บริเวณที่พบมีเชื้อราได้บ่อยได้แก่บริเวณซอกนิ้วที่เรียกว่าฮ่องกงฟุต หากไม่รักษาจะทำให้เกิดการติดเชื้อแบตทีเรีย นอกจากนั้นต้องดูผิวหนังทั่วไปว่าสีแดงซึ่งอาจจะมีการอักเสบที่เรียกว่า cellulitis"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
