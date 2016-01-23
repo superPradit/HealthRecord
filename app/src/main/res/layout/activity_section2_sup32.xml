@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="appbsru.supergolf.healthrecord.Section2Sup32Activity"
+    android:background="@drawable/bg500">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView7">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice332ImageView"
+                    android:background="@drawable/bnpractice" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/perform3"
+                    android:id="@+id/sup321TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/urinalysis2"
+                    android:id="@+id/sup322TextView"
+                    android:layout_marginLeft="30dp"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h4" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice321TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:text="  ขั้นตอนการตรวจสอบปัสสาวะ"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" 1. ถ่ายปัสสาวะให้หมด\n
+2. ดื่มน้ำสะอาด 1-2 แก้ว\n
+3. ให้ถ่ายปัสสาวะลงในภาชนะที่สะอาด\n
+4. ตรวจสอบหาน้ำตาลในปัสสาวะโดยจุ่มแทบลงในภาชนะที่เก็บปัสสาวะแล้วยกขึ้นทันที\n
+5. ถือแผ่นทดสอบไว้ 30 วินาทีถึง 1 นาที\n
+6. เทียบสีกับข้างขวด"
+                    android:id="@+id/pactice322TextView"
+                    android:background="#96ffffff"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  แถบแสดงภาวะน้ำตาลในปัสสาวะ มก.%"
+                    android:id="@+id/pactice323TextView"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColor="@color/text"
+                    android:background="#96ffffff"
+                    android:textSize="@dimen/h5" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#96ffffff">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imageView20"
+                        android:background="@drawable/sup321" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  ถ้าหากน้ำตาลในปัสสาวะเป็น 50-100 มก.% คุณควรจะทบทวนและปรับปรุงการดูแลตัวเองในการควบคุมเบาหวาน\n
+   ถ้าผลตรวจน้ำตาลในปัสสาวะเป็น 300-1000 มก.%แสดงว่าควบคุมเบาหวานไม่ดี ควรปรึกษาแพทย์
+"
+                    android:id="@+id/pactice324TextView"
+                    android:background="#96ffffff"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:paddingBottom="10dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
