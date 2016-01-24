@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="appbsru.supergolf.healthrecord.Section2Sup72Activity"
+    android:background="@drawable/bg500">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView17">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice721ImageView"
+                    android:background="@drawable/bnpractice" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/perform7"
+                    android:id="@+id/sup721TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pregnant2"
+                    android:id="@+id/sup722TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h4"
+                    android:layout_marginLeft="30dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice721TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:text="  โรคแทรกซ้อนต่างๆที่อาจเกิดได้แก่"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/pactice722TextView"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/h5"
+                        android:background="#96ffffff"
+                        android:text=" • เด็กพิการแต่กำเนิดเช่น หัวใจสมองไตพบได้น้อยมากในผู้ป่วยที่เป็นโรคเบาหวานขณะตั้งครรภ์เนื่องจากอวัยวะเด็กจะเริ่มสร้างเมื่ออายุครรภ์ 13 สัปดาห์แต่โรคเบาหวานมักจะเกิดหลัง 12 สัปดาห์แล้ว\n
+• เด็กตัวโตดังกล่าวข้องต้น\n
+• เด็กที่เกิดมามีโอกาสเกิดน้ำตาลในเลือดต่ำได้ง่าย\n
+• เกิดครรภ์เป็นพิษได้สูงกว่าคนทั่วไปซึ่งคนท้องจะมีความดันโลหิตสูง ถ้าสูงมากคุณแม่อาจจะชักได้\n
+• น้ำคร่ำมากไปทำให้คุณแม่อึกอัด\n
+• ทางเดินปัสสาวะอักเสบซึ่งอาจจะลุกลามไปไตได้\n
+• เด็กเกิดมาหายใจหอบเนื่องจากปอดเด็กยังทำงานไม่ได้เต็มที่\n
+• แท้ง\n
+• คลอดก่อนกำหนด\n
+• เป็นโรคแทรกซ้อนทางตาเนื่องจากเบาหวานได้มาก"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="10dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
