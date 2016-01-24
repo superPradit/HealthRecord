@@ -44,7 +44,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/perform8"
-                    android:id="@+id/sup821TextView"
+                    android:id="@+id/sup8121TextView"
                     android:textColor="@color/text"
                     android:textSize="@dimen/h2" />
 
@@ -52,7 +52,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/emergency1"
-                    android:id="@+id/sup8121TextView"
+                    android:id="@+id/sup8122TextView"
                     android:textColor="@color/text"
                     android:textSize="@dimen/h4"
                     android:layout_marginLeft="30dp" />
