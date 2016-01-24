@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="appbsru.supergolf.healthrecord.Section2Sup831Activity"
+    android:background="@drawable/bg500">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView24">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice831ImageView"
+                    android:background="@drawable/bnpractice" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/perform8"
+                    android:id="@+id/sup8311TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/emergency3"
+                    android:id="@+id/sup8312TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h4"
+                    android:layout_marginLeft="30dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice8311TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:text="  ปัจจัยเสี่ยงต่อภาวะน้ำตาลในเลือดต่ำ"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice8312TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:text=" • ผู้ป่วยที่ได้รับการฉีดอินซูลิน โดยเฉพาะอย่างยิ่งภายหลังการงดเว้นอาหาร หรือภายหลังการออกกำลังกาย\n
+• กินยา sulfonylurea โดยเฉพาะอย่างยิ่งชนิดที่ออกฤทธิ์ยาว\n
+• การงดเว้นอาหาร หรือกินอาหารน้อยลง กินผิดเวลา หรือมีการปรับชนิดของอาหารทำให้มีแป้งลดลง\n
+• ออกกำลังเพิ่มมากขึ้น\n
+• การดื่มแอลกอฮอล์\n
+• ผู้ป่วยสูงอายุ\n
+• เป็นโรคตับ\n
+• ร่างกายไวต่ออินซูลินเพิ่มขึ้น เช่น น้ำหนักลด ออกกำลังเพิ่มมากขึ้น\n
+• เคยเกิดน้ำตาลในเลือดต่ำระดับรุนแรง\n
+• เคยเกิดน้ำตาลต่ำแต่ไม่มีอาการ\n
+• ผู้ป่วยโรคเบาหวานที่เป็นโรคไต อาจจะมีการคั่งของยา\n
+• การได้รับยาไม่เหมาะสม ชนิด ขนาด วิธีใช้ไม่เหมาะสม\n
+• ได้รับยา beta-adrenergic blocker"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
