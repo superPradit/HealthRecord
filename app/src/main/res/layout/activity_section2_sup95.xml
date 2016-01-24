@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="appbsru.supergolf.healthrecord.Section2Sup95Activity"
+    android:background="@drawable/bg500">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView31">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice95ImageView"
+                    android:background="@drawable/bnpractice" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/perform9"
+                    android:id="@+id/sup951TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/complication5"
+                    android:id="@+id/sup952TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h4"
+                    android:layout_marginLeft="30dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice951TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:text="  ปัจจัยเสี่ยงต่อการเกิดโรคไต"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice952TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:text=" 1. ระดับการควบคุมน้ำตาลให้ใกล้เคียงปกติให้มากที่สุด การควบคุมโรคเบาหวานได้ดีโอกาสเป็นโรคไตจะน้อยลง ท่านต้องปรึกษาแพทย์ว่าระดับน้ำตาลแค่ไหนถึงจะดี\n
+2. ระดับความดันโลหิต\n
+3. กรรมพันธุ์"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice953TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:text="  การรักษาและการป้องกัน"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice954TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:text=" 1. การควบคุมเบาหวาน จากการศึกษาของหลายสถาบันมีชื่อและเชื่อถือได้ สรุปว่าการควบคุมการควบคุมน้ำตาล ให้ใกล้เคียงปกติให้มากที่สุด สามารถลดอุบัติการณ์ของ microalbuminuria และโรคไต\n
+2. การตรวจหาปริมาณไข่ขาวในปัสสาวะ\n
+    • เบาหวานชนิดที่ 1 ให้ตรวจหาปริมาณไข่ขาวเมื่อเป็นเบาหวานแล้ว 5 ปี\n
+    • เบาหวานชนิดที่ 2 ให้ตรวจหาปริมาณไข่ขาวเมื่อวินิจฉัยว่าเป็นเบาหวาน\n
+3. การคุมความดันโลหิตสูง ผู้ป่วยเบาหวานชนิดที่หนึ่งมักพบมีความดันโลหิตสูง เมื่อพบว่ามี microalbuminuria แล้ว ส่วนเบาหวานชนิดที 2 มักพบมีความดันโลหิตสูงร่วมด้วยตั้งแต่วินิจฉัยได้ ซึ่งอาจจะเป็นผลมาจากภาวะที่เรียกว่า insulin resistant syndrome (เบาหวาน ความดันโลหิตสูง อ้วน ไขมัน triglyceride, LDL-C  สูง เกิดโรคหลอดเลือดหัวใจได้ง่าย)\n
+    • แนะนำให้ลดความดันโลหิตให้ต่ำกว่า 130/85 มม.ปรอท ในผู้ป่วยอายุมากกว่า 18 ปี\n
+    • ผู้ป่วยที่มีความดันสูงเฉพาะช่วงบีบตัว isolated systolic hypertension>180 มม.ปรอท ให้ลดความดันช่วงบีบตัวให้ต่ำกว่า160 มม.ปรอท ถ้าความดัน systolic 160-179 มม.ปรอท ให้ลดความดันลงจากเดิม 20 มม.ปรอท\n
+    • แนะนำให้ใช้ ACE Inhibitor กับผู้ป่วยเบาหวานชนิดที่หนึ่งที่มี microalbuminuria แม้ว่าความดันจะปกติ\n
+    • ผู้ป่วยเบาหวานชนิดที่สองให้ใช้ ACE Inhibitor หรือ Angiotensin inhibitor blockerเมื่อมี microalbuminuria ร่วมกับความดันโลหิตสูง\n
+    • ผู้ป่วยเบาหวานที่มีไข่ขาวออกมาก และไตเริ่มเสื่อมมากขึ้น(ค่าการทำงานของไตมากกว่า 1.5)การให้ยาAngiotensin inhibitor blocker จะชะลอการเกิดโรคไต\n
+4. การควบคุมอาหารโปรตีนต่อการเปลี่ยนแปลงโรคไต ถ้าไตยังเสื่อมไม่มากให้รับประทานโปรตีน 0.8-1 ก/กม/วัน ถ้าไตเสื่อมมากขึ้นให้ลดเหลือ 0.8 ก/กม/วันซึ่งจะชะลอ การเสื่อมของไต\n
+5. หากใช้ยา ACE Inhibitor หรือ Angiotensin inhibitor blocker ร่วมกับยาขับปัสสาวะจะต้องมีการติดตามการทำงานของไตและเกลือโพแทสเซี่ยม\n
+6. หากอัตราการกรองของไตน้อยกว่า 60 มิลิเมตรต่อนาทีต้องติดตามเรื่องโรคแทรกซ้อนที่เกิดจากโรคไต\n
+7. รักษาการติดเชื้อของทางเดินปัสสาวะเช่นกระเพาะปัสสาวะอักเสบหรือกรวยไตอักเสบผู้ป่วยจะมีอาการปัสสาวะขัดหรือขุ่น บางรายมีไข้ปวดเอวการเลือกยาปฏิชีวนะต้องระวังอย่าให้ทีผลกระทบต่อไตหากมีอาการดังต่อไปนี้ควรรีบพบแพทย์\n
+    • ขณะปัสสาวะมีอาการปวด\n
+    • ปัสสาวะบ่อยและกลั้นปัสสาวะไม่ได้\n
+    • ปัสสาวะขุ่น หรือมีสีแดง\n
+    • ไข้หนาวสั่น\n
+    • ปวดเอว"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
