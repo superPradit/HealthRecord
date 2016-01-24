@@ -44,6 +44,7 @@ public class Section2Sup82Activity extends AppCompatActivity implements View.OnC
                 startActivity(new Intent(Section2Sup82Activity.this, Section2Sup821Activity.class));
                 break;
             case R.id.kts22Button:
+                startActivity(new Intent(Section2Sup82Activity.this, Section2Sup822Activity.class));
                 break;
         } //switch
     } //onClick
