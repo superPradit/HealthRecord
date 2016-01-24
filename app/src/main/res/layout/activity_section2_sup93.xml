@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="appbsru.supergolf.healthrecord.Section2Sup93Activity"
+    android:background="@drawable/bg500">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView29">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice93ImageView"
+                    android:background="@drawable/bnpractice" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/perform9"
+                    android:id="@+id/sup931TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/complication3"
+                    android:id="@+id/sup932TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h4"
+                    android:layout_marginLeft="30dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice931TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:text="  หลักปฏิบัติลดปัจจัยเสี่ยงต่อการเกิดโรคหลอดเลือดแข็ง"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice932TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:text=" • รักษาระดับน้ำตาลในเลือดให้ใกล้เคียงปกติมากที่สุด\n
+• หยุดสูบบุหรี่โดยเด็ดขาด บุหรี่นอกจากทำให้หลอดเลือดตีบแล้วยังทำให้ไขมันในเลือดสูงขึ้น\n
+• คุมความดันโลหิตให้ต่ำกว่า 130/85 มม.ปรอท\n
+• ควบคุมระดับไขมันในเลือดให้ได้\n
+• รับประทานอาหารที่มีคุณภาพสำหรับผู้ป่วยเบาหวาน เลี่ยงอาหารที่มีไขมันสูง\n
+• ควบคุมน้ำหนักให้เหมาะสม\n
+• ปรึกษากับแพทย์เรื่องการออกกำลังกายที่เหมาะสม\n
+• ปรึกษาแพทย์เรื่อง aspirin\n
+• ปรึกษาแพทย์เกี่ยวกับอาการเตือนของโรคหัวใจและโรคหลอดเลือดสมอง"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice933TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:text="  อาการแสดง"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice934TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:text="      หากท่านมีอาการดังต่อไปนี้ควรปรึกษาแพทย์\n
+• ชาหรืออ่อนแรงแขนหรือขา ตาบอดเฉียบพลัน พูดลำบาก\n
+• เจ็บแน่นบริเวณหน้าอกข้างซ้าย และร้าวไปแขนซ้ายเวลาออกกำลังกาย พักเหนื่อยจะหายปวด เท้าบวม หัวใจเต้นผิดปกติ\n
+• ปวดน่องหรือขาเวลาเดินพักแล้วหายปวด"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
