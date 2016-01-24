@@ -56,7 +56,8 @@
         <activity android:name=".Section2Sup822Activity" />
         <activity android:name=".Section2Sup831Activity" />
         <activity android:name=".Section2Sup832Activity" />
-        <activity android:name=".Section2Sup833Activity"></activity>
+        <activity android:name=".Section2Sup833Activity" />
+        <activity android:name=".Section2Sup91Activity"></activity>
     </application>
 
 </manifest>
