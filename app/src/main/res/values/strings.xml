@@ -76,5 +76,11 @@
 
     <string name="oral">หลักปฏิบัติการดูแลช่องปาก</string>
 
+    <string name="ketosis1">อาการ</string>
+    <string name="ketosis2">การรักษา</string>
+    <string name="ketosis3">การป้องกัน</string>
+    <string name="sugarlow1">ปัจจัยเสี่ยงต่อภาวะน้ำตาลในเลือดต่ำ</string>
+    <string name="sugarlow2">ภาวะน้ำตาลในเลือดต่ำไม่รุนแรงและปานกลาง</string>
+    <string name="sugarlow3">ภาวะน้ำตาลในเลือดต่ำชนิดรุนแรง</string>
 
 </resources>
