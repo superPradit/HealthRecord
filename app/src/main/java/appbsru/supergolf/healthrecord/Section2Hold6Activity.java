@@ -50,6 +50,7 @@ public class Section2Hold6Activity extends AppCompatActivity implements View.OnC
                 startActivity(new Intent(Section2Hold6Activity.this, Section2Sup82Activity.class));
                 break;
             case R.id.emg3Button:
+                startActivity(new Intent(Section2Hold6Activity.this, Section2Sup83Activity.class));
                 break;
         }
 
