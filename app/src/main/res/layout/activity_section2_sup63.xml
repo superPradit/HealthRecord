@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="appbsru.supergolf.healthrecord.Section2Sup63Activity"
+    android:background="@drawable/bg500">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView14">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice631ImageView"
+                    android:background="@drawable/bnpractice" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/perform6"
+                    android:id="@+id/sup631TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/foot3"
+                    android:id="@+id/sup632TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h2"
+                    android:layout_marginLeft="30dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice631TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:text="  วิธีการดูแลตัวเองเพื่อป้องกันโรคแทรกซ้อนที่เท้า"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textStyle="bold"
+                    android:paddingTop="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice632TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:text=" 1. ควบคุมเบาหวานให้ใกล้เคียงปกติซึ่งจะชะลอการเกิดโรคแทรกซ้อน\n
+    1.1. ควบคุมระดับน้ำตาลให้ใกล้เคียงปกติมากที่สุด\n
+    1.2. ร่วมมือกับแพทย์ในการวางแผนการรักษา\n
+    1.3. กำหนดเวลาเจาะเลือด\n
+    1.4. รับประทานยาตามแพทย์สั่ง\n
+    1.5. ควบคุมอาหารตามแพทย์สั่ง\n
+    1.6. ออกกำลังกาย\n
+    1.7. ดูแลเท้า และออกกำลังบริหารเท้าโดยเคร่งคัด\n
+    1.8. ไปตรวจตามนัด\n
+2. ตรวจและดูแลผิวหนังทุกวันเวลาที่ดีคือเวลาเย็น\n
+    2.1. ล้างเท้าด้วยน้ำธรรมดาวันละ2 ครั้งและซับให้แห้งโดยเฉพาะซอกนิ้ว ไม่ควรใช้แปรงหรือขนแข็งขัดเท้า\n
+    2.2. ใช้แป้งโรย\n
+    2.3. ตรวจผิวหนังที่เท้า ดูว่ามีแผล การอักเสบ รอยแดง หากแผลไม่หายในสองวันควรปรึกษาแพทย์ มีหนังหนาหรือตาปลาหรือไม่ ถ้ามีแสดงว่าใส่รองเท้าไม่เหมาะสม\n
+    2.4. สำหรับผู้สูงอายุหรือสายตาไม่ดีควรจะให้คนอื่นช่วยดู\n
+    2.5. สภาพผิวว่าแห้งไปหรือไม่ มีรอยแตกย่นหรือไม่ เล็บหนาหรือมีเชื้อราหรือไม่ มีแผลอักเสบซอกเล็บหรือไม่ ผิวซอกนิ้วมีอับชื้นหรือไม่ อาจจะใช้กระจกส่อง หรือให้ญาติช่วยดู ถ้าผิวมีเหงื่อออกให้โรยแป้ง\n
+3. ระบบประสาท เริ่มมีอาการชาหรือปวดแสบบริเวณเท้าหรือไม่  หากมีอาการดังกล่าวแสดงว่าเริ่มมีปลายประสาทอักเสบ\n
+4. ดูว่ามีกระดูกงอกผิดปกติหรือไม่ ข้อมีรูปร่างผิดปกติหรือไม่  สภาพการเดินการแกว่งเท้าผิดปกติหรือไม่\n
+5. ตรวจดูว่าเส้นเลือดแดงใหญ่บริเวณขาตีบตันหรือไม่  หากผู้ป่วยมีโรคหลอดเลือดตีบตันที่ขาจะมีอาการดังนี้คือ จะปวดขาเวลาเดินต่อเนื่องพักจะหายปวด คลำชีพขจรบริเวณหลังเท้าได้เบาหรือไม่ได้ ผิวหนังจะเย็นและสีของผิวหนังจะคล้ำกว่าผิวส่วนอื่น\n
+6. ล้างเท้าด้วยน้ำธรรมดา หรือน้ำอุ่น\n
+7. ให้ผิวหนังนุ่มอยู่เสมอ ทาครีมหรือโลชั่นที่หลังเท้า และผ่าเท้า ถ้าผิวแห้งห้ามทาบริเวณซอกนิ้ว\n
+8. การเลือกรองเท้าที่เหมาะสมจะสามารถป้องกันโรคแทรกซ้อนได้\n
+9. ป้องกันไม่ให้เท้าเย็น หรือร้อนไป ห้ามใช้กระเป๋าน้ำร้อนประคบหรือแช่ในน้ำร้อน เพราะอาจทำให้ผิวหนังไหม้\n
+    9.1. สวมรองเท้าเมื่อเดินที่ร้อน\n
+    9.2. ทาครีมกันแสงที่หลังเท้าเมื่อไปเที่ยวทะเล\n
+    9.3. หากเท้าเย็นห้ามใช้กระเป๋าน้ำร้อนให้สวมถุงเท้า\n
+10. ตัดเล็บให้สั้น\n
+    10.1. ตัดเล็บให้ตรงไม่ต้องเล็มจมูกเล็บ\n
+    10.2. ไม่ต้องตัดเล็บที่ซอกเล็บหรือถึงจมูกเล็บ\n
+    10.3. ใช้ตะไบลบรอยคมของเล็บ\n
+    10.4. ไม่ควรใช้วัสดุแข็งแคะซอกเล็บ\n
+11. ให้เลือดไปเลี้ยงขาให้พอ\n
+    11.1. ยกเท้าเวลานั่งพัก\n
+    11.2. การบริหารเท้า\n
+    11.3. ห้ามนั่งไขว่ห้าง\n
+    11.4. ห้ามใส่ถุงเท้าที่แคบ\n
+    11.5. งดบุหรี่\n
+    11.6. รักษาความดัน และไขมันในเลือด\n
+12.	ออกกำลังกายอยู่เสมอ\n
+    12.1. ปรึกษาแพทย์ก่อนออกกำลังกาย\n
+    12.2. เดิน ขี่จักรยาน หรือว่ายน้ำเป็นการออกกำลังที่ดี\n
+    12.3. หลีกเลี่ยงการวิ่งหรือกระโดดเชือก\n
+    12.4. ก่อนออกกำลังกายให้มีการอบอุ่นร่างกาย\n
+    12.5. สวมร้องเท้าที่เหมาะสม\n
+13.	ให้แพทย์ตรวจเท้า\n
+    13.1. ให้แพทย์ตรวจเท้าอย่างน้อยปีละครั้ง\n
+    13.2. ตรวจชีพขจรที่เท้า และอาการปวดเท้าเวลาเดินซึ่งเป็นอาการของการขาดเลือด\n
+    13.3. ตรวจความรู้สึกโดยใช้ monofilament หรือ vibratory sensation test\n
+    13.4. ตรวจความผิดปกติของเท้าเช่น เท้าผิดรูป กระดูกงอก ตาปลา การเดิน ลักษณะเท้า\n
+    13.5. ตรวจสภาพผิวหนังทั้งเท้าโดยเฉพาะซอกนิ้ว\n
+    13.6. ตรวจเท้าเพื่อหาตำแหน่งของเท้าที่รับแรงกดมาก รอยแดง\n
+    13.7. แจ้งแพทย์ทันทีที่มีปัญหา\n
+    13.8. ให้แพทย์แสดงวิธีดูแลเท้า\n
+    13.9. สำหรับผู้ที่มีปัจจัยเสี่ยงให้ตรวจเท้าทุก3-6 เดือน\n
+14.	อย่าตัดตาปลา ห้ามตัดตาปลาด้วยสารเคมี เช่นน้ำยากัดตาปลา หรือใช้มีด ให้ใช้หินขัดไปทางเดียว ระวังถูกเนื้อดี"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice633TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:text="  ข้อห้ามปฏิบัติ"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice634TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:text=" 1. ห้ามแช่เท้าในน้ำร้อนโดยเด็ดขาด\n
+2. ห้ามเอากระเป๋าน้ำร้อนมาวางไว้บนหลังเท้าหรือขา\n
+3. หากเท้าเย็นให้แก้ไขโดยการใส่ถุงเท้า\n
+4. ไม่ควรเดินเท้าเปล่า แม้จะอยู่ในบ้าน\n
+5. ห้ามตัดตาปลา\n
+6. ไม่ควรนั่งไขว่ห้าง เพราะทำให้เลือดไหลเวียนไม่สะดวก"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
