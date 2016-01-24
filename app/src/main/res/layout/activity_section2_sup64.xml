@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="appbsru.supergolf.healthrecord.Section2Sup64Activity"
+    android:background="@drawable/bg500">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView15">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice641ImageView"
+                    android:background="@drawable/bnpractice" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/perform6"
+                    android:id="@+id/sup641TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/foot4"
+                    android:id="@+id/sup642TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h2"
+                    android:layout_marginLeft="30dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice641TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:text="  วิธีการเลือกรองเท้า"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textStyle="bold"
+                    android:paddingTop="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice642TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:text=" • เลือกรองเท้าที่ขนาดพอดี\n
+• เลือกรองเท้าที่มีเบาะรองเท้าที่นุ่มนิ่ม ไม่ควรทำจากพลาสติก\n
+• ไม่ใส่ส้นสูง เพราะจะทำให้เกิดโรคข้อและเกิดแผลกดทับ\n
+• ใส่ถุงเท้าทุกครั้ง ถุงเท้าควรทำด้วย cotton or wool เพื่อให้ผิวแห้งไม่ควรใช้ไนล่อน\n
+• ควรตรวจดูสิ่งแปลกปลอมก่อนใส่ทุกครั้ง\n
+• ควรใส่รองเท้าทั้งใน และนอกบ้าน\n
+• รองเท้าควรจะระบายอากาศได้ดี\n
+• ห้ามใส่รองเท้าที่เปิดปลายนิ้วเท้าหรือรองเท้าแตะเพราะจะทำให้เกิดแผล\n
+• หากซื้อรองเท้าใหม่ ต้องวัดให้มีขนาดพอดีทั้งความลึก ความกว้าง\n
+• รองเท้าควรจะมีตะเข็บให้น้อยที่สุดเพื่อป้องกันมิให้ตะเข็บกดเท้า ควรจะใช้เชือกผูกหรือแทบซึ่งจะทำให้รองเท้าพอดีกับเท้า\n
+• เมื่อสวมรองเท้าใหม่ให้หยุดเดินหรือหยุดพักบ่อยๆเพื่อป้องกันไม่ให้เกิดพองที่เท้า\n
+• หากเท้าท่านผิดปกติเช่นกระดูกงอก ควรจะใส่รองเท้าชนิดพิเศษ\n
+• ไม่ควรใส่รองเท้าแตะ แบบคีบ\n
+• หากซื้อรองเท้าใหม่ไม่ควรสวมเป็นเวลานานๆต่อเนื่อง ควรจะมีรองเท่าคู่เก่าเปลี่ยนจนกระทั่งรองเท้าคู่ใหม่เข้ากับเท้า\n
+• สวมถุงเท้าก่อนใส่รองเท้าทุกครั้ง และควรเป็นถุงเท้าที่ไม่มีตะเข็บ และควรทำจากผ้าฟ้ายเพื่อซับเหงื่อ\n
+• ก่อนใส่รองเท้าต้องสำรวจว่าไม่มีวัสดุแปลกปลอมในรองเท้า"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice643TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:text="  การเลือกขนาดรองเท้า"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice644TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:text=" • วัดขนาดของเท้าทั้งสองข้างทั้งความกว้าง และความยาวเพราะเท้าทั้งสองข้างมักจะไม่เท่ากัน\n
+• ตรวจความพอดีของรองเท้าทั้งสองข้างในขณะยืนลงน้ำหนักเสมอ เนื่องจากเท้าส่วนใหญ่จะขยายเมื่อเรายืนลงน้ำหนัก\n
+• ตำแหน่งของนิ้วหัวแม่เท้าข้อแรกจะต้องอยู่ส่วนที่กว้างที่สุดของรองเท้า\n
+• ระยะห่างระหว่างปลายนิ้วที่ยาวที่สุดกับปลายรองเท้าควรมีระยะห่างประมาณ 3/8-1 นิ้ว\n
+• พื้นที่เท้าส่วนหน้าต้องไม่แคบไป และมีความลึกพอโดยที่นิ้วเท้าสามารถขยับได้\n
+• บริเวณส้นเท้าควรจะพอดี ไม่คับหรือหลวมไป\n
+• ควรจะเป็นชนิดเชือกผูกหรือแถบเพื่อสามารถปรับรองเท้าให้พอดีกับเท้า ไม่ควรมีรอยตะเข็มด้านหลังเท้าเพราะจะมีการกดทับ\n
+• วัสดุที่ใช้ทำรองเท้าควรจะเป็นผ้าหรือหนังที่นุ่ม ไม่ควรจะใช้พลาสติกเพราะจะเสียดสีเกิดแผลได้ง่าย"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
