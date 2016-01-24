@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="appbsru.supergolf.healthrecord.Section2Sup73Activity"
+    android:background="@drawable/bg500">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView18">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice731ImageView"
+                    android:background="@drawable/bnpractice" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/perform7"
+                    android:id="@+id/sup731TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pregnant3"
+                    android:id="@+id/sup732TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h4"
+                    android:layout_marginLeft="30dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice731TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:text="  การรักษาโรคเบาหวานขณะตั้งครรภ์ "
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice732TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:text=" • ปรึกษาโภชนากรเพื่อควบคุมอาหารให้มีสารอาหารเพียงพอสำหรับเด็กและมารดา และไม่ทำให้ระดับน้ำตาลในเลือดสูง\n
+• ผู้ป่วยที่อ้วน BMI>30  ให้ลดพลังงานลง 30-33% (ประมาณ1800 กิโลแคลอรี)\n
+• ให้ใช้อินซูลินเมื่อคุมอาหารและออกกำลังกายแล้วระดับน้ำตาลก่อนอาหารเช้ายังสูงกว่า 95 มก.% หรือระดับน้ำตาลหลังอาหาร 2 ชม.มากกว่า 120 มก.%\n
+• น้ำตาลในเลือดหลังอาหาร1 ชมไม่เกิน 140 mg/dl (7.8 mmol/l) หรือน้ำตาลใน plasma 1 ชมไม่เกิน 155 mg/dl (8.6 mmol/l) หรือน้ำตาลในเลือด ( whole blood glucose)2 ชมไม่เกิน 120 mg/dl (6.7 mmol/l) หรือน้ำตาลใน plasma 2 ชมไม่เกิน 130 mg/dl (7.2 mmol/l)\n
+• แนะนำให้ออกกำลังกาย\n
+• ไม่ใช้ยาเม็ดลดน้ำตาล\n
+• ให้ใช้อินซูลินที่มีโครงสร้างเหมือนคน [human insulin]\n
+• แนะนำให้คลอดเมื่อตั้งครรภ์ประมาณ 38 สัปดาห์ เนื่องจากหากอายุครรภ์มากกว่านี้โอกาสที่เด็กจะอ้วนมีมาก\n
+• แนะนำให้เลี้ยงลูกด้วยนมมารดา"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
