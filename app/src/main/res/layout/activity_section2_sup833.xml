@@ -7,13 +7,13 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="appbsru.supergolf.healthrecord.Section2Sup832Activity"
+    tools:context="appbsru.supergolf.healthrecord.Section2Sup833Activity"
     android:background="@drawable/bg500">
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/scrollView25">
+        android:id="@+id/scrollView26">
 
         <LinearLayout
             android:orientation="vertical"
@@ -28,7 +28,7 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/pactice832ImageView"
+                    android:id="@+id/pactice833ImageView"
                     android:background="@drawable/bnpractice" />
             </LinearLayout>
 
@@ -44,7 +44,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/perform8"
-                    android:id="@+id/sup8321TextView"
+                    android:id="@+id/sup8331TextView"
                     android:textColor="@color/text"
                     android:textSize="@dimen/h2" />
 
@@ -52,7 +52,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/emergency3"
-                    android:id="@+id/sup8322TextView"
+                    android:id="@+id/sup8332TextView"
                     android:textColor="@color/text"
                     android:textSize="@dimen/h4"
                     android:layout_marginLeft="30dp" />
@@ -68,11 +68,11 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/pactice8321TextView"
+                    android:id="@+id/pactice8331TextView"
                     android:textColor="@color/text"
                     android:textSize="@dimen/h5"
                     android:background="#96ffffff"
-                    android:text="  ภาวะน้ำตาลในเลือดต่ำไม่รุนแรงและระดับปานกลาง\n  การรักษา"
+                    android:text="  ภาวะน้ำตาลในเลือดต่ำชนิดรุนแรง\n  การรักษา"
                     android:paddingLeft="10dp"
                     android:paddingTop="10dp"
                     android:paddingRight="10dp"
@@ -81,23 +81,18 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/pactice8322TextView"
+                    android:id="@+id/pactice8332TextView"
                     android:textColor="@color/text"
                     android:textSize="@dimen/h5"
                     android:background="#96ffffff"
-                    android:text="    ภาวะนี้อาจจะเกิดที่บ้านหรือที่โรงพยาบาล หากเกิดอาการของน้ำตาลต่ำและมีเครื่องเจาะเลือดก็ให้เจาะเลือดถ้าผลน้ำตาลในเลือดต่ำก็ให้ดำเนินการดังนี้\n
-1. ให้รับประทานอาหารที่มีแป้ง 15 กรัม เช่นน้ำส้มคั้นหนึ่งแก้ว น้ำอัดลม 180 ซีซี น้ำผึ้งสามช้อนชา ขนมปังหนึ่งแผ่น นมสดหนึ่งกล่อง กล้วยหนึ่งผล โจ๊กหรือข้าวต้มครึ่งถ้วย อาการมักจะดีขึ้นหลังได้รับอาหารดังกล่าว\n
-2. หลังจากรับประทานอาหารดังกล่าวไปแล้ว 15 นาทีให้เจาะเลือด\n
-3. หากน้ำตาลยังต่ำกว่า 70 มก%ก็ให้รับประทานอาหารดังกล่าวเบื้องต้นอีกชุดหนึ่ง\n
-4. หากอาการดีขึ้นระดับน้ำตาลมากกว่า80 มก%ก็ให้รับประทานอาหารตามปกติ หากต้องรออาหารปกตินานเกินหนึ่งชั่วโมงก็ให้อาหารว่างรับประทานไปก่อน\n
-    สำหรับท่านที่ไม่มีเครื่องเจาะน้ำตาลแนะนำให้ท่านรับประทานขนมปังหรือนมหนึ่งกล่องรอสิบถึงสิบห้านาทีหากไม่หายให้รีบพบแพทย์"
+                    android:text="  รีบนำผู้ป่วยส่งโรงพยาบาลสำหรับผู้ป่วยที่พอจะรู้สึกตัวก็ให้ดื่มน้ำหวานก่อนนำส่งโรงพยาบาล หากผู้ป่วยไม่รู้สึกตัวก็แนะนำว่าไม่ควรที่จะให้ดื่มหรือรับประทานอาหารเพราะจะทำให้ผู้ป่วยสำลักและเกิดปอดบวมได้"
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/pactice8323TextView"
+                    android:id="@+id/pactice8333TextView"
                     android:textColor="@color/text"
                     android:textSize="@dimen/h5"
                     android:background="#96ffffff"
@@ -109,16 +104,23 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/pactice8324TextView"
+                    android:id="@+id/pactice8334TextView"
                     android:textColor="@color/text"
                     android:textSize="@dimen/h5"
                     android:background="#96ffffff"
-                    android:text=" • ต้องตรวจหาระดับน้ำตาลอย่างสม่ำเสมอ\n
-• ต้องมีความรู้และความเข้าใจเกี่ยวกับการใช้ยา การกินอาหารให้ตรงเวลา รวมทั้งการออกกำลังกาย\n
-• มีความรู้เกี่ยวกับการแก้ปัญหาเบื้องต้น"
+                    android:text=" • กลุ่มผู้ป่วยที่เสี่ยงต่อภาวะน้ำตาลในเลือดต่ำ เช่นผู้ป่วยสูงอายุ มีโรคไตโรคตับร่วมด้วย การรับประทานยา อาหารควรจะต้องทำตามคำแนะนำของแพทย์อย่างเคร่งครัด และควรจะมีเครื่องเจาะน้ำตาลเพื่อตรวจน้ำตาล\n
+• ผู้ป่วยเบาหวานทุกท่านควรที่จะเจาะเลือดวัดระดับกลูโคสด้วยตัวเองเพื่อให้การควบคุมเบาหวานได้ดี\n
+• แนะนำคนใกล้ชิดให้ทราบอาการของน้ำตาลในเลือดต่ำ และวิธีการแก้ไขเบื้องต้น\n
+• ควบคุมอาหารตามที่แพทย์แนะนำอย่างสม่ำเสมอ รับประทานอาหารให้ตรงเวลา และจำกัดอาหารแต่ละมื้อให้พอเหมาะไม่มากหรือน้อยเกินไป\n
+• รับประทานยาหรือฉีดยาตามแพทย์สั่ง\n
+• หากออกกำลังกายมากกว่าครึ่งชั่วโมงต้องได้รับอาหารว่างเสริม เช่น นมหนึ่งแก้ว หรือขนมแครกเกอร์ 1 แผ่นก่อนออกกำลัง\n
+• ตรวจระดับน้ำตาลในเลือดอย่างสม่ำเสมอ\n
+• หากต้องรับยาอื่นต้องปรึกษาแพทย์\n
+• แจ้งเพื่อนร่วมงานและครอบครัวว่าท่านเป็นเบาหวานพร้อมทั้งวิธีช่วยเหลือเมื่อท่านเกิดอาการ\n
+• ควรมีลูกอมพกติดตัว\n
+• พกบัตรเบาหวานประจำตัว"
                     android:paddingLeft="10dp"
-                    android:paddingRight="10dp"
-                    android:paddingBottom="10dp" />
+                    android:paddingRight="10dp" />
 
             </LinearLayout>
 
