@@ -55,7 +55,7 @@
                     android:text="@string/foot1"
                     android:id="@+id/sup612TextView"
                     android:textColor="@color/text"
-                    android:textSize="@dimen/h2"
+                    android:textSize="@dimen/h4"
                     android:layout_marginLeft="30dp" />
 
             </LinearLayout>

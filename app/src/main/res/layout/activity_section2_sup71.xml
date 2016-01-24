@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="appbsru.supergolf.healthrecord.Section2Sup71Activity"
+    android:background="@drawable/bg500">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView16">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice711ImageView"
+                    android:background="@drawable/bnpractice" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/perform7"
+                    android:id="@+id/sup711TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pregnant1"
+                    android:id="@+id/sup712TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h4"
+                    android:layout_marginLeft="30dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice711TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:text="  ผู้ที่ตรวจพบว่าเป็นเบาหวานในขณะตั้งครรภ์จะทำให้เกิดผลเสีย หรือความเสี่ยงดังนี้\n
+    • ผู้ที่ตั้งครรภ์จะมีโอกาสเกิดโรคเบาหวานเพิ่มมากขึ้น แม้ว่าจะคลอดไปแล้ว\n
+    • เด็กที่อยู่ในครรภ์อาจจะมีความผิดปกติ\n
+    • มีโรคแทรกซ้อนกับเด็กในขณะคลอดหรือในระยะต่อมา"
+                    android:padding="10dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
