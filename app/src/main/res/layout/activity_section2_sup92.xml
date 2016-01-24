@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="appbsru.supergolf.healthrecord.Section2Sup92Activity"
+    android:background="@drawable/bg500">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView28">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice92ImageView"
+                    android:background="@drawable/bnpractice" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/perform9"
+                    android:id="@+id/sup921TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/complication2"
+                    android:id="@+id/sup922TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h4"
+                    android:layout_marginLeft="30dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice921TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:text="  หลักปฏิบัติสำหรับผู้ที่มีไขมันในเลือดสูง"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice922TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:text=" 1. ลดไขมันในอาหารที่ได้รับไม่เกินร้อยละ 30 ของพลังงานที่ได้รับ โดยงดอาหารทอด\n
+2. หลีกเลี่ยงไขมันอิ่มตัว เช่น เนย กะทิ น้ำมันปาล์ม\n
+3. ใช้น้ำมันพืชพวก ถั่วเหลือง น้ำมันข้าวโพด น้ำมันรำ น้ำมันมะกอก น้ำมันถั่วลิสง\n
+4. ลดโคเลสเตอรอลในอาหารให้ต่ำกว่า 300 มก./วัน โดยงดอาหารที่มีไขมันสูง เช่น เครื่องใน ไข่\n
+5. รับประทานปลาทะเล ถั่ว และเต้าหู้ให้มากขึ้น\n
+6. งดน้ำตาล น้ำหวาน ขนมหวาน ผลไม้หวานจัด\n
+7. รับประทานผลไม้ที่ไม่หวานตามปริมาณที่กำหนด\n
+8. รับประทานอาหารไม่เค็ม\n
+9. รับประทานผักประเภทใบเขียวให้มากขึ้นทุกมื้อ\n
+10. รับประทานวันละ 3-4 มื้อ\n
+11. ไม่ต้องเพิ่มอาหารเมื่อออกกำลังกาย\n
+12. งดเครื่องดื่มแอลกอฮอล์\n
+13. เพิ่มอาหารที่มีใยมากๆได้แก่ผัก ข้าวซ้อมมือ"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
