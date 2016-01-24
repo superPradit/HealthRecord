@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="appbsru.supergolf.healthrecord.Section2Sup62Activity"
+    android:background="@drawable/bg500">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView13">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice621ImageView"
+                    android:background="@drawable/bnpractice" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/perform5"
+                    android:id="@+id/sup621TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/foot2"
+                    android:id="@+id/sup622TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h2"
+                    android:layout_marginLeft="30dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice621TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:text="\t\t\tวัตถุประสงค์ของการบริหารเท้าคือทำให้กล้ามเนื้อแข็งแรง ข้อไม่ติด เพิ่มการไหลเวียนไปยังเท้า และลดน้ำตาล"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice622TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:text=" ตารางการบริหารเท้าควรทำทุกวันเพื่อเพิ่มเลือดไปเลี้ยงที่เท้า"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice623TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:text=" • การเดินควรเดินวันละครึ่งชั่วโมงถึงหนึ่งชั่วโมง ควรเริ่มจากน้อยไปหามาก\n
+• การยึดกล้ามเนื้อน่องโดยการยืนห่างกำแพง เท้าแยกกันเล็กน้อย ส้นเท้าติดพื้น งอข้อศอกพร้อมกับโน้มตัวไปติดกำแพง ทำวันละ 10 ครั้ง\n
+• นั่งเก้าอี้ มือกอดอกนั่งและยืนวันละ 10 ครั้ง\n
+• นั่งบนพื้นตัวเอนไปข้างหลัง สลับเท้ากลับไปกลับมาหลายๆครั้ง\n
+• บริหารปลายเท้ายืนมือเกาะพนักเก้าอี้แขย่งเท้าที่ละข้างสลับกัน\n
+• ยืนแขย่งเท้าขึ้นลงประมาณ 20 ครั้ง\n
+• ยืนลงบนเท้าข้างหนึ่งและแกว่งเท้าอีกข้างหนึ่งประมาณ 10 ครั้งและเปลี่ยนข้าง\n
+• ยืนมือจับพนักเก้าอี้ ย่อตัวลงและยืน 10 ครั้ง\n
+• เดินขึ้นบันไดในลักษณแขย่งเท้า"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
