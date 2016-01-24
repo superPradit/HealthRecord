@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="appbsru.supergolf.healthrecord.Section2Sup94Activity"
+    android:background="@drawable/bg500">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView30">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice94ImageView"
+                    android:background="@drawable/bnpractice" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/perform9"
+                    android:id="@+id/sup941TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/complication4"
+                    android:id="@+id/sup942TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h4"
+                    android:layout_marginLeft="30dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice941TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:text="  แนวทางปฏิบัติในการป้องกันโรคแทรกซ้อนทางตา"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice942TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:text="      ผู้ป่วยโรคเบาหวานชนิดที่ 1 เมื่อเริ่มเป็น 3-5 ปีมักจะไม่มีปัญหาโรคแทรกซ้อนทางตาแต่เมื่ออายุ 20 ปีขึ้นไปผู้ป่วยส่วนใหญ่มักจะมีความผิดปกติที่จอรับภาพ สำหรับผู้ป่วยเบาหวานชนิดที่ 2 พบว่ามีความผิดปกติที่จอรับภาพร้อยละ 21 เมื่อได้รับการวินิจฉัย\n
+1. ผู้ป่วยเบาหวานชนิดที่หนึ่งให้ตรวจตาหลังจากเป็นเบาหวาน3-5 ปี หรือผู้ป่วยเบาหวานชนิด 1 ที่อายุมากกว่า 10 ปี\n
+2. ผู้ป่วยเบาหวานชนิดที่สองให้ตรวจตาหลังจากวินิจฉัยได้\n
+3. ให้ตรวจตาทุกปีถ้าปกติ ถ้าผิดปกติให้ตรวจถี่ขึ้น\n
+4. ผู้ป่วยเบาหวานที่ตั้งครรภ์หรือมีแผนจะตั้งครรภ์ต้องตรวจตาอย่างสม่ำเสมอ ควรตรวจทุก 3 เดือน แต่สำหรับผู้ป่วยที่เป็นโรคเบาขณะตั้งครรภ์ไม่จำเป็นต้องตรวจเนื่องจากกลุ่มนี้มีโรคแทรกซ้อนทางตาน้อย\n
+5. ผู้ป่วยเบาหวานที่เริ่มโตเป็นหนุ่มสาว\n
+6. ผู้ป่วยที่เป็น severe proliferative ,macular edema ,proliferate retinopathy ควรปรึกษาจักษุแพทย์ให้ดูแลรักษา "
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice943TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:text="  ผู้ป่วยควรควรพบจักษุแพทย์หากมีอาการเหล่านี้"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice944TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:text=" • ตามัวลง1-2วันโดยที่ตามัวไม่สัมพันธ์กับระดับน้ำตาลในเลือด\n
+• ตาบอดเฉียบพลัน\n
+• เป็นจุดดำ เห็นแสงไฟแลบ หรือเห็นเป็นใยแมลงมุม\n
+• ปวดตา\n
+• มองเห็นได้เพียงด้านหนึ่งของตา\n
+• อ่านหนังสือลำบาก\n
+• เห็นภาพซ้อน"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice945TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:text="  การรักษาและการป้องกัน"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice946TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:text=" • รักษาระดับน้ำตาลให้ใกล้เคียงคนปกติ\n
+• ควบคุมความดันให้ต่ำกว่า 140/90 มม.ปรอท\n
+• หยุดสูบบุหรี่\n
+• ตรวจตาอย่างน้อยปีละครั้ง\n
+• ปรึกษาแพทย์ถ้าหากจะออกกำลังกาย"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

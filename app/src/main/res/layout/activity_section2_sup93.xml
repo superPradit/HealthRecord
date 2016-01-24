@@ -121,7 +121,8 @@
 • เจ็บแน่นบริเวณหน้าอกข้างซ้าย และร้าวไปแขนซ้ายเวลาออกกำลังกาย พักเหนื่อยจะหายปวด เท้าบวม หัวใจเต้นผิดปกติ\n
 • ปวดน่องหรือขาเวลาเดินพักแล้วหายปวด"
                     android:paddingLeft="10dp"
-                    android:paddingRight="10dp" />
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp" />
 
             </LinearLayout>
 
