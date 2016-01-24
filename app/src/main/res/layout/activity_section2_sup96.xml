@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="appbsru.supergolf.healthrecord.Section2Sup96Activity"
+    android:background="@drawable/bg500">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView32">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice96ImageView"
+                    android:background="@drawable/bnpractice" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/perform9"
+                    android:id="@+id/sup961TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/complication6"
+                    android:id="@+id/sup962TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h4"
+                    android:layout_marginLeft="30dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice961TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:text="  อาการ"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice962TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:text=" 1. ชาบริเวณปลายเท้าทั้งสองข้างไม่ค่อยรู้ร้อนรู้หนาว มักจะเริ่มจากปลายนิ้วเท้า และลุกลามมาเรื่อยๆ และอาจจะสูญเสียความรู้สึกเรื่องอุณหภูมิร่วมด้วย และอาจจะมีอาการชาที่มือร่วมด้วย ส่วนใหญ่ไม่สามารถรักษาให้อาการชาดีขึ้น แต่หากเพิ่งเป็น และเป็นไม่มาก การควบคุมน้ำตาลให้ดีอาจจะทำให้อาการดีขึ้น ผลของชาจะทำให้เกิดแผลโดยที่ไม่รู้ตัว\n
+2. แสบร้อนบริเวณปลายเท้า\n
+3. ปวดเหมือนมีเข็มแทง\n
+4. เวลาสัมผัสอาจจะทำให้เกิดอาการปวด\n
+5. เสียการทรงตัว"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice963TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:text="  การรักษา"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pactice964TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:text="  ยังไม่มีการรักษาที่ได้ผลดีจริง แต่ผู้เชี่ยวชาญแนะนำให้รักษาดังนี้\n
+1. คุมน้ำหนักให้อยู่ในเกณฑ์\n
+2. ออกกำลังกายอย่างสม่ำเสมอ\n
+3. คุมเบาหวานให้อยู่ในเกณฑ์ดี\n
+4. ดูแลรักษาเท้า\n
+5. การรักษาอาการปวดโดยการรับประทานยา paracetamol ถ้าไม่หายปวดก็ให้รับยา NSAID\n
+6. ผู้ป่วยที่มีอาการแน่นท้องแนะนำให้รับประทานอาหารหลายมื้อ และแต่ละมื้อไม่ควรมากเกินไป ลดอาหารที่มีใยอาหาร หารมีอาการมากก็สามารถรับยา metoclopramide\n
+7. ผู้ที่มีอาการหน้ามืดเวลาเปลี่ยนท่าแนะนำให้นอนศีรษะสูง ใช้ผ้าพันขา"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
