@@ -7,13 +7,13 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="appbsru.supergolf.healthrecord.Section2Sup811Activity"
+    tools:context="appbsru.supergolf.healthrecord.Section2Sup812Activity"
     android:background="@drawable/bg500">
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/scrollView19">
+        android:id="@+id/scrollView20">
 
         <LinearLayout
             android:orientation="vertical"
@@ -28,7 +28,7 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/pactice811ImageView"
+                    android:id="@+id/pactice812ImageView"
                     android:background="@drawable/bnpractice" />
             </LinearLayout>
 
@@ -44,7 +44,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/perform8"
-                    android:id="@+id/sup8111TextView"
+                    android:id="@+id/sup821TextView"
                     android:textColor="@color/text"
                     android:textSize="@dimen/h2" />
 
@@ -52,7 +52,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/emergency1"
-                    android:id="@+id/sup8112TextView"
+                    android:id="@+id/sup8121TextView"
                     android:textColor="@color/text"
                     android:textSize="@dimen/h4"
                     android:layout_marginLeft="30dp" />
@@ -68,11 +68,11 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/pactice8111TextView"
+                    android:id="@+id/pactice8121TextView"
                     android:textColor="@color/text"
                     android:textSize="@dimen/h5"
                     android:background="#96ffffff"
-                    android:text="  อาการ"
+                    android:text="  การรักษา"
                     android:paddingLeft="10dp"
                     android:paddingTop="10dp"
                     android:paddingRight="10dp"
@@ -81,28 +81,16 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/pactice8112TextView"
+                    android:id="@+id/pactice8122TextView"
                     android:textColor="@color/text"
                     android:textSize="@dimen/h5"
                     android:background="#96ffffff"
-                    android:text=" • คลื่นไส้ อาเจียนมาก พบเกือบทุกราย\n
-• ปวดท้องในบางราย\n
-• คอแห้ง\n
-• กระหายน้ำ\n
-• ปัสสาวะมากบางรายอาจจะมากถึง 5 ลิตร\n
-• ลมหายใจมีกลิ่นหวานของอะซีโตน และคีโตน\n
-• หายใจหอบลึก\n
-• ตรวจพบคีโตนในปัสสาวะ\n
-    หากยังไม่ได้รับการรักษาจะเกิดอาการต่อมา\n
-• รู้สึกเหนื่อยมากขึ้น\n
-• ผิวแดง และแห้ง\n
-• คลื่นไส้อาเจียน และปวดท้องมากขึ้น\n
-• หายใจหอบ และลึก มีกลิ่นผลไม้\n
-• ซึมลง\n
-    จากอาการดังกล่าวร่วมกับการตรวจจะทราบได้ว่าเกิดภาวะคีโตซีส\n
-• ระดับน้ำตาลในปัสสาวะสูง 4+ หากน้ำตาลในเลือดสูงให้ตรวจหาคีโตนในปัสสาวะ\n
-• ระดับน้ำตาลในเลือดมากกว่า 240 มก.%\n
-• ตรวจพบคีโตนในปัสสาวะ"
+                    android:text="  หลักการรักษาคือขจัดสิ่งทีชักจูง และชดเชยสิ่งที่ขาด ได้แก่\n
+• การให้อินซูลินออกฤทธิ์ระยะสั้นเพิ่มขึ้นจากเดิม 5-10 ยูนิต ถ้าอีก 4 ชั่วโมงต่อมายังตรวจพบคีโตนอีกให้ฉีดซ้ำได้อีก\n
+• การให้ดื่มน้ำมากๆ\n
+• การให้เกลือแร่\n
+• การให้ด่างเมื่อมีความจำเป็น\n
+• การรักษาหรือขจัดสิ่งชักจูง"
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
                     android:paddingBottom="10dp" />
