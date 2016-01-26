@@ -11,9 +11,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     //Explicit
     private ImageView section1ImageView, section2ImageView,
-            section3ImageView, section4ImageView;
+            section3ImageView, section4ImageView, section5ImageView;
 
-    private TextView section1TextView, section2TextView, section3TextView, section4TextView;
+    private TextView section1TextView, section2TextView, section3TextView, section4TextView, section5TextView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         section2TextView.setOnClickListener(this);
         section3TextView.setOnClickListener(this);
         section4TextView.setOnClickListener(this);
+        section5TextView.setOnClickListener(this);
     }
 
     private void imageController() {
@@ -43,6 +44,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         section2ImageView.setOnClickListener(this);
         section3ImageView.setOnClickListener(this);
         section4ImageView.setOnClickListener(this);
+        section5ImageView.setOnClickListener(this);
     }
 
     private void bindwidget() {
@@ -50,10 +52,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         section2ImageView = (ImageView) findViewById(R.id.imageView2);
         section3ImageView = (ImageView) findViewById(R.id.imageView3);
         section4ImageView = (ImageView) findViewById(R.id.imageView4);
+        section5ImageView = (ImageView) findViewById(R.id.meetDoctorView);
         section1TextView = (TextView) findViewById(R.id.textView);
         section2TextView = (TextView) findViewById(R.id.textView2);
         section3TextView = (TextView) findViewById(R.id.textView3);
         section4TextView = (TextView) findViewById(R.id.textView4);
+        section5TextView = (TextView) findViewById(R.id.meetDoctorText);
     }
 
     @Override
@@ -67,8 +71,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(new Intent(MainActivity.this, Section2Activity.class));
                 break;
             case R.id.imageView3:
+                startActivity(new Intent(MainActivity.this, Section3Activity.class));
                 break;
             case R.id.imageView4:
+                break;
+            case R.id.meetDoctorView:
+                startActivity(new Intent(MainActivity.this, Section5Activity.class));
                 break;
         } //switch
 
@@ -80,8 +88,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(new Intent(MainActivity.this, Section2Activity.class));
                 break;
             case R.id.textView3:
+                startActivity(new Intent(MainActivity.this, Section3Activity.class));
                 break;
             case R.id.textView4:
+                break;
+            case R.id.meetDoctorText:
+                startActivity(new Intent(MainActivity.this, Section5Activity.class));
                 break;
         }//switch TextView
 
