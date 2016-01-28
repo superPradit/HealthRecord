@@ -1,5 +1,6 @@
 package appbsru.supergolf.healthrecord;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -39,6 +40,7 @@ public class Section3Activity extends AppCompatActivity implements View.OnClickL
 
         switch (v.getId()) {
             case R.id.fd1Button:
+                startActivity(new Intent(Section3Activity.this, Section3Hold1Activity.class));
                 break;
             case R.id.fd2Button:
                 break;

@@ -13,8 +13,7 @@
         android:id="@+id/foodScrollView"
         android:layout_alignParentTop="false"
         android:layout_alignParentRight="false"
-        android:layout_alignParentEnd="false"
-        android:layout_margin="10dp">
+        android:layout_alignParentEnd="false">
 
         <LinearLayout
             android:orientation="vertical"
@@ -37,13 +36,16 @@
                 android:orientation="vertical"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="30dp">
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp">
 
 
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="เมนูอาหาร"
+                    android:text="@string/nutrition1"
                     android:id="@+id/fd1Button"
                     android:textColor="@color/text"
                     android:textSize="@dimen/h2" />
@@ -51,7 +53,7 @@
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="สูตรอาหาร"
+                    android:text="@string/nutrition2"
                     android:id="@+id/fd2Button"
                     android:textColor="@color/text"
                     android:textSize="@dimen/h2" />

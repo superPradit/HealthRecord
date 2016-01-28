@@ -82,5 +82,14 @@
     <string name="sugarlow1">ปัจจัยเสี่ยงต่อภาวะน้ำตาลในเลือดต่ำ</string>
     <string name="sugarlow2">ภาวะน้ำตาลในเลือดต่ำไม่รุนแรง\nและปานกลาง</string>
     <string name="sugarlow3">ภาวะน้ำตาลในเลือดต่ำชนิดรุนแรง</string>
+    
+    <string name="nutrition1">เมนูอาหาร</string>
+    <string name="nutrition2">สูตรอาหาร</string>
+    
+    <string name="menufood1">เมนูวันที่ 1</string>
+    <string name="menufood2">เมนูวันที่ 2</string>
+    <string name="menufood3">เมนูวันที่ 3</string>
+    <string name="menufood4">เมนูวันที่ 4</string>
+    <string name="menufood5">เมนูวันที่ 5</string>
 
 </resources>
