@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="appbsru.supergolf.healthrecord.Section3Sup12Activity"
+    android:background="@drawable/bg500">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView34" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView23"
+                    android:background="@drawable/bnrfood2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/menufood2"
+                    android:id="@+id/fd312TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h2"
+                    android:paddingLeft="30dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp"
+                android:background="@color/line">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="มื้ออาหาร"
+                    android:id="@+id/sup3121TextView"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:background="@color/text1"
+                    android:textSize="@dimen/h4"
+                    android:textColor="@color/text"
+                    android:layout_margin="1dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="เมนูอาหาร"
+                    android:id="@+id/sup3122TextView"
+                    android:layout_weight="4"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:background="@color/text1"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h4"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@color/line" >
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="เช้า"
+                    android:id="@+id/sup3123TextView"
+                    android:gravity="left"
+                    android:padding="10dp"
+                    android:background="@color/text3"
+                    android:textSize="@dimen/h4"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text=" • ข้าวกล้อง 2 ทัพพี\n
+• แกงจืดฟักเขียวหมูสับ\n
+• ผัดน้ำเต้ากับเห็ดหอม\n
+• ชมพู่"
+                    android:id="@+id/sup3124TextView"
+                    android:layout_weight="4"
+                    android:gravity="left"
+                    android:padding="10dp"
+                    android:background="@color/text3"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h4"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@color/line" >
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="ว่างเช้า"
+                    android:id="@+id/sup3125TextView"
+                    android:gravity="left"
+                    android:padding="10dp"
+                    android:background="@color/text3"
+                    android:textSize="@dimen/h4"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text=" • สลัดผักรวมใส่ถั่วแดง"
+                    android:id="@+id/sup3126TextView"
+                    android:layout_weight="4"
+                    android:gravity="left"
+                    android:padding="10dp"
+                    android:background="@color/text3"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h4"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@color/line" >
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="กลางวัน"
+                    android:id="@+id/sup3127TextView"
+                    android:gravity="left"
+                    android:padding="10dp"
+                    android:background="@color/text3"
+                    android:textSize="@dimen/h4"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text=" • ข้าวกล้องราดกะเพราไก่สมุนไพร\n
+• แก้วมังกร"
+                    android:id="@+id/sup3128TextView"
+                    android:layout_weight="4"
+                    android:gravity="left"
+                    android:padding="10dp"
+                    android:background="@color/text3"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h4"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@color/line" >
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="ว่างบ่าย"
+                    android:id="@+id/sup3129TextView"
+                    android:gravity="left"
+                    android:padding="10dp"
+                    android:background="@color/text3"
+                    android:textSize="@dimen/h4"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text=" • กล้วยน้ำว้า\n
+• นมพร่องมันเนย"
+                    android:id="@+id/sup31210TextView"
+                    android:layout_weight="4"
+                    android:gravity="left"
+                    android:padding="10dp"
+                    android:background="@color/text3"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h4"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@color/line"
+                android:layout_marginBottom="30dp">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="เย็น"
+                    android:id="@+id/sup31211TextView"
+                    android:gravity="left"
+                    android:padding="10dp"
+                    android:background="@color/text3"
+                    android:textSize="@dimen/h4"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text=" • ข้าวกล้อง 2 ทัพพีครึ่ง\n
+• แกงจืดสามสหาย\n
+• ยำปลาทู\n
+• มะเฟือง"
+                    android:id="@+id/sup31212TextView"
+                    android:layout_weight="4"
+                    android:gravity="left"
+                    android:padding="10dp"
+                    android:background="@color/text3"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h4"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@color/line">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="คุณค่าทางโภชนาการทั้งวันสำหรับ 1 คน"
+                    android:id="@+id/sup31213TextView"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:background="@color/table1"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginTop="1dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@color/line">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="พลังงาน"
+                    android:id="@+id/sup31214TextView"
+                    android:gravity="left"
+                    android:padding="10dp"
+                    android:background="@color/table2"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="1,615"
+                    android:id="@+id/sup31215TextView"
+                    android:gravity="right"
+                    android:padding="10dp"
+                    android:background="@color/table2"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="กิโลแคลอรี"
+                    android:id="@+id/sup31216TextView"
+                    android:padding="10dp"
+                    android:background="@color/table2"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="left" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@color/line">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="คาร์โบไฮเดรต"
+                    android:id="@+id/sup31217TextView"
+                    android:gravity="left"
+                    android:padding="10dp"
+                    android:background="@color/table2"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="238"
+                    android:id="@+id/sup31218TextView"
+                    android:gravity="right"
+                    android:padding="10dp"
+                    android:background="@color/table2"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="กรัม"
+                    android:id="@+id/sup31219TextView"
+                    android:padding="10dp"
+                    android:background="@color/table2"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="left" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@color/line">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="โปรตีน"
+                    android:id="@+id/sup31220TextView"
+                    android:gravity="left"
+                    android:padding="10dp"
+                    android:background="@color/table2"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="70.1"
+                    android:id="@+id/sup31221TextView"
+                    android:gravity="right"
+                    android:padding="10dp"
+                    android:background="@color/table2"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="กรัม"
+                    android:id="@+id/sup31222TextView"
+                    android:padding="10dp"
+                    android:background="@color/table2"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="left" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@color/line">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="ไขมัน"
+                    android:id="@+id/sup31223TextView"
+                    android:gravity="left"
+                    android:padding="10dp"
+                    android:background="@color/table2"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="43.3"
+                    android:id="@+id/sup31224TextView"
+                    android:gravity="right"
+                    android:padding="10dp"
+                    android:background="@color/table2"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="กรัม"
+                    android:id="@+id/sup31225TextView"
+                    android:padding="10dp"
+                    android:background="@color/table2"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="left" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@color/line">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="ใยอาหาร"
+                    android:id="@+id/sup31226TextView"
+                    android:gravity="left"
+                    android:padding="10dp"
+                    android:background="@color/table2"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="29.5"
+                    android:id="@+id/sup31227TextView"
+                    android:gravity="right"
+                    android:padding="10dp"
+                    android:background="@color/table2"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="กรัม"
+                    android:id="@+id/sup31228TextView"
+                    android:padding="10dp"
+                    android:background="@color/table2"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="left" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@color/line">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="โพแทสเซียม"
+                    android:id="@+id/sup31229TextView"
+                    android:gravity="left"
+                    android:padding="10dp"
+                    android:background="@color/table2"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="3,130.7"
+                    android:id="@+id/sup31230TextView"
+                    android:gravity="right"
+                    android:padding="10dp"
+                    android:background="@color/table2"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="มิลลิกรัม"
+                    android:id="@+id/sup31231TextView"
+                    android:padding="10dp"
+                    android:background="@color/table2"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="left" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@color/line">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="แคลเซียม"
+                    android:id="@+id/sup31232TextView"
+                    android:gravity="left"
+                    android:padding="10dp"
+                    android:background="@color/table2"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="613.3"
+                    android:id="@+id/sup31233TextView"
+                    android:gravity="right"
+                    android:padding="10dp"
+                    android:background="@color/table2"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="มิลลิกรัม"
+                    android:id="@+id/sup31234TextView"
+                    android:padding="10dp"
+                    android:background="@color/table2"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="left" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@color/line"
+                android:layout_marginBottom="30dp">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="โซเดียม"
+                    android:id="@+id/sup31235TextView"
+                    android:gravity="left"
+                    android:padding="10dp"
+                    android:background="@color/table2"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="2,411.2"
+                    android:id="@+id/sup31236TextView"
+                    android:gravity="right"
+                    android:padding="10dp"
+                    android:background="@color/table2"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="มิลลิกรัม"
+                    android:id="@+id/sup31237TextView"
+                    android:padding="10dp"
+                    android:background="@color/table2"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:gravity="left" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
