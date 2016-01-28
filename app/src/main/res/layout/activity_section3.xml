@@ -10,10 +10,11 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/scrollView33"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true">
+        android:id="@+id/foodScrollView"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentEnd="false"
+        android:layout_margin="10dp">
 
         <LinearLayout
             android:orientation="vertical"
@@ -33,12 +34,29 @@
             </LinearLayout>
 
             <LinearLayout
-                android:orientation="horizontal"
+                android:orientation="vertical"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp">
 
 
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="เมนูอาหาร"
+                    android:id="@+id/fd1Button"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h2" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="สูตรอาหาร"
+                    android:id="@+id/fd2Button"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h2" />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
+
 </RelativeLayout>
