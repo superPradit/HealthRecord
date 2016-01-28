@@ -5,6 +5,12 @@
     <color name="colorAccent">#FF4081</color>
 
     <color name="text">#212121</color>
+    <color name="text1">#5CC35C</color>
+    <color name="text2">#FFFFFF</color>
+    <color name="text3">#A8FFA8</color>
+    <color name="line">#000000</color>
+    <color name="table1">#B97AD2</color>
+    <color name="table2">#E5B7F0</color>
 
 
 </resources>
