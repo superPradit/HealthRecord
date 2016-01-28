@@ -4,13 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    tools:context="appbsru.supergolf.healthrecord.Section3Sup13Activity"
+    tools:context="appbsru.supergolf.healthrecord.Section3Sup14Activity"
     android:background="@drawable/bg500">
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/scrollView36" >
+        android:id="@+id/scrollView37" >
 
         <LinearLayout
             android:orientation="vertical"
@@ -25,7 +25,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:id="@+id/sup313ImageView"
+                    android:id="@+id/sup314ImageView"
                     android:background="@drawable/bnrfood2" />
             </LinearLayout>
 
@@ -40,8 +40,8 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/menufood3"
-                    android:id="@+id/fd313TextView"
+                    android:text="@string/menufood4"
+                    android:id="@+id/fd314TextView"
                     android:textColor="@color/text"
                     android:textSize="@dimen/h2"
                     android:paddingLeft="30dp" />
@@ -60,7 +60,7 @@
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:text="มื้ออาหาร"
-                    android:id="@+id/sup3131TextView"
+                    android:id="@+id/sup3141TextView"
                     android:gravity="center"
                     android:padding="10dp"
                     android:background="@color/text1"
@@ -72,7 +72,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="เมนูอาหาร"
-                    android:id="@+id/sup3132TextView"
+                    android:id="@+id/sup3142TextView"
                     android:layout_weight="4"
                     android:gravity="center"
                     android:padding="10dp"
@@ -96,7 +96,7 @@
                     android:layout_width="100dp"
                     android:layout_height="match_parent"
                     android:text="เช้า"
-                    android:id="@+id/sup3133TextView"
+                    android:id="@+id/sup3143TextView"
                     android:gravity="left"
                     android:padding="10dp"
                     android:background="@color/text3"
@@ -109,11 +109,11 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text=" • ข้าวกล้อง 2 ทัพพี\n
-• ผัดผักเบญจรงค์\n
-• ไข่ตุ๋นสามสี\n
-• ส้มเขียวหวาน\n"
-                    android:id="@+id/sup3134TextView"
+                    android:text=" • ข้าวกล้องต้ม 2 ทัพพี\n
+• ผัดยอดตำลึง\n
+• ยำไข่ต้มใส่ถั่วแดง\n
+• ชมพู่"
+                    android:id="@+id/sup3144TextView"
                     android:layout_weight="4"
                     android:gravity="left"
                     android:padding="10dp"
@@ -136,7 +136,7 @@
                     android:layout_width="100dp"
                     android:layout_height="match_parent"
                     android:text="ว่างเช้า"
-                    android:id="@+id/sup3135TextView"
+                    android:id="@+id/sup3145TextView"
                     android:gravity="left"
                     android:padding="10dp"
                     android:background="@color/text3"
@@ -149,8 +149,9 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text=" • นมถั่วเหลือง"
-                    android:id="@+id/sup3136TextView"
+                    android:text=" • ถั่วแปบ\n
+• น้ำใบเตยไม่ใส่น้ำตาล"
+                    android:id="@+id/sup3146TextView"
                     android:layout_weight="4"
                     android:gravity="left"
                     android:padding="10dp"
@@ -173,7 +174,7 @@
                     android:layout_width="100dp"
                     android:layout_height="match_parent"
                     android:text="กลางวัน"
-                    android:id="@+id/sup3137TextView"
+                    android:id="@+id/sup3147TextView"
                     android:gravity="left"
                     android:padding="10dp"
                     android:background="@color/text3"
@@ -186,9 +187,11 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text=" • เซี่ยงไฮ้ผัดฮ่องเต้\n
-• แคนตาลูป"
-                    android:id="@+id/sup3138TextView"
+                    android:text=" • ข้าวกล้อง 2 ทัพพี\n
+• แกงกุ้งใส่หัวปลี ชะอม ใบชะพลู\n
+• ยำมะระไก่ฉีก\n
+• ฝรั่ง"
+                    android:id="@+id/sup3148TextView"
                     android:layout_weight="4"
                     android:gravity="left"
                     android:padding="10dp"
@@ -211,7 +214,7 @@
                     android:layout_width="100dp"
                     android:layout_height="match_parent"
                     android:text="ว่างบ่าย"
-                    android:id="@+id/sup3139TextView"
+                    android:id="@+id/sup3149TextView"
                     android:gravity="left"
                     android:padding="10dp"
                     android:background="@color/text3"
@@ -224,8 +227,9 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text=" • ข้าวโพดเหลืองต้ม"
-                    android:id="@+id/sup31310TextView"
+                    android:text=" • ฟักทองนึ่งโรยมะพร้าว\n
+• นมพร่องมันเนย"
+                    android:id="@+id/sup31410TextView"
                     android:layout_weight="4"
                     android:gravity="left"
                     android:padding="10dp"
@@ -249,7 +253,7 @@
                     android:layout_width="100dp"
                     android:layout_height="match_parent"
                     android:text="เย็น"
-                    android:id="@+id/sup31311TextView"
+                    android:id="@+id/sup31411TextView"
                     android:gravity="left"
                     android:padding="10dp"
                     android:background="@color/text3"
@@ -263,10 +267,10 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text=" • ข้าวกล้อง 2 ทัพพีครึ่ง\n
-• แกงจืดเต้าหู้สอดไส้เห็ดหอม\n
-• น้ำพริกปลานิล\n
-• มะละกอสุก"
-                    android:id="@+id/sup31312TextView"
+• แกงหมูเทโพนมนมพร่องมันเนย\n
+• ลาบปลาทับทิม\n
+• แอปเปิล"
+                    android:id="@+id/sup31412TextView"
                     android:layout_weight="4"
                     android:gravity="left"
                     android:padding="10dp"
@@ -289,7 +293,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="คุณค่าทางโภชนาการทั้งวันสำหรับ 1 คน"
-                    android:id="@+id/sup31313TextView"
+                    android:id="@+id/sup31413TextView"
                     android:gravity="center"
                     android:padding="10dp"
                     android:background="@color/table1"
@@ -314,7 +318,7 @@
                     android:layout_width="120dp"
                     android:layout_height="wrap_content"
                     android:text="พลังงาน"
-                    android:id="@+id/sup31314TextView"
+                    android:id="@+id/sup31414TextView"
                     android:gravity="left"
                     android:padding="10dp"
                     android:background="@color/table2"
@@ -327,8 +331,8 @@
                 <TextView
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
-                    android:text="1,638"
-                    android:id="@+id/sup31315TextView"
+                    android:text="1,563"
+                    android:id="@+id/sup31415TextView"
                     android:gravity="right"
                     android:padding="10dp"
                     android:background="@color/table2"
@@ -341,7 +345,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="กิโลแคลอรี"
-                    android:id="@+id/sup31316TextView"
+                    android:id="@+id/sup31416TextView"
                     android:padding="10dp"
                     android:background="@color/table2"
                     android:textColor="@color/text"
@@ -363,7 +367,7 @@
                     android:layout_width="120dp"
                     android:layout_height="wrap_content"
                     android:text="คาร์โบไฮเดรต"
-                    android:id="@+id/sup31317TextView"
+                    android:id="@+id/sup31417TextView"
                     android:gravity="left"
                     android:padding="10dp"
                     android:background="@color/table2"
@@ -376,8 +380,8 @@
                 <TextView
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
-                    android:text="249.3"
-                    android:id="@+id/sup31318TextView"
+                    android:text="236.6"
+                    android:id="@+id/sup31418TextView"
                     android:gravity="right"
                     android:padding="10dp"
                     android:background="@color/table2"
@@ -390,7 +394,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="กรัม"
-                    android:id="@+id/sup31319TextView"
+                    android:id="@+id/sup31419TextView"
                     android:padding="10dp"
                     android:background="@color/table2"
                     android:textColor="@color/text"
@@ -412,7 +416,7 @@
                     android:layout_width="120dp"
                     android:layout_height="wrap_content"
                     android:text="โปรตีน"
-                    android:id="@+id/sup31320TextView"
+                    android:id="@+id/sup31420TextView"
                     android:gravity="left"
                     android:padding="10dp"
                     android:background="@color/table2"
@@ -425,8 +429,8 @@
                 <TextView
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
-                    android:text="60.7"
-                    android:id="@+id/sup31321TextView"
+                    android:text="72.1"
+                    android:id="@+id/sup31421TextView"
                     android:gravity="right"
                     android:padding="10dp"
                     android:background="@color/table2"
@@ -439,7 +443,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="กรัม"
-                    android:id="@+id/sup31322TextView"
+                    android:id="@+id/sup31422TextView"
                     android:padding="10dp"
                     android:background="@color/table2"
                     android:textColor="@color/text"
@@ -461,7 +465,7 @@
                     android:layout_width="120dp"
                     android:layout_height="wrap_content"
                     android:text="ไขมัน"
-                    android:id="@+id/sup31323TextView"
+                    android:id="@+id/sup31423TextView"
                     android:gravity="left"
                     android:padding="10dp"
                     android:background="@color/table2"
@@ -474,8 +478,8 @@
                 <TextView
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
-                    android:text="44.1"
-                    android:id="@+id/sup31324TextView"
+                    android:text="36.5"
+                    android:id="@+id/sup31424TextView"
                     android:gravity="right"
                     android:padding="10dp"
                     android:background="@color/table2"
@@ -488,7 +492,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="กรัม"
-                    android:id="@+id/sup31325TextView"
+                    android:id="@+id/sup31425TextView"
                     android:padding="10dp"
                     android:background="@color/table2"
                     android:textColor="@color/text"
@@ -510,7 +514,7 @@
                     android:layout_width="120dp"
                     android:layout_height="wrap_content"
                     android:text="ใยอาหาร"
-                    android:id="@+id/sup31326TextView"
+                    android:id="@+id/sup31426TextView"
                     android:gravity="left"
                     android:padding="10dp"
                     android:background="@color/table2"
@@ -523,8 +527,8 @@
                 <TextView
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
-                    android:text="20.2"
-                    android:id="@+id/sup31327TextView"
+                    android:text="25.4"
+                    android:id="@+id/sup31427TextView"
                     android:gravity="right"
                     android:padding="10dp"
                     android:background="@color/table2"
@@ -537,7 +541,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="กรัม"
-                    android:id="@+id/sup31328TextView"
+                    android:id="@+id/sup31428TextView"
                     android:padding="10dp"
                     android:background="@color/table2"
                     android:textColor="@color/text"
@@ -559,7 +563,7 @@
                     android:layout_width="120dp"
                     android:layout_height="wrap_content"
                     android:text="โพแทสเซียม"
-                    android:id="@+id/sup31329TextView"
+                    android:id="@+id/sup31429TextView"
                     android:gravity="left"
                     android:padding="10dp"
                     android:background="@color/table2"
@@ -572,8 +576,8 @@
                 <TextView
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
-                    android:text="2,209.4"
-                    android:id="@+id/sup31330TextView"
+                    android:text="2,965.9"
+                    android:id="@+id/sup31430TextView"
                     android:gravity="right"
                     android:padding="10dp"
                     android:background="@color/table2"
@@ -586,7 +590,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="มิลลิกรัม"
-                    android:id="@+id/sup31331TextView"
+                    android:id="@+id/sup31431TextView"
                     android:padding="10dp"
                     android:background="@color/table2"
                     android:textColor="@color/text"
@@ -608,7 +612,7 @@
                     android:layout_width="120dp"
                     android:layout_height="wrap_content"
                     android:text="แคลเซียม"
-                    android:id="@+id/sup31332TextView"
+                    android:id="@+id/sup31432TextView"
                     android:gravity="left"
                     android:padding="10dp"
                     android:background="@color/table2"
@@ -621,8 +625,8 @@
                 <TextView
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
-                    android:text="528.9"
-                    android:id="@+id/sup31333TextView"
+                    android:text="692.3"
+                    android:id="@+id/sup31433TextView"
                     android:gravity="right"
                     android:padding="10dp"
                     android:background="@color/table2"
@@ -635,7 +639,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="มิลลิกรัม"
-                    android:id="@+id/sup31334TextView"
+                    android:id="@+id/sup31434TextView"
                     android:padding="10dp"
                     android:background="@color/table2"
                     android:textColor="@color/text"
@@ -658,7 +662,7 @@
                     android:layout_width="120dp"
                     android:layout_height="wrap_content"
                     android:text="โซเดียม"
-                    android:id="@+id/sup31335TextView"
+                    android:id="@+id/sup31435TextView"
                     android:gravity="left"
                     android:padding="10dp"
                     android:background="@color/table2"
@@ -671,8 +675,8 @@
                 <TextView
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
-                    android:text="2,172.1"
-                    android:id="@+id/sup31336TextView"
+                    android:text="2,336.7"
+                    android:id="@+id/sup31436TextView"
                     android:gravity="right"
                     android:padding="10dp"
                     android:background="@color/table2"
@@ -685,7 +689,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="มิลลิกรัม"
-                    android:id="@+id/sup31337TextView"
+                    android:id="@+id/sup31437TextView"
                     android:padding="10dp"
                     android:background="@color/table2"
                     android:textColor="@color/text"
