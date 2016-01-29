@@ -4,13 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    tools:context="appbsru.supergolf.healthrecord.Section3Sup29Activity"
+    tools:context="appbsru.supergolf.healthrecord.Section3Sup210Activity"
     android:background="@drawable/bg500">
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/recipeFood9ScrollView" >
+        android:id="@+id/recipeFood10ScrollView" >
 
         <LinearLayout
             android:orientation="vertical"
@@ -25,7 +25,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:id="@+id/sup329ImageView"
+                    android:id="@+id/sup3210ImageView"
                     android:background="@drawable/bnrfood2" />
             </LinearLayout>
 
@@ -40,8 +40,8 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/foodrecipe9"
-                    android:id="@+id/fd329TextView"
+                    android:text="@string/foodrecipe10"
+                    android:id="@+id/fd3210TextView"
                     android:textColor="@color/text"
                     android:textSize="@dimen/h2"
                     android:gravity="center"
@@ -59,15 +59,15 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/food9ImageView"
-                    android:src="@drawable/food9"
+                    android:id="@+id/food10ImageView"
+                    android:src="@drawable/food10"
                     android:background="#96ffffff" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="ส่วนประกอบ (สำหรับ 4 คน)"
-                    android:id="@+id/sup3291TextView"
+                    android:id="@+id/sup32101TextView"
                     android:textColor="@color/text"
                     android:textSize="@dimen/h4"
                     android:background="#96ffffff"
@@ -88,17 +88,15 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text=" ปลาทูนึ่ง\n
-ขิงซอย\n
-พริกขี้หนูซอย\n
-หอมแดงซอย\n
-น้ำมะนาว\n
-น้ำปลา\n
-ผักกาดขาว\n
-ต้นหอมซอย\n
-ผักชีซอย\n
-ตะไคร้ซอย"
-                    android:id="@+id/sup3292TextView"
+                    android:text=" ดอกกะหล่ำ\n
+พริกหวานสีเหลือง\n
+มะเขือเทศ\n
+แครอท\n
+บร็อคโคลี\n
+กระเทียม\n
+น้ำมันถั่วเหลือง\n
+ซีอิ๊วขาว"
+                    android:id="@+id/sup32102TextView"
                     android:textColor="@color/text"
                     android:textSize="@dimen/h5"
                     android:background="#96ffffff"
@@ -106,19 +104,17 @@
                     android:paddingRight="10dp" />
 
                 <TextView
-                    android:layout_width="70dp"
+                    android:layout_width="60dp"
                     android:layout_height="wrap_content"
-                    android:text=" 80 กรัม\n
+                    android:text=" 40 กรัม\n
 80 กรัม\n
+80 กรัม\n
+80 กรัม\n
+40 กรัม\n
+10 กรัม\n
 20 กรัม\n
-80 กรัม\n
-60 กรัม\n
-5 กรัม\n
-80 กรัม\n
-40 กรัม\n
-40 กรัม\n
-100 กรัม"
-                    android:id="@+id/sup3293TextView"
+15 กรัม"
+                    android:id="@+id/sup32103TextView"
                     android:textColor="@color/text"
                     android:textSize="@dimen/h5"
                     android:background="#96ffffff"
@@ -127,17 +123,15 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text=" 2 ตัว\n
+                    android:text=" ½ ถ้วยตวง\n
 1 ถ้วยตวง\n
-2 ช้อนกินข้าว\n
 1 ถ้วยตวง\n
-4 ช้อนกินข้าว\n
-2 ช้อนกินข้าว\n
-2 ใบ\n
+1 ถ้วยตวง\n
 ½ ถ้วยตวง\n
-½ ถ้วยตวง\n
-1 ถ้วยตวง"
-                    android:id="@+id/sup3294TextView"
+1 ช้อนกินข้าว\n
+4 ช้อนชา\n
+1 ช้อนกินข้าว"
+                    android:id="@+id/sup32104TextView"
                     android:textColor="@color/text"
                     android:textSize="@dimen/h5"
                     android:background="#96ffffff"
@@ -158,7 +152,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="  วิธีทำ"
-                    android:id="@+id/sup3295TextView"
+                    android:id="@+id/sup32105TextView"
                     android:textColor="@color/text"
                     android:textSize="@dimen/h4"
                     android:background="#96ffffff"
@@ -169,9 +163,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text=" 1. ปลาทูนึ่งแล้วแกะก้างออก เอาแต่เนื้อ จากนั้นใช้ส้อมยีปลาทูเป็นชิ้นเล็กๆ\n
-2. ผสมเครื่องปรุงทั้งหมดคลุกเคล้ากับปลาทู ปรุงรสด้วยน้ำมะนาว น้ำปลา  คลุกให้เข้ากัน ตักใส่จานที่รองด้วยผักกาดขาว"
-                    android:id="@+id/sup3296TextView"
+                    android:text=" 1. นำผักทุกชนิดมาล้างให้สะอาด แล้วหั่นเป็นชิ้นพอคำ\n
+2. นำดอกกะหล่ำ แครอท บร็อคโคลีที่หั่นแล้วมาลวกในน้ำร้อน แล้วแช่น้ำเย็นทันที ยกขึ้นให้สะเด็ดน้ำ\n
+3. ตั้งกระทะ ใส่น้ำมันลงไป นำกระเทียมสับละเอียดใส่ลงไป เจียวให้หอม ใส่ผักที่ลวกจากนั้นตามด้วยมะเขือเทศและพริกหวานสีเหลือง ผัดให้เข้ากันปรุงรสด้วยซีอิ๊วขาวคลุกเคล้าให้เข้ากันตักใส่จานพร้อมเสิร์ฟ"
+                    android:id="@+id/sup32106TextView"
                     android:textColor="@color/text"
                     android:textSize="@dimen/h4"
                     android:background="#96ffffff"
