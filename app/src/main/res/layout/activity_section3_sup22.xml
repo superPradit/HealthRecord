@@ -4,12 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    tools:context="appbsru.supergolf.healthrecord.Section3Sup21Activity"
+    tools:context="appbsru.supergolf.healthrecord.Section3Sup22Activity"
     android:background="@drawable/bg500">
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/recipeFood1ScrollView" >
+        android:id="@+id/recipeFood2ScrollView" >
 
         <LinearLayout
             android:orientation="vertical"
@@ -24,7 +25,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:id="@+id/sup321ImageView"
+                    android:id="@+id/sup322ImageView"
                     android:background="@drawable/bnrfood2" />
             </LinearLayout>
 
@@ -39,8 +40,8 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/foodrecipe1"
-                    android:id="@+id/fd321TextView"
+                    android:text="@string/foodrecipe2"
+                    android:id="@+id/fd322TextView"
                     android:textColor="@color/text"
                     android:textSize="@dimen/h2"
                     android:gravity="center"
@@ -58,15 +59,15 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/food1ImageView"
-                    android:src="@drawable/food1"
+                    android:id="@+id/food2ImageView"
+                    android:src="@drawable/food2"
                     android:background="#96ffffff" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="ส่วนประกอบ (สำหรับ 4 คน)"
-                    android:id="@+id/sup3211TextView"
+                    android:id="@+id/sup3221TextView"
                     android:textColor="@color/text"
                     android:textSize="@dimen/h4"
                     android:background="#96ffffff"
@@ -87,14 +88,13 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text=" ผักกาดขาว\n
-คื่นช่ายหั่น\n
-หมูเนื้อแดงสับ\n
-เต้าหู้อ่อน\n
+                    android:text=" มะระขี้นก\n
+ไข่ไก่\n
 ซีอิ๊วขาว\n
+น้ำมันถั่วเหลือง\n
 กระเทียม\n
 พริกไทยป่น"
-                    android:id="@+id/sup3212TextView"
+                    android:id="@+id/sup3222TextView"
                     android:textColor="@color/text"
                     android:textSize="@dimen/h5"
                     android:background="#96ffffff"
@@ -104,14 +104,13 @@
                 <TextView
                     android:layout_width="80dp"
                     android:layout_height="wrap_content"
-                    android:text=" 240 กรัม\n
-40 กรัม\n
-80 กรัม\n
-160 กรัม\n
+                    android:text=" 320 กรัม\n
+200 กรัม\n
 15 กรัม\n
+20 กรัม\n
 10 กรัม\n
 4 กรัม"
-                    android:id="@+id/sup3213TextView"
+                    android:id="@+id/sup3223TextView"
                     android:textColor="@color/text"
                     android:textSize="@dimen/h5"
                     android:background="#96ffffff"
@@ -120,14 +119,13 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text=" 1 หัว\n
-4 ต้น\n
-1 ขีด\n
-1 หลอด\n
+                    android:text=" 3 ขีด\n
+4 ฟอง\n
 1 ช้อนกินข้าว\n
+4 ช้อนชา\n
 1 ช้อนกินข้าว\n
 1 ช้อนชา"
-                    android:id="@+id/sup3214TextView"
+                    android:id="@+id/sup3224TextView"
                     android:textColor="@color/text"
                     android:textSize="@dimen/h5"
                     android:background="#96ffffff"
@@ -148,7 +146,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="  วิธีทำ"
-                    android:id="@+id/sup3215TextView"
+                    android:id="@+id/sup3225TextView"
                     android:textColor="@color/text"
                     android:textSize="@dimen/h4"
                     android:background="#96ffffff"
@@ -159,9 +157,9 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text=" 1. นำผักกาดขาวมาล้าง หั่นเป็นท่อนประมาณ 1 นิ้ว และเต้าหู้อ่อนหั่นเป็นชิ้น\n
-2. ตั้งน้ำให้เดือด ใส่ซีอิ๊วขาว กระเทียม ใส่หมูสับ เต้าหู้ และผักกาดขาว พอเดือดตักใส่ถ้วยโรยด้วยคื่นฉ่าย พริกไทยป่น"
-                    android:id="@+id/sup3216TextView"
+                    android:text=" 1. ล้างมะระขี้นกควักไส้ออกแล้วหั่นเป็นเส้นๆต้มในน้ำเดือด แล้วล้างด้วยน้ำเย็น บีบเอาน้ำออก\n
+2. ตั้งกระทะ ใส่น้ำมันพอร้อน ใส่กระเทียมบุบเจียวให้หอม ใส่มะระขี้นก แล้วใส่ไข่ผัดให้สุก ปรุงรสด้วยซีอิ๊วขาว พริกไทยป่น ตักใส่จาน"
+                    android:id="@+id/sup3226TextView"
                     android:textColor="@color/text"
                     android:textSize="@dimen/h4"
                     android:background="#96ffffff"
