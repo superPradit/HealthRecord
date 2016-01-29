@@ -43,6 +43,7 @@ public class Section3Activity extends AppCompatActivity implements View.OnClickL
                 startActivity(new Intent(Section3Activity.this, Section3Hold1Activity.class));
                 break;
             case R.id.fd2Button:
+                startActivity(new Intent(Section3Activity.this, Section3Hold2Activity.class));
                 break;
         }
 

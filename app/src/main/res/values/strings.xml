@@ -92,4 +92,31 @@
     <string name="menufood4">เมนูวันที่ 4</string>
     <string name="menufood5">เมนูวันที่ 5</string>
 
+
+    <string name="foodrecipe1">แกงจืดผักกาดขาวเต้าหู้หมูสับ</string>
+    <string name="foodrecipe2">ผัดมะระขี้นกใส่ไข่</string>
+    <string name="foodrecipe3">ราดหน้าไก่ผักสามสี</string>
+    <string name="foodrecipe4">แกงใบย่านางสารพัดเห็ด</string>
+    <string name="foodrecipe5">แกงจืดฟักเขียวหมูสับ</string>
+    <string name="foodrecipe6">ผัดน้ำเต้ากับเห็ดหอม</string>
+    <string name="foodrecipe7">ข้าวกล้องราดกะเพราไก่สมุนไพร</string>
+    <string name="foodrecipe8">แกงจืดสามสหาย</string>
+    <string name="foodrecipe9">ยำปลาทู</string>
+    <string name="foodrecipe10">ผัดผักเบญจรงค์</string>
+    <string name="foodrecipe11">ไข่ตุ๋นสามสี</string>
+    <string name="foodrecipe12">เซี่ยงไฮ้ผัดฮ่องเต้</string>
+    <string name="foodrecipe13">แกงจืดเต้าหู้สอดไส้เห็ดหอม</string>
+    <string name="foodrecipe14">น้ำพริกปลานิล</string>
+    <string name="foodrecipe15">ผัดยอดตำลึง</string>
+    <string name="foodrecipe16">ยำไข่ต้มใส่ถั่วแดง</string>
+    <string name="foodrecipe17">แกงกุ้งใส่หัวปลี ชะอม ใบชะพลู</string>
+    <string name="foodrecipe18">ยำมะระไก่ฉีก</string>
+    <string name="foodrecipe19">แกงหมูเทโพนมพร่องมันเนย</string>
+    <string name="foodrecipe20">ลาบปลาทับทิม</string>
+    <string name="foodrecipe21">ผัดบวบใส่ไข่</string>
+    <string name="foodrecipe22">เกาเหลาหมู</string>
+    <string name="foodrecipe23">ก๋วยเตี๋ยวลุยสวน</string>
+    <string name="foodrecipe24">ยำมะเขือยาว</string>
+    <string name="foodrecipe25">แกงเลียงสมุนไพร</string>
+
 </resources>

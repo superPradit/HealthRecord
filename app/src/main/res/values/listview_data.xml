@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="my_image_array">
+        <item>@drawable/food1</item>
+        <item>@drawable/food2</item>
+        <item>@drawable/food3</item>
+        <item>@drawable/food4</item>
+        <item>@drawable/food5</item>
+        <item>@drawable/food6</item>
+        <item>@drawable/food7</item>
+        <item>@drawable/food8</item>
+        <item>@drawable/food9</item>
+        <item>@drawable/food10</item>
+        <item>@drawable/food11</item>
+        <item>@drawable/food12</item>
+        <item>@drawable/food13</item>
+        <item>@drawable/food14</item>
+        <item>@drawable/food15</item>
+        <item>@drawable/food16</item>
+        <item>@drawable/food17</item>
+        <item>@drawable/food18</item>
+        <item>@drawable/food19</item>
+        <item>@drawable/food20</item>
+        <item>@drawable/food21</item>
+        <item>@drawable/food22</item>
+        <item>@drawable/food23</item>
+        <item>@drawable/food24</item>
+        <item>@drawable/food25</item>
+    </string-array>
+    
+    <string-array name="my_string_array">
+        <item>แกงจืดผักกาดขาวเต้าหู้หมูสับ</item>
+        <item>ผัดมะระขี้นกใส่ไข่</item>
+        <item>ราดหน้าไก่ผักสามสี</item>
+        <item>แกงใบย่านางสารพัดเห็ด</item>
+        <item>แกงจืดฟักเขียวหมูสับ</item>
+        <item>ผัดน้ำเต้ากับเห็ดหอม</item>
+        <item>ข้าวกล้องราดกะเพราไก่สมุนไพร</item>
+        <item>แกงจืดสามสหาย</item>
+        <item>ยำปลาทู</item>
+        <item>ผัดผักเบญจรงค์</item>
+        <item>ไข่ตุ๋นสามสี</item>
+        <item>เซี่ยงไฮ้ผัดฮ่องเต้</item>
+        <item>แกงจืดเต้าหู้สอดไส้เห็ดหอม</item>
+        <item>น้ำพริกปลานิล</item>
+        <item>ผัดยอดตำลึง</item>
+        <item>ยำไข่ต้มใส่ถั่วแดง</item>
+        <item>แกงกุ้งใส่หัวปลี ชะอม ใบชะพลู</item>
+        <item>ยำมะระไก่ฉีก</item>
+        <item>แกงหมูเทโพนมพร่องมันเนย</item>
+        <item>ลาบปลาทับทิม</item>
+        <item>ผัดบวบใส่ไข่</item>
+        <item>เกาเหลาหมู</item>
+        <item>ก๋วยเตี๋ยวลุยสวน</item>
+        <item>ยำมะเขือยาว</item>
+        <item>แกงเลียงสมุนไพร</item>
+    </string-array>
+
+    
+</resources>
