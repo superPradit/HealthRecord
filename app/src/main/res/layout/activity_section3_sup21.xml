@@ -3,10 +3,167 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="appbsru.supergolf.healthrecord.Section3Sup21Activity">
+
+    tools:context="appbsru.supergolf.healthrecord.Section3Sup21Activity"
+    android:background="@drawable/bg500">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recipeFood1ScrollView" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sup321ImageView"
+                    android:background="@drawable/bnrfood2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/foodrecipe1"
+                    android:id="@+id/fd321TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h2"
+                    android:paddingLeft="30dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ส่วนประกอบ (สำหรับ 4 คน)"
+                    android:id="@+id/sup3211TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h4"
+                    android:background="#96ffffff"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="10dp"
+                    android:textStyle="bold"
+                    android:gravity="center" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" ผักกาดขาว\n
+คื่นช่ายหั่น\n
+หมูเนื้อแดงสับ\n
+เต้าหู้อ่อน\n
+ซีอิ๊วขาว\n
+กระเทียม\n
+พริกไทยป่น"
+                    android:id="@+id/sup3212TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" />
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:text=" 240 กรัม\n
+40 กรัม\n
+80 กรัม\n
+160 กรัม\n
+15 กรัม\n
+10 กรัม\n
+4 กรัม"
+                    android:id="@+id/sup3213TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:gravity="right" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" 1 หัว\n
+4 ต้น\n
+1 ขีด\n
+1 หลอด\n
+1 ช้อนกินข้าว\n
+1 ช้อนกินข้าว\n
+1 ช้อนชา"
+                    android:id="@+id/sup3214TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  วิธีทำ"
+                    android:id="@+id/sup3215TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h4"
+                    android:background="#96ffffff"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textStyle="bold"
+                    android:paddingTop="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" 1. นำผักกาดขาวมาล้าง หั่นเป็นท่อนประมาณ 1 นิ้ว และเต้าหู้อ่อนหั่นเป็นชิ้น\n
+2. ตั้งน้ำให้เดือด ใส่ซีอิ๊วขาว กระเทียม ใส่หมูสับ เต้าหู้ และผักกาดขาว พอเดือดตักใส่ถ้วยโรยด้วยคื่นฉ่าย พริกไทยป่น"
+                    android:id="@+id/sup3216TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h4"
+                    android:background="#96ffffff"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
 
 </RelativeLayout>
