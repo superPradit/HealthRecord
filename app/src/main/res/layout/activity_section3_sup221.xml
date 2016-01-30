@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="appbsru.supergolf.healthrecord.Section3Sup221Activity"
+    android:background="@drawable/bg500">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recipeFood21ScrollView">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sup3221ImageView"
+                    android:background="@drawable/bnrfood2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/foodrecipe21"
+                    android:id="@+id/fd3221TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h2"
+                    android:gravity="center"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/food21ImageView"
+                    android:src="@drawable/food21"
+                    android:background="#96ffffff" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ส่วนประกอบ (สำหรับ 4 คน)"
+                    android:id="@+id/sup32211TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h4"
+                    android:background="#96ffffff"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textStyle="bold"
+                    android:gravity="center" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" บวบเหลี่ยมหั่น\n
+เนื้อไก่\n
+กระเทียม\n
+น้ำมันถั่วเหลือง\n
+ซีอิ๊วขาว\n
+พริกชี้ฟ้า"
+                    android:id="@+id/sup32212TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" />
+
+                <TextView
+                    android:layout_width="65dp"
+                    android:layout_height="wrap_content"
+                    android:text=" 230 กรัม\n
+120 กรัม\n
+20 กรัม\n
+40 กรัม\n
+15 กรัม\n
+10 กรัม"
+                    android:id="@+id/sup32213TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:gravity="right" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" 3 ถ้วยตวง\n
+1 ขีด\n
+2 ช้อนกินข้าว\n
+2½ ช้อนกินข้าว\n
+2 ช้อนกินข้าว\n
+1 เม็ดกลาง"
+                    android:id="@+id/sup32214TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  วิธีทำ"
+                    android:id="@+id/sup32215TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h4"
+                    android:background="#96ffffff"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textStyle="bold"
+                    android:paddingTop="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" 1. นำบวบมาปอกเปลือกแล้วหั่นเป็นชิ้นๆหั่นเนื้อไก่เป็นชิ้น พักไว้\n
+2. เจียวกระเทียมสับในน้ำมันให้เหลืองใส่เนื้อไก่ผัดให้สุก\n
+3. ใส่บวบลงผัดจนสุกและนิ่ม ใส่พริกชี้ฟ้าเหลือง แดงหั่นแฉลบ ปรุงรสด้วยซีอิ๊วขาว"
+                    android:id="@+id/sup32216TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h4"
+                    android:background="#96ffffff"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
