@@ -117,6 +117,8 @@ public class Section3Hold2Activity extends Activity {
                         startActivity(intent);
                         break;
                     case 22:
+                        intent = new Intent(getApplicationContext(), Section3Sup223Activity.class);
+                        startActivity(intent);
                         break;
                     case 23:
                         break;
