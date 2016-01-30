@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="appbsru.supergolf.healthrecord.Section3Sup217Activity"
+    android:background="@drawable/bg500">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recipeFood17ScrollView" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sup3217ImageView"
+                    android:background="@drawable/bnrfood2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/foodrecipe17"
+                    android:id="@+id/fd3217TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h2"
+                    android:gravity="center"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/food17ImageView"
+                    android:src="@drawable/food17"
+                    android:background="#96ffffff" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ส่วนประกอบ (สำหรับ 4 คน)"
+                    android:id="@+id/sup32171TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h4"
+                    android:background="#96ffffff"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textStyle="bold"
+                    android:gravity="center" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" เนื้อกุ้ง\n
+หัวปลี\n
+ใบชะพลู\n
+ชะอมเด็ด\n
+น้ำปลา\n
+น้ำซุป"
+                    android:id="@+id/sup32172TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:text=" 160 กรัม\n
+160 กรัม\n
+40 กรัม\n
+40 กรัม\n
+15 กรัม\n
+800 กรัม"
+                    android:id="@+id/sup32173TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:gravity="right" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" 1.6 ขีด\n
+2 ถ้วยตวง\n
+1 ถ้วยตวง	\n
+1 ถ้วยตวง\n
+1 ช้อนกินข้าว\n
+4 ถ้วยตวง "
+                    android:id="@+id/sup32174TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ส่วนประกอบเครื่องแกง"
+                    android:id="@+id/sup32175TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h4"
+                    android:background="#96ffffff"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textStyle="bold"
+                    android:gravity="center" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" พริกแห้ง\n
+ตะไคร้หั่นฝอย\n
+หอมแดงซอย\n
+ข่าหั่นละเอียด\n
+กระเทียมซอย"
+                    android:id="@+id/sup32176TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:text=" 8 กรัม\n
+20 กรัม\n
+20 กรัม\n
+20 กรัม\n
+20 กรัม"
+                    android:id="@+id/sup32177TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:gravity="right" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" 10 เม็ด\n
+2 ช้อนกินข้าว\n
+2 ช้อนกินข้าว\n
+2 ช้อนกินข้าว\n
+2 ช้อนกินข้าว"
+                    android:id="@+id/sup32178TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="โขลกเครื่องแกงทั้งหมดรวมกันให้ละเอียด"
+                    android:id="@+id/sup32179TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  วิธีทำ"
+                    android:id="@+id/sup321710TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h4"
+                    android:background="#96ffffff"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textStyle="bold"
+                    android:paddingTop="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" 1. ต้มไข่ให้สุก หั่นเป็น 4 ชิ้นต่อฟองจัดใส่จาน\n
+2. เตรียมน้ำยา โดยใส่ซีอิ๊วขาว น้ำมะนาว พริกซอย ถั่วแดง หอมใหญ่คนให้เข้ากัน\n
+3. ตักราดบนไข่ต้มที่เตรียมไว้ แต่งหน้าด้วยใบสะระแหน"
+                    android:id="@+id/sup321711TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h4"
+                    android:background="#96ffffff"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp" />
+            </LinearLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TableLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
