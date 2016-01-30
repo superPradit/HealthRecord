@@ -93,7 +93,8 @@
         <activity android:name=".Section3Sup220Activity" />
         <activity android:name=".Section3Sup221Activity" />
         <activity android:name=".Section3Sup222Activity" />
-        <activity android:name=".Section3Sup223Activity"></activity>
+        <activity android:name=".Section3Sup223Activity" />
+        <activity android:name=".Section3Sup224Activity"></activity>
     </application>
 
 </manifest>
