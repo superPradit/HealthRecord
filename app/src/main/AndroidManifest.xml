@@ -91,7 +91,8 @@
         <activity android:name=".Section3Sup218Activity" />
         <activity android:name=".Section3Sup219Activity" />
         <activity android:name=".Section3Sup220Activity" />
-        <activity android:name=".Section3Sup221Activity"></activity>
+        <activity android:name=".Section3Sup221Activity" />
+        <activity android:name=".Section3Sup222Activity"></activity>
     </application>
 
 </manifest>
