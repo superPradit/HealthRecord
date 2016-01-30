@@ -153,10 +153,18 @@ public class Section1Activity extends AppCompatActivity {
 
     private void createAgeSpinner() {
 
-        String[] chioceStrings = new String[3];
-        chioceStrings[0] = "0 - 44 ปี";
-        chioceStrings[1] = "45 - 49 ปี";
-        chioceStrings[2] = "50 ปี ขึ้นไป";
+        String[] chioceStrings = new String[11];
+        chioceStrings[0] = "0 - 4 ปี";
+        chioceStrings[1] = "5 - 9 ปี";
+        chioceStrings[2] = "10 - 14 ปี";
+        chioceStrings[3] = "15 - 19 ปี";
+        chioceStrings[4] = "20 - 24 ปี";
+        chioceStrings[5] = "25 - 29 ปี";
+        chioceStrings[6] = "30 - 34 ปี";
+        chioceStrings[7] = "35 - 39 ปี";
+        chioceStrings[8] = "40 - 44 ปี";
+        chioceStrings[9] = "45 - 49 ปี";
+        chioceStrings[10] = "50 ปี ขึ้นไป";
 
         ArrayAdapter<String> ageAdapter = new ArrayAdapter<String>(this,
                 android.R.layout.simple_list_item_1, chioceStrings);
@@ -164,8 +172,42 @@ public class Section1Activity extends AppCompatActivity {
         ageSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                ageAnInt = position;
-            }
+                switch (position) {
+                    case 0:
+                        ageAnInt = 0;
+                        break;
+                    case 1:
+                        ageAnInt = 0;
+                        break;
+                    case 2:
+                        ageAnInt = 0;
+                        break;
+                    case 3:
+                        ageAnInt = 0;
+                        break;
+                    case 4:
+                        ageAnInt = 0;
+                        break;
+                    case 5:
+                        ageAnInt = 0;
+                        break;
+                    case 6:
+                        ageAnInt = 0;
+                        break;
+                    case 7:
+                        ageAnInt = 0;
+                        break;
+                    case 8:
+                        ageAnInt = 0;
+                        break;
+                    case 9:
+                        ageAnInt = 1;
+                        break;
+                    case 10:
+                        ageAnInt = 2;
+                        break;
+                } //switch
+            } //onItemSelected
 
             @Override
             public void onNothingSelected(AdapterView<?> parent) {
