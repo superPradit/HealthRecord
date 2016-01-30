@@ -4,13 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    tools:context="appbsru.supergolf.healthrecord.Section3Sup213Activity"
+    tools:context="appbsru.supergolf.healthrecord.Section3Sup214Activity"
     android:background="@drawable/bg500">
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/recipeFood13ScrollView" >
+        android:id="@+id/recipeFood14ScrollView" >
 
         <LinearLayout
             android:orientation="vertical"
@@ -25,7 +25,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:id="@+id/sup3213ImageView"
+                    android:id="@+id/sup3214ImageView"
                     android:background="@drawable/bnrfood2" />
             </LinearLayout>
 
@@ -40,8 +40,8 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/foodrecipe13"
-                    android:id="@+id/fd3213TextView"
+                    android:text="@string/foodrecipe14"
+                    android:id="@+id/fd3214TextView"
                     android:textColor="@color/text"
                     android:textSize="@dimen/h2"
                     android:gravity="center"
@@ -59,15 +59,15 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/food13ImageView"
-                    android:src="@drawable/food13"
+                    android:id="@+id/food14ImageView"
+                    android:src="@drawable/food14"
                     android:background="#96ffffff" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="ส่วนประกอบ (สำหรับ 4 คน)"
-                    android:id="@+id/sup32131TextView"
+                    android:id="@+id/sup32141TextView"
                     android:textColor="@color/text"
                     android:textSize="@dimen/h4"
                     android:background="#96ffffff"
@@ -88,16 +88,18 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text=" เต้าหู้ขาวแข็ง\n
-เต้าหู้ขาวอ่อน\n
-เห็ดหอม\n
-แครอท\n
-ก้านคะน้า\n
-ซีอิ๊วขาว\n
-คื่นฉ่าย\n
-กระเทียม\n
-ซอสปรุงรส"
-                    android:id="@+id/sup32132TextView"
+                    android:text=" พริกสดเผา\n
+หอมแดงเผา\n
+กระเทียมเผา\n
+น้ำปลาร้า\n
+ต้นหอม\n
+ผักชี\n
+เนื้อปลานิล\n
+น้ำมะนาว\n
+น้ำสุก\n
+แตงกวา\n
+กะหล่ำปลี"
+                    android:id="@+id/sup32142TextView"
                     android:textColor="@color/text"
                     android:textSize="@dimen/h5"
                     android:background="#96ffffff"
@@ -107,16 +109,18 @@
                 <TextView
                     android:layout_width="70dp"
                     android:layout_height="wrap_content"
-                    android:text=" 120 กรัม\n
+                    android:text=" 40 กรัม\n
+40 กรัม\n
+40 กรัม\n
+8 กรัม\n
+16 กรัม\n
+16 กรัม\n
+160 กรัม\n
+20 กรัม\n
 40 กรัม\n
 80 กรัม\n
-20 กรัม\n
-20 กรัม\n
-15 กรัม\n
-40 กรัม\n
-20 กรัม\n
-20 กรัม"
-                    android:id="@+id/sup32133TextView"
+80 กรัม"
+                    android:id="@+id/sup32143TextView"
                     android:textColor="@color/text"
                     android:textSize="@dimen/h5"
                     android:background="#96ffffff"
@@ -125,16 +129,18 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text=" 1 แผ่น\n
-½ หลอด\n
-4 ดอก\n
-2 ช้อนกินข้าว\n
-2 ช้อนกินข้าว\n
-1 ช้อนกินข้าว\n
+                    android:text=" 6 เม็ด\n
+8 หัว\n
+2 หัว\n
+2 ช้อนชา\n
+¼ ถ้วยตวง	\n
 ¼ ถ้วยตวง\n
-2 ช้อนกินข้าว\n
-4 ช้อนชา"
-                    android:id="@+id/sup32134TextView"
+1½ ถ้วยตวง\n
+1½ ช้อนกินข้าว\n
+¼ ถ้วยตวง\n
+4 ลูก\n
+¼ หัว"
+                    android:id="@+id/sup32144TextView"
                     android:textColor="@color/text"
                     android:textSize="@dimen/h5"
                     android:background="#96ffffff"
@@ -155,7 +161,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="  วิธีทำ"
-                    android:id="@+id/sup32135TextView"
+                    android:id="@+id/sup32145TextView"
                     android:textColor="@color/text"
                     android:textSize="@dimen/h4"
                     android:background="#96ffffff"
@@ -166,11 +172,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text=" 1. นำเต้าหู้ขาวแข็งมาผ่าตรงกลางไว้สำหรับใส่ไส้\n
-2. นำเต้าหู้อ่อนหั่นชิ้นเล็กๆ พักไว้\n
-3. เห็ดหอมหั่นเต๋าเล็กๆ ปรุงรสด้วยซีอิ๊วขาว ซอสปรุงรส เคล้าให้เข้ากัน แล้วนำมายัดใส่ไส้เต้าหู้\n
-4. ตั้งน้ำซุปรอเดือด ใส่กระเทียม ซีอิ๊วขาว ใส่เต้าหู้ที่ยัดไส้แล้วลงไป รอให้เต้าหู้สุกใส่แครอท ก้านคะน้าและคื่นฉ่ายลงไป เสิร์ฟขณะร้อน ตบแต่งด้วยใบคื่นฉ่าย เห็ดหอม และเต้าหู้อ่อน"
-                    android:id="@+id/sup32136TextView"
+                    android:text=" 1. ปอกเปลือกหอมแดง กระเทียม พริก และโขลกให้เข้ากัน\n
+2. ต้มน้ำให้เดือด ใส่ปลาและปลาร้า ต้มจนสุกตักเนื้อปลาขึ้น แกะเอาแต่เนื้อ\n
+3. นำเนื้อปลาโขลกกับเครื่องแกง ข้อ 1ใส่น้ำมะนาว ส่วนน้ำต้มปลา กรองเอาแต่น้ำ ใส่ในเครื่องแกงที่โขลกไว้แต่งด้วยผักชีต้นหอมซอย รับประทานกับผักสด เช่น แตงกวา กะหล่ำปลีหรือผักอื่นๆ ตามชอบ"
+                    android:id="@+id/sup32146TextView"
                     android:textColor="@color/text"
                     android:textSize="@dimen/h4"
                     android:background="#96ffffff"
