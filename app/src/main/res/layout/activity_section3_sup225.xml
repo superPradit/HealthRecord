@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="appbsru.supergolf.healthrecord.Section3Sup225Activity"
+    android:background="@drawable/bg500">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recipeFood25ScrollView">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sup3225ImageView"
+                    android:background="@drawable/bnrfood2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/foodrecipe25"
+                    android:id="@+id/fd3225TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h2"
+                    android:gravity="center"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/food25ImageView"
+                    android:src="@drawable/food25"
+                    android:background="#96ffffff" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ส่วนประกอบ (สำหรับ 4 คน)"
+                    android:id="@+id/sup32251TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h4"
+                    android:background="#96ffffff"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textStyle="bold"
+                    android:gravity="center" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" เนื้อปลาช่อนต้ม\n
+พริกไทย\n
+หอมแดง\n
+กระชาย\n
+บวบเหลี่ยม\n
+ตำลึง\n
+เห็ดฟาง\n
+ฟักทอง\n
+ข้าวโพดอ่อน\n
+ใบแมงลักเด็ดแล้ว\n
+แครอท\n
+น้ำซุป"
+                    android:id="@+id/sup32252TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" />
+
+                <TextView
+                    android:layout_width="65dp"
+                    android:layout_height="wrap_content"
+                    android:text=" 80 กรัม\n
+4 กรัม\n
+4 กรัม\n
+40 กรัม\n
+40 กรัม\n
+40 กรัม\n
+40 กรัม\n
+40 กรัม\n
+40 กรัม\n
+40 กรัม\n
+40 กรัม\n
+800 กรัม"
+                    android:id="@+id/sup32253TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:gravity="right" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" ½ ถ้วยตวง\n
+1 ช้อนชา\n
+2 หัว\n
+½ ถ้วยตวง\n
+1 ลูก\n
+1 ถ้วยตวง\n
+10 ดอก\n
+½ ถ้วยตวง\n
+10 ฝัก\n
+1 ถ้วยตวง\n
+1 หัว\n
+4 ถ้วยตวง"
+                    android:id="@+id/sup32254TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  วิธีทำ"
+                    android:id="@+id/sup32255TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h4"
+                    android:background="#96ffffff"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textStyle="bold"
+                    android:paddingTop="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" 1. โขลกพริกไทย หอมแดง กระชาย และเนื้อปลาช่อนต้ม จนละเอียด\n
+2. ใส่เครื่องที่โขลกลงในน้ำซุป ต้มให้เดือดใส่ฟักทองลงไป พอฟักทองนิ่มเริ่มสุกใส่แครอท ข้าวโพดอ่อนเห็ดฟาง บวบเหลี่ยม ตำลึง และใบแมงลัก  พอเดือดพล่าน ผักเป็นสีเขียวแล้วยกลง"
+                    android:id="@+id/sup32256TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h4"
+                    android:background="#96ffffff"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
