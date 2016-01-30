@@ -259,6 +259,30 @@
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
                     android:paddingBottom="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  วิธีทำ(น้ำจิ้ม)"
+                    android:id="@+id/sup322311TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h4"
+                    android:background="#96ffffff"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textStyle="bold"
+                    android:paddingTop="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" 1.นำหัวผักกาดขาว และแครอทขูดเป็นเส้น ขยำกับเกลือเล็กน้อย แล้วล้างด้วยน้ำให้สะอาด\n
+2.ผสมน้ำส้มสายชู น้ำตาลทราย เกลือ เคี่ยวพอเดือด ใส่พริกแดงโขลก หัวผักกาดขาวและแครอทขูดลงไป เคี่ยวต่อจนเริ่มเหนียวข้น"
+                    android:id="@+id/sup322312TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h4"
+                    android:background="#96ffffff"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp" />
             </LinearLayout>
 
         </LinearLayout>
