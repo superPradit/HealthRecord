@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="appbsru.supergolf.healthrecord.Section3Sup220Activity"
+    android:background="@drawable/bg500">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recipeFood20ScrollView" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sup3220ImageView"
+                    android:background="@drawable/bnrfood2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/foodrecipe20"
+                    android:id="@+id/fd3220TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h2"
+                    android:gravity="center"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/food20ImageView"
+                    android:src="@drawable/food20"
+                    android:background="#96ffffff" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ส่วนประกอบ (สำหรับ 4 คน)"
+                    android:id="@+id/sup32201TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h4"
+                    android:background="#96ffffff"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textStyle="bold"
+                    android:gravity="center" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" เนื้อปลาทับทิมสับ\n
+น้ำมะนาว\n
+น้ำปลา\n
+ข้าวคั่ว\n
+หอมแดงซอย\n
+ใบสะระแหน่\n
+ต้นหอม\n
+พริกขี้หนู"
+                    android:id="@+id/sup32202TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" />
+
+                <TextView
+                    android:layout_width="65dp"
+                    android:layout_height="wrap_content"
+                    android:text=" 160 กรัม\n
+20 กรัม\n
+15 กรัม\n
+40 กรัม\n
+40 กรัม\n
+12 กรัม\n
+12 กรัม\n
+8 กรัม"
+                    android:id="@+id/sup32203TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:gravity="right" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" 1 ตัว\n
+4 ช้อนชา\n
+1 ช้อนกินข้าว\n
+4 ช้อนกินข้าว\n
+½ ถ้วยตวง\n
+3 ก้าน\n
+3 ต้น\n
+5 เม็ด"
+                    android:id="@+id/sup32204TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:background="#96ffffff"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  วิธีทำ"
+                    android:id="@+id/sup32205TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h4"
+                    android:background="#96ffffff"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textStyle="bold"
+                    android:paddingTop="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" 1. รวนเนื้อปลาให้สุก ปรุงรสด้วยน้ำมะนาว น้ำปลา พริกขี้หนูหั่น เคล้าให้เข้ากัน\n
+2. ใส่หอมแดงซอย ข้าวคั่ว ต้นหอมหั่นฝอยใบสะระแหน่\n
+3. ตักใส่จาน รับประทานกับแตงกวา ถั่วฝักยาว ผักกาดขาว หรือผักอื่นๆตามชอบ"
+                    android:id="@+id/sup32206TextView"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h4"
+                    android:background="#96ffffff"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
