@@ -4,13 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    tools:context="appbsru.supergolf.healthrecord.Section3Sup217Activity"
+    tools:context="appbsru.supergolf.healthrecord.Section3Sup218Activity"
     android:background="@drawable/bg500">
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/recipeFood17ScrollView" >
+        android:id="@+id/recipeFood18ScrollView" >
 
         <LinearLayout
             android:orientation="vertical"
@@ -25,7 +25,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:id="@+id/sup3217ImageView"
+                    android:id="@+id/sup3218ImageView"
                     android:background="@drawable/bnrfood2" />
             </LinearLayout>
 
@@ -40,8 +40,8 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/foodrecipe17"
-                    android:id="@+id/fd3217TextView"
+                    android:text="@string/foodrecipe18"
+                    android:id="@+id/fd3218TextView"
                     android:textColor="@color/text"
                     android:textSize="@dimen/h2"
                     android:gravity="center"
@@ -59,15 +59,15 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/food17ImageView"
-                    android:src="@drawable/food17"
+                    android:id="@+id/food18ImageView"
+                    android:src="@drawable/food18"
                     android:background="#96ffffff" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="ส่วนประกอบ (สำหรับ 4 คน)"
-                    android:id="@+id/sup32171TextView"
+                    android:id="@+id/sup32181TextView"
                     android:textColor="@color/text"
                     android:textSize="@dimen/h4"
                     android:background="#96ffffff"
@@ -88,13 +88,13 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text=" เนื้อกุ้ง\n
-หัวปลี\n
-ใบชะพลู\n
-ชะอมเด็ด\n
-น้ำปลา\n
-น้ำซุป"
-                    android:id="@+id/sup32172TextView"
+                    android:text=" มะระจีน\n
+อกไก่\n
+น้ำมะนาว\n
+พริกขี้หนู\n
+ซีอิ๊วขาว\n
+กระเทียม"
+                    android:id="@+id/sup32182TextView"
                     android:textColor="@color/text"
                     android:textSize="@dimen/h5"
                     android:background="#96ffffff"
@@ -104,89 +104,13 @@
                 <TextView
                     android:layout_width="70dp"
                     android:layout_height="wrap_content"
-                    android:text=" 160 กรัม\n
-160 กรัม\n
-40 กรัม\n
-40 กรัม\n
+                    android:text=" 320 กรัม\n
+80 กรัม\n
+20 กรัม\n
+8 กรัม\n
 15 กรัม\n
-800 กรัม"
-                    android:id="@+id/sup32173TextView"
-                    android:textColor="@color/text"
-                    android:textSize="@dimen/h5"
-                    android:background="#96ffffff"
-                    android:gravity="right" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text=" 1.6 ขีด\n
-2 ถ้วยตวง\n
-1 ถ้วยตวง	\n
-1 ถ้วยตวง\n
-1 ช้อนกินข้าว\n
-4 ถ้วยตวง "
-                    android:id="@+id/sup32174TextView"
-                    android:textColor="@color/text"
-                    android:textSize="@dimen/h5"
-                    android:background="#96ffffff"
-                    android:paddingLeft="10dp"
-                    android:paddingRight="10dp" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:orientation="vertical"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="ส่วนประกอบเครื่องแกง"
-                    android:id="@+id/sup32175TextView"
-                    android:textColor="@color/text"
-                    android:textSize="@dimen/h4"
-                    android:background="#96ffffff"
-                    android:paddingLeft="10dp"
-                    android:paddingRight="10dp"
-                    android:textStyle="bold"
-                    android:gravity="center" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp" >
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text=" พริกแห้ง\n
-ตะไคร้หั่นฝอย\n
-หอมแดงซอย\n
-ข่าหั่นละเอียด\n
-กระเทียมซอย"
-                    android:id="@+id/sup32176TextView"
-                    android:textColor="@color/text"
-                    android:textSize="@dimen/h5"
-                    android:background="#96ffffff"
-                    android:paddingLeft="10dp"
-                    android:paddingRight="10dp" />
-
-                <TextView
-                    android:layout_width="70dp"
-                    android:layout_height="wrap_content"
-                    android:text=" 8 กรัม\n
-20 กรัม\n
-20 กรัม\n
-20 กรัม\n
 20 กรัม"
-                    android:id="@+id/sup32177TextView"
+                    android:id="@+id/sup32183TextView"
                     android:textColor="@color/text"
                     android:textSize="@dimen/h5"
                     android:background="#96ffffff"
@@ -195,12 +119,13 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text=" 10 เม็ด\n
-2 ช้อนกินข้าว\n
-2 ช้อนกินข้าว\n
-2 ช้อนกินข้าว\n
+                    android:text=" 1 ลูกใหญ่\n
+1 ขีด\n
+4 ช้อนชา\n
+1 ช้อนกินข้าว\n
+1 ช้อนกินข้าว\n
 2 ช้อนกินข้าว"
-                    android:id="@+id/sup32178TextView"
+                    android:id="@+id/sup32184TextView"
                     android:textColor="@color/text"
                     android:textSize="@dimen/h5"
                     android:background="#96ffffff"
@@ -220,19 +145,8 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="โขลกเครื่องแกงทั้งหมดรวมกันให้ละเอียด"
-                    android:id="@+id/sup32179TextView"
-                    android:textColor="@color/text"
-                    android:textSize="@dimen/h5"
-                    android:background="#96ffffff"
-                    android:paddingLeft="10dp"
-                    android:paddingRight="10dp" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
                     android:text="  วิธีทำ"
-                    android:id="@+id/sup321710TextView"
+                    android:id="@+id/sup32185TextView"
                     android:textColor="@color/text"
                     android:textSize="@dimen/h4"
                     android:background="#96ffffff"
@@ -243,10 +157,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text=" 1. ต้มไข่ให้สุก หั่นเป็น 4 ชิ้นต่อฟองจัดใส่จาน\n
-2. เตรียมน้ำยา โดยใส่ซีอิ๊วขาว น้ำมะนาว พริกซอย ถั่วแดง หอมใหญ่คนให้เข้ากัน\n
-3. ตักราดบนไข่ต้มที่เตรียมไว้ แต่งหน้าด้วยใบสะระแหน"
-                    android:id="@+id/sup321711TextView"
+                    android:text=" 1. ล้างมะระ ผ่าครึ่งตามยาวแล้วหั่นตามขวาง เป็นชิ้นบาง ต้มในน้ำเดือด ล้างด้วยน้ำเย็น พักไว้\n
+2. ต้มไก่ให้สุก แล้วฉีกเป็นเส้นฝอยใส่ในมะระ ใส่กระเทียม\n
+3. ปรุงรสด้วยน้ำมะนาว ซีอิ๊วขาวพริกขี้หนูหั่น คนให้ทั่ว ตักใส่จาน"
+                    android:id="@+id/sup32186TextView"
                     android:textColor="@color/text"
                     android:textSize="@dimen/h4"
                     android:background="#96ffffff"

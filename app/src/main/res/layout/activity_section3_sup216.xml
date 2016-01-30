@@ -162,7 +162,7 @@
                     android:layout_height="wrap_content"
                     android:text=" 1. ต้มไข่ให้สุก หั่นเป็น 4 ชิ้นต่อฟองจัดใส่จาน\n
 2. เตรียมน้ำยา โดยใส่ซีอิ๊วขาว น้ำมะนาว พริกซอย ถั่วแดง หอมใหญ่คนให้เข้ากัน\n
-3. ตักราดบนไข่ต้มที่เตรียมไว้ แต่งหน้าด้วยใบสะระแหน"
+3. ตักราดบนไข่ต้มที่เตรียมไว้ แต่งหน้าด้วยใบสะระแหน่"
                     android:id="@+id/sup32166TextView"
                     android:textColor="@color/text"
                     android:textSize="@dimen/h4"
@@ -171,10 +171,6 @@
                     android:paddingRight="10dp"
                     android:paddingBottom="10dp" />
             </LinearLayout>
-
-            <TableLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"></TableLayout>
 
         </LinearLayout>
     </ScrollView>
