@@ -6,7 +6,6 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
             <intent-filter>
@@ -95,7 +94,9 @@
         <activity android:name=".Section3Sup222Activity" />
         <activity android:name=".Section3Sup223Activity" />
         <activity android:name=".Section3Sup224Activity" />
-        <activity android:name=".Section3Sup225Activity"></activity>
+        <activity android:name=".Section3Sup225Activity" />
+        <activity android:name=".Section4Activity" />
+        <activity android:name=".Section4Sup1Activity"></activity>
     </application>
 
 </manifest>

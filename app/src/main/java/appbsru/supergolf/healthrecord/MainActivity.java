@@ -74,6 +74,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(new Intent(MainActivity.this, Section3Activity.class));
                 break;
             case R.id.imageView4:
+                startActivity(new Intent(MainActivity.this, Section4Activity.class));
                 break;
             case R.id.meetDoctorView:
 
@@ -91,6 +92,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(new Intent(MainActivity.this, Section3Activity.class));
                 break;
             case R.id.textView4:
+                startActivity(new Intent(MainActivity.this, Section4Activity.class));
                 break;
             case R.id.meetDoctorText:
 
