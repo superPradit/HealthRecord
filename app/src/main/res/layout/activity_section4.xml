@@ -58,6 +58,7 @@
                     android:layout_gravity="center_horizontal"
                     android:background="@drawable/doctorbutton2"
                     android:elevation="4dp" />
+
                 <ImageButton
                     android:id="@+id/editDTImageButton"
                     android:layout_width="wrap_content"
@@ -67,6 +68,7 @@
                     android:layout_gravity="center_horizontal"
                     android:background="@drawable/doctorbutton3"
                     android:elevation="4dp" />
+
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

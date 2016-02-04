@@ -96,7 +96,8 @@
         <activity android:name=".Section3Sup224Activity" />
         <activity android:name=".Section3Sup225Activity" />
         <activity android:name=".Section4Activity" />
-        <activity android:name=".ShowDoctorActivity"></activity>
+        <activity android:name=".ShowDoctorActivity" />
+        <activity android:name=".AddDoctorActivity"></activity>
     </application>
 
 </manifest>
