@@ -1,6 +1,7 @@
 package appbsru.supergolf.healthrecord;
 
 import android.content.Intent;
+import android.database.sqlite.SQLiteDatabase;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -19,6 +20,11 @@ public class Section4Activity extends AppCompatActivity implements View.OnClickL
 
         doctorController();
 
+        DatabaseDoctor mHelper = new DatabaseDoctor(this);
+        SQLiteDatabase mDb = mHelper.getWritableDatabase();
+        mHelper.close();
+        mDb.close();
+
     }
 
     private void doctorController() {
@@ -34,7 +40,7 @@ public class Section4Activity extends AppCompatActivity implements View.OnClickL
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.showDTImageButton:
-                startActivity(new Intent(Section4Activity.this, Section4Sup1Activity.class));
+                startActivity(new Intent(Section4Activity.this, ShowDoctorActivity.class));
                 break;
         }
     }
