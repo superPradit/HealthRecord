@@ -9,7 +9,7 @@ import android.widget.ImageButton;
 
 public class Section4Activity extends AppCompatActivity implements View.OnClickListener{
 
-    private ImageButton showDoctorImageButton, addDoctorImageButton;
+    private ImageButton showDoctorImageButton, addDoctorImageButton, editDoctorImageButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,11 +31,13 @@ public class Section4Activity extends AppCompatActivity implements View.OnClickL
 
         showDoctorImageButton.setOnClickListener(this);
         addDoctorImageButton.setOnClickListener(this);
+        editDoctorImageButton.setOnClickListener(this);
     }
 
     private void bindwidget() {
         showDoctorImageButton = (ImageButton) findViewById(R.id.showDTImageButton);
         addDoctorImageButton = (ImageButton) findViewById(R.id.addDTImageButton);
+        editDoctorImageButton = (ImageButton) findViewById(R.id.editDTImageButton);
     }
 
 
@@ -47,6 +49,9 @@ public class Section4Activity extends AppCompatActivity implements View.OnClickL
                 break;
             case R.id.addDTImageButton:
                 startActivity(new Intent(Section4Activity.this, AddDoctorActivity.class));
+                break;
+            case R.id.editDTImageButton:
+                startActivity(new Intent(Section4Activity.this, EditDoctorActivity.class));
                 break;
         }
     }
