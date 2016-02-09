@@ -7,17 +7,39 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Section1Activity" />
-        <activity android:name=".MainHoldSection1" />
+        <activity android:name=".Section1Activity"
+            android:label="@string/section1_1"
+            android:parentActivityName="appbsru.supergolf.healthrecord.MainHoldSection1" >
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="appbsru.supergolf.healthrecord.MainHoldSection1" />
+            </activity>
+        <activity android:name=".MainHoldSection1"
+            android:label="@string/section1"
+            android:parentActivityName="appbsru.supergolf.healthrecord.MainActivity" >
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="appbsru.supergolf.healthrecord.MainActivity" />
+        </activity>
         <activity android:name=".ResultOfSection11" />
-        <activity android:name=".Section12Activity" />
+        <activity android:name=".Section12Activity"
+            android:label="@string/section1_2"
+            android:parentActivityName="appbsru.supergolf.healthrecord.MainHoldSection1" >
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="appbsru.supergolf.healthrecord.MainHoldSection1" />
+        </activity>
         <activity android:name=".ResultOfSection12" />
         <activity android:name=".Section2Activity" />
         <activity android:name=".Section2HoldActivity" />
