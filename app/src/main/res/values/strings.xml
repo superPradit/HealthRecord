@@ -119,4 +119,8 @@
     <string name="foodrecipe24">ยำมะเขือยาว</string>
     <string name="foodrecipe25">แกงเลียงสมุนไพร</string>
 
+    <string name="showdoctor">แสดงข้อมูลแพทย์</string>
+    <string name="adddoctor">เพิ่มข้อมูลแพทย์</string>
+    <string name="editdoctor">แก้ไขข้อมูลแพทย์</string>
+
 </resources>

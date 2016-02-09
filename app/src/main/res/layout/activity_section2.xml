@@ -7,11 +7,18 @@
     tools:context="appbsru.supergolf.healthrecord.Section2Activity"
     android:background="@drawable/bg500">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView7"
+        android:background="@drawable/bnpractice" />
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/scrollView3"
-        android:layout_margin="10dp">
+        android:layout_margin="10dp"
+        android:layout_below="@+id/imageView7">
 
         <LinearLayout
             android:orientation="vertical"
@@ -19,19 +26,6 @@
             android:layout_height="match_parent"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true">
-
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_above="@+id/listView">
-
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/imageView7"
-                    android:background="@drawable/bnpractice" />
-            </LinearLayout>
 
             <LinearLayout
                 android:orientation="horizontal"
