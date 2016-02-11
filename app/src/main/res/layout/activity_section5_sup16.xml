@@ -3,10 +3,151 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="appbsru.supergolf.healthrecord.Section5Sup16Activity">
+    tools:context="appbsru.supergolf.healthrecord.Section5Sup16Activity"
+    android:background="@drawable/bg500">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bnDrug16Image"
+            android:background="@drawable/bannerdrug" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/drug16"
+            android:id="@+id/drug161TextView"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/text"
+            android:textSize="@dimen/h6" />
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/drug16ScrollView"
+            android:layout_margin="10dp"
+            android:background="#96ffffff">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  สรรพคุณยา"
+                    android:id="@+id/drug162TextView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" • ยานี้ใช้เพื่อรักษาโรคเบาหวานชนิดที่ 2"
+                    android:id="@+id/drug163TextView"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  วิธีการใช้ยา"
+                    android:id="@+id/drug164TextView"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" • ยานี้อยู่ในรูปแบบยาเม็ด ใช้สำหรับรับประทาน โดยทั่วไปรับประทานวันละ 3 ครั้ง หรือให้ใช้ยานี้ตามวิธีใช้ที่ระบุบนฉลากยาอย่างเคร่งครัด โดยห้ามใช้ยาในขนาดที่มากหรือน้อยกว่าที่ระบุ และหากมีข้อสงสัยให้สอบถามแพทย์หรือเภสัชกร\n
+• ควรรับประทานยานี้พร้อมอาหารคำแรกของแต่ละมื้อหลัก"
+                    android:id="@+id/drug165TextView"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  สิ่งที่ควรแจ้งให้แพทย์หรือเภสัชกรทราบ"
+                    android:id="@+id/drug166TextView"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" • การแพ้ยาอะคาโบส (acarbose) หรือแพ้ยาอื่นๆ\n
+• ยาอื่นๆ ทั้งยาที่แพทย์สั่งจ่ายและยาที่ใช้เอง วิตามิน อาหารเสริม และยาสมุนไพร ที่ท่านใช้อยู่ในขณะนี้หรือกำลังจะใช้\n
+• มีความผิดปกติของการทำงานของตับหรือไต\n
+• ภาวะกรดคีโตนในกระแสเลือดสูง\n
+• โรคตับแข็ง\n
+• โรคเกี่ยวกับลำไส้ เช่น โรคลำไส้อักเสบ ลำไส้อุดตัน\n
+• ตั้งครรภ์ หรือวางแผนจะตั้งครรภ์ หรือให้นมบุตร\n
+• หากต้องเข้ารับการผ่าตัดหรือทำฟัน ต้องแจ้งให้แพทย์ผู้ผ่าตัดหรือทันตแพทย์ทราบก่อนว่าท่านใช้ยาตัวนี้อยู่"
+                    android:id="@+id/drug167TextView"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  อาการอันไม่พึงประสงค์ทั่วไป"
+                    android:id="@+id/drug168TextView"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      ท้องอืด ท้องเดิน เสียงโครกครากในท้อง รู้สึกไม่สบายท้องเล็กน้อย มีลมในท้องมาก ต้องผายลม"
+                    android:id="@+id/drug169TextView"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  อาการอันไม่พึงประสงค์รุนแรง"
+                    android:id="@+id/drug1610TextView"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      ผื่นลมพิษ ผื่นคัน คัน ผิว หรือตามีสีเหลือง ปัสสาวะเป็นสีน้ำตาลหรือสีเข้ม อ่อนเพลียมากผิดปกติ น้ำหนักลด เบื่ออาหาร เมื่อใช้ร่วมกับยาเบาหวานตัวอื่น อาจทำให้ระดับน้ำตาลในเลือดต่ำ (hypoglycemia) ส่งผลให้ผู้ป่วย กระสับกระส่าย สับสน ไม่มีสมาธิ หงุดหงิดง่าย อารมณ์หรือพฤติกรรมเปลี่ยนแปลงไปอย่างทันทีทันใด รู้สึกหิว ซีด คลื่นไส้ เหนื่อยล้า เหงื่อออก ปวดศีรษะ ใจสั่น ปากชา เสียวแปลบที่บริเวณปลายนิ้ว ตัวสั่น กล้ามเนื้ออ่อนแรง มองภาพไม่ชัด รู้สึกหนาว หาวบ่อย หัวใจเต้นเร็ว หายใจตื้น วิงเวียน หมดสติ หรือมีอาการชัก ยานี้อาจทำให้เกิดภาวะน้ำตาลต่ำเมื่อใช้ร่วมกับยาเบาหวานตัวอื่น แก้ไขเบื้องต้นโดยอมลูกอม"
+                    android:id="@+id/drug1611TextView"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
 
 </RelativeLayout>
