@@ -126,4 +126,13 @@
     <string name="drug1">ยาแผนปัจจุบัน</string>
     <string name="drug2">ยาสมุนไพร</string>
 
+    <string name="drug11">GLIPIZIDE</string>
+    <string name="drug12">GLIBENCLAMIDE</string>
+    <string name="drug13">REPAGLINIDE</string>
+    <string name="drug14">METFORMIN</string>
+    <string name="drug15">PIOGLITAZONE</string>
+    <string name="drug16">ACARBOSE</string>
+    <string name="drug17">VOGLIBOSE</string>
+    <string name="drug18">INSULIN</string>
+
 </resources>

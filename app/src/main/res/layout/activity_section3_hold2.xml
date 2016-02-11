@@ -40,26 +40,15 @@
                 android:textSize="@dimen/h2" />
         </LinearLayout>
 
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginBottom="10dp"
+        <ListView
+            android:id="@+id/recipefoodListView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="10dp"
             android:background="#96ffffff">
-
-            <ListView
-                android:id="@+id/recipefoodListView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true" >
-            </ListView>
-
-
-        </LinearLayout>
+        </ListView>
 
     </LinearLayout>
 
