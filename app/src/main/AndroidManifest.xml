@@ -936,7 +936,8 @@
             android:label="@string/drug16"
             android:parentActivityName=".Section5Sup1Activity">
         </activity>
-        <activity android:name=".Section5Sup17Activity"
+        <activity
+            android:name=".Section5Sup17Activity"
             android:label="@string/drug17"
             android:parentActivityName=".Section5Sup1Activity">
         </activity>

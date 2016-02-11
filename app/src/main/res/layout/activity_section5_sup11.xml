@@ -3,10 +3,150 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="appbsru.supergolf.healthrecord.Section5Sup11Activity">
 
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg500">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bnDrug1Image"
+            android:background="@drawable/bannerdrug" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/drug11"
+            android:id="@+id/drug111TextView"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/text"
+            android:textSize="@dimen/h6" />
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/drug11ScrollView"
+            android:layout_margin="10dp"
+            android:background="#96ffffff">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  สรรพคุณยา"
+                    android:id="@+id/drug112TextView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" • ยานี้ใช้เพื่อรักษาโรคเบาหวานชนิดที่ 2"
+                    android:id="@+id/drug113TextView"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  วิธีการใช้ยา"
+                    android:id="@+id/drug114TextView"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" • ยานี้อยู่ในรูปแบบยาเม็ด ใช้สำหรับรับประทาน โดยทั่วไปรับประทานวันละ 1 ครั้ง หรือให้ใช้ยานี้ตามวิธีใช้ที่ระบุบนฉลากยาอย่างเคร่งครัด โดยห้ามใช้ยาในขนาดที่มากหรือน้อยกว่าที่ระบุ และหากมีข้อสงสัยให้สอบถามแพทย์หรือเภสัชกร\n
+    • ควรรับประทานยานี้ก่อนอาหาร 30 นาที และควรรับประทานยาให้ตรงเวลาทุกครั้ง"
+                    android:id="@+id/drug115TextView"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  สิ่งที่ควรแจ้งให้แพทย์หรือเภสัชกรทราบ"
+                    android:id="@+id/drug116TextView"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" • การแพ้ยาไกลพิไซด์ (Glipizide) หรือแพ้ยาอื่นๆ\n
+    • ยาอื่นๆ ทั้งยาที่แพทย์สั่งจ่ายและยาที่ใช้เอง วิตามิน อาหารเสริม และยาสมุนไพร ที่ท่านใช้อยู่ในขณะนี้หรือกำลังจะใช้\n
+    • มีความผิดปกติของการทำงานของตับหรือไต\n
+    • โรคหัวใจและหลอดเลือด\n
+    • โรคต่อมไทรอยด์\n
+    • ติดเชื้อหรือบาดเจ็บรุนแรง\n
+    • หากต้องเข้ารับการผ่าตัดหรือทำฟัน ต้องแจ้งให้แพทย์ผู้ผ่าตัดหรือทันตแพทย์ทราบก่อนว่าท่านใช้ยาตัวนี้อยู่\n
+    • ตั้งครรภ์ หรือวางแผนจะตั้งครรภ์ หรือให้นมบุตร"
+                    android:id="@+id/drug117TextView"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  อาการอันไม่พึงประสงค์ทั่วไป"
+                    android:id="@+id/drug118TextView"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" คลื่นไส้ อาเจียน ผิวหนังแพ้แดด หรือไวต่อแดด ควรสวมใส่เสื้อผ้าที่มิดชิด สวมแว่นตากันแดด และทาโลชั่นกันแดด ก่อนออกนอกบ้าน รวมถึงหลีกเลี่ยงการอยู่ใกล้แสงไฟสว่างจ้า ท้องเสีย ปวดศีรษะ มีอาการแสบยอดอก รู้สึกไม่สบายท้อง"
+                    android:id="@+id/drug119TextView"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  อาการอันไม่พึงประสงค์รุนแรง"
+                    android:id="@+id/drug1110TextView"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" ยานี้อาจทำให้เกิดภาวะน้ำตาลต่ำ (hypoglycemia) คือมีอาการกระสั่งกระส่าย สับสน ไม่มีสมาธิ หงุดหงิดง่าย อารมณ์หรือพฤติกรรมเปลี่ยนแปลงไปอย่างทันทีทันใด รู้สึกหิว ซีด คลื่นไส้ เหนื่อยล้า เหงื่อออก ปวดศีรษะ ใจสั่น ปากชา เสียวแปลบที่บริเวณปลายนิ้ว ตัวสั่น กล้ามเนื้ออ่อนแรง มองภาพไม่ชัด รู้สึกหนาว หาวบ่อย หัวใจเต้นเร็ว หายใจตื้น วิงเวียน หมดสติ หรือมีอาการชัก การแก้ไขเบื้องต้นทำได้โดยรับประทานอาหารหรือเครื่องดื่มที่มีน้ำตาล เช่น ลูกอม น้ำผลไม้ หายใจลำบาก หรือมีเสมหะมาก ผื่นลมพิษ ผื่นคัน อาการคัน ปัสสาวะเป็นสีน้ำตาลหรือสีเข้ม ไข้ หนาวสั่น เจ็บคอ เลือดออกหรือมีรอยฟกช้ำผิดปกติ ผิวแพ้แดดหรือไวต่อแดดมากผิดปกติ อุจจาระสีซีด ผิว หรือตามีสีเหลือง"
+                    android:id="@+id/drug1111TextView"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
 </RelativeLayout>
