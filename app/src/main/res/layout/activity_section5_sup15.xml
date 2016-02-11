@@ -3,10 +3,151 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="appbsru.supergolf.healthrecord.Section5Sup15Activity">
+    tools:context="appbsru.supergolf.healthrecord.Section5Sup15Activity"
+    android:background="@drawable/bg500">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bnDrug15Image"
+            android:background="@drawable/bannerdrug" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/drug15"
+            android:id="@+id/drug151TextView"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/text"
+            android:textSize="@dimen/h6" />
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/drug15ScrollView"
+            android:layout_margin="10dp"
+            android:background="#96ffffff">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  สรรพคุณยา"
+                    android:id="@+id/drug152TextView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" • ยานี้ใช้เพื่อรักษาโรคเบาหวานชนิดที่ 2"
+                    android:id="@+id/drug153TextView"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  วิธีการใช้ยา"
+                    android:id="@+id/drug154TextView"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" • รับประทานยานี้พร้อมอาหารหรือไม่พร้อมอาหารก็ได้ โดยรับประทานให้ตรงเวลาเดิมทุกวัน โดยปกติรับประทานวันละ 1 ครั้ง ตามขนาดที่แพทย์สั่ง\n
+• ใช้ยานี้ตามวิธีใช้ที่ระบุบนฉลากยาอย่างเคร่งครัด โดยห้ามใช้ยาในขนาดที่มากหรือน้อยกว่าที่ระบุ และหากมีข้อสงสัยให้สอบถามแพทย์หรือเภสัชกร"
+                    android:id="@+id/drug155TextView"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  สิ่งที่ควรแจ้งให้แพทย์หรือเภสัชกรทราบ"
+                    android:id="@+id/drug156TextView"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" • การแพ้ยาไพโอกลิตาโซน (pioglitazone) หรือแพ้ยาอื่นๆ\n
+• ยาอื่นๆ ทั้งยาที่แพทย์สั่งจ่ายและยาที่ใช้เอง โดยเฉพาะยาดังต่อไปนี้ ยาลดระดับไขมันในเลือด ยาคุมกำเนิด ยาคลายกังวล ยารักษาโรคหอบหืด ยารักษาโรคความดันโลหิตสูง ยาต้านเชื้อรา ยาต้านวัณโรค\n
+• การใช้วิตามิน อาหารเสริม และยาสมุนไพร ที่ท่านใช้อยู่ในขณะนี้หรือกำลังจะใช้\n
+• มีโรคหรือภาวะดังต่อไปนี้ ได้แก่ โรคหัวใจล้มเหลว หัวใจผิดปกติแต่กำเนิด มีการบวมของแขน มือ เท้าข้อเท้า หรือขาส่วนล่าง โรคหัวใจใดๆ ระดับโคเลสเตอรอลหรือไขมันในเลือดสูง ความดันโลหิตสูง โรคหลอดเลือดหัวใจ เจ็บหน้าอก หรือหัวใจเต้นผิดจังหวะ\n
+• มีความผิดปกติของการทำงานของตับหรือไต\n
+• การตั้งครรภ์ การวางแผนในการตั้งครรภ์ หรือการให้นมบุตร (ห้ามรับประทานยานี้ขณะให้นมบุตร)\n
+• ถ้าต้องได้รับการผ่าตัด หรือ การทันตกรรม ควรบอกแพทย์หรือทันตแพทย์ว่าท่านกำลังรับประทานยาไพโอกลิตาโซน (pioglitazone) อยู่\n
+• หากท่านมีสภาวะดังต่อนี้ขณะกำลังรับประทานยาไพโอกลิตาโซน (pioglitazone) ควรแจ้งให้แพทย์ทราบ ได้แก่ มีภาวะติดเชื้อ มีไข้ มีการเจ็บป่วยหรือได้รับบาดเจ็บใดๆ"
+                    android:id="@+id/drug157TextView"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  อาการอันไม่พึงประสงค์ทั่วไป"
+                    android:id="@+id/drug158TextView"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      ปวดศีรษะ น้ำหนักเพิ่มขึ้น อาการคล้ายเป็นหวัด ปวดฟันหรือเจ็บในปาก เจ็บคอ"
+                    android:id="@+id/drug159TextView"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  อาการอันไม่พึงประสงค์รุนแรง"
+                    android:id="@+id/drug1510TextView"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      กระวนกระวาย สับสน ไม่มีสมาธิ สายตาพร่ามัว หรือสูญเสียการมองเห็น หายใจไม่สะดวก หายใจเร็ว เวลานอนต้องใช้หมอนหนุนสูง จึงจะหายใจสะดวกขึ้น น้ำหนักเพิ่มขึ้นอย่างรวดเร็ว ไอแห้งไม่มีเสมหะเป็นประจำ มือ ขา หรือเท้าบวม หัวใจเต้นช้า ผื่นคัน ผื่นลมพิษ ตัวเหลือง ตาเหลือง ปัสสาวะสีเข้มผิดปกติ ตัวซีด เย็น สั่น ปวดกล้ามเนื้อ ท้องเสีย เหนื่อยมากผิดปกติ คลื่นไส้ อาเจียน เบื่ออาหาร เมื่อใช้ร่วมกับยาเบาหวานตัวอื่น อาจเกิดภาวะน้ำตาลในเลือดต่ำ (hypoglycemia) ได้แก่ กระสับกระส่าย สับสน ไม่มีสมาธิ หงุดหงิดง่าย อารมณ์หรือพฤติกรรมเปลี่ยนแปลงไปอย่างทันทีทันใด รู้สึกหิว ซีด คลื่นไส้ เหนื่อยล้า เหงื่อออก ปวดศีรษะ ใจสั่น ปากชา เสียวแปลบที่บริเวณปลายนิ้ว ตัวสั่น กล้ามเนื้ออ่อนแรง มองภาพไม่ชัด รู้สึกหนาว หาวบ่อย หัวใจเต้นเร็ว หายใจตื้น วิงเวียน หมดสติ หรือมีอาการชัก ยานี้อาจทำให้เกิดภาวะน้ำตาลต่ำเมื่อใช้ร่วมกับยาเบาหวานตัวอื่น แก้ไขเบื้องต้นโดยรับประทานอาหารหรือเครื่องดื่มที่มีน้ำตาล เช่น ลูกอม น้ำผลไม้"
+                    android:id="@+id/drug1511TextView"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
 
 </RelativeLayout>
