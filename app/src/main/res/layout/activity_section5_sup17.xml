@@ -3,10 +3,147 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="appbsru.supergolf.healthrecord.Section5Sup17Activity">
+    tools:context="appbsru.supergolf.healthrecord.Section5Sup17Activity"
+    android:background="@drawable/bg500">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bnDrug17Image"
+            android:background="@drawable/bannerdrug" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/drug17"
+            android:id="@+id/drug171TextView"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/text"
+            android:textSize="@dimen/h6" />
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/drug17ScrollView"
+            android:layout_margin="10dp"
+            android:background="#96ffffff">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  สรรพคุณยา"
+                    android:id="@+id/drug172TextView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" • ใช้ร่วมกับยาอื่นในการรักษาโรคเบาหวาน ไม่ใช้เป็นยาเดี่ยวในการรักษาโรคเบาหวานชนิดพึ่งอินซูลิน"
+                    android:id="@+id/drug173TextView"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  วิธีการใช้ยา"
+                    android:id="@+id/drug174TextView"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" • ยานี้ใช้สำหรับรับประทาน โดยทั่วไปรับประทานวันละ 3 ครั้ง หรือให้ใช้ยานี้ตามวิธีใช้ที่ระบุบนฉลากยาอย่างเคร่งครัด โดยห้ามใช้ยาในขนาดที่มากหรือน้อยกว่าที่ระบุ และหากมีข้อสงสัยให้สอบถามแพทย์หรือเภสัชกร\n
+• ควรรับประทานยาพร้อมอาหารคำแรก"
+                    android:id="@+id/drug175TextView"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  สิ่งที่ควรแจ้งให้แพทย์หรือเภสัชกรทราบ"
+                    android:id="@+id/drug176TextView"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" • ประวัติแพ้ยา voglibose หรือยาอื่นๆ\n
+• ใช้หรือกำลังจะใช้ ยาอื่นๆ ทั้งยาที่แพทย์สั่งจ่ายและยาที่ใช้เอง วิตามิน อาหารเสริม และสมุนไพร\n
+• ตั้งครรภ์ วางแผนจะตั้งครรภ์ หรือให้นมบุตร\n
+• มีหรือเคยมีโรคลำไส้อักเสบ (Inflammatory bowal diseases,IBD) การอุดตันทางเดินอาการ โรคไส้เลื่อน โรคเบาหวานอย่างรุนแรง โรคติดเชื้ออย่างรุนแรง"
+                    android:id="@+id/drug177TextView"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  อาการอันไม่พึงประสงค์ทั่วไป"
+                    android:id="@+id/drug178TextView"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      ท้องอืด ท้องเฟ้อ ท้องเสีย ปวดท้อง ระดับน้ำตาลในเลือดต่ำ เพิ่มค่าที่ได้จากการตรวจ Liver function test"
+                    android:id="@+id/drug179TextView"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  อาการอันไม่พึงประสงค์รุนแรง"
+                    android:id="@+id/drug1710TextView"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      อาการของโรคตับอักเสบ (hepatotoxicity)"
+                    android:id="@+id/drug1711TextView"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
 
 </RelativeLayout>
