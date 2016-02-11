@@ -3,10 +3,151 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="appbsru.supergolf.healthrecord.Section5Sup12Activity">
+    tools:context="appbsru.supergolf.healthrecord.Section5Sup12Activity"
+    android:background="@drawable/bg500">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bnDrug12Image"
+            android:background="@drawable/bannerdrug" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/drug12"
+            android:id="@+id/drug121TextView"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/text"
+            android:textSize="@dimen/h6" />
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/drug12ScrollView"
+            android:layout_margin="10dp"
+            android:background="#96ffffff">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  สรรพคุณยา"
+                    android:id="@+id/drug122TextView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" • ยานี้ใช้เพื่อควบคุมระดับน้ำตาลในเลือด สำหรับรักษาผู้ป่วยเบาหวานชนิดที่ 2"
+                    android:id="@+id/drug123TextView"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  วิธีการใช้ยา"
+                    android:id="@+id/drug124TextView"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" • ยานี้อยู่ในรูปแบบยาเม็ด ใช้สำหรับรับประทาน โดยทั่วไปรับประทานก่อนอาหาร\n
+• ใช้ยานี้ตามวิธีใช้ที่ระบุบนฉลากยาอย่างเคร่งครัด โดยห้ามใช้ยาในขนาดที่มากหรือน้อยกว่าที่ระบุ และหากมีข้อสงสัยให้สอบถามแพทย์หรือเภสัชกร\n
+• ควรรับประทานยาอย่างต่อเนื่อง ไม่ควรหยุดยาเองโดยไม่ได้รับคำแนะนำจากแพทย์\n
+• ผู้ป่วยอายุมากกว่า 65 ปี ควรอยู่ภายใต้การดูแลอย่างใกล้ชิด เนื่องจากอาจต้องมีการปรับขนาดยาให้เหมาะสม"
+                    android:id="@+id/drug125TextView"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  สิ่งที่ควรแจ้งให้แพทย์หรือเภสัชกรทราบ"
+                    android:id="@+id/drug126TextView"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" • ประวัติแพ้ยาไกลเบนคลาไมด์ หรือยาอื่นๆ\n
+• ใช้หรือกำลังใช้ยาอื่น ๆ ทั้งที่แทย์สั่งจ่ายและยาที่ใช้เอง วิตามิน อาหารเสริม และสมุนไพร\n
+• มีหรือเคยมีโรคตับ โรคไต โรคหัวใจหรือไทรอยด์\n
+• มีหรือเคยมีภาวะเลือดเป็นกรดจากคีโตน ภาวะติดเชื้อหรือบาดเจ็บขั้นรุนแรง\n
+• ตั้งครรภ์ วางแผนจะตั้งครรภ์ หรือให้นมบุตร\n
+• ดื่มแอลกอฮอล์\n
+• สูบบุหรี่"
+                    android:id="@+id/drug127TextView"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  อาการอันไม่พึงประสงค์ทั่วไป"
+                    android:id="@+id/drug128TextView"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" ท้องเสีย ปวดศรีษะ ปวดท้อง คลื่นใส้ อาเจีนยน มีอาการแสบยอดอก"
+                    android:id="@+id/drug129TextView"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  อาการอันไม่พึงประสงค์รุนแรง"
+                    android:id="@+id/drug1210TextView"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" ภาวะน้ำตาลในเลือดต่ำ จะมีอาการ มือสั่น หน้ามืดวิงเวียน มีเหงื่อออก หงุดหงิด กระวนกระวาย อารมณ์แปรปรวน ปวดศรีษะ มีอาการชาหรือปวดเสียวคล้ายหนามแทงบริเวณริมฝีปาก มีอาการอ่อนเพลีย หน้าซีด ตัวซีด รู้สึกหิว เมื่อเกิดอาการเหล่านี้ควรตรวจวัดระดับน้ำตาลในเลือด ทานอาหารหรือดื่มน้ำหวานทันที เช่น ลูกอม หรือน้ำผลไม้ อาการภูมิแพ้ที่ผิวหนัง เช่น ผื่นแดง คัน ลมพิษ ใบหน้า ริมฝีปากหรือลิ้นบวม การหายใจผิดปกติ ปัสสาวะคล้ำหรือมีสีเข้มขึ้น มีเลือดออกง่าย หรือฟกช้ำบ่อย ๆ ผิวหนังไวต่อแสงแดด มีไข้ ตัวสั่น และเจ็บคอ ผิวหนังหรือตาเหลือง"
+                    android:id="@+id/drug1211TextView"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
 
 </RelativeLayout>

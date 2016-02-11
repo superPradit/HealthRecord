@@ -3,18 +3,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="appbsru.supergolf.healthrecord.Section5Sup11Activity">
+    tools:context="appbsru.supergolf.healthrecord.Section5Sup11Activity"
+    android:background="@drawable/bg500">
 
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@drawable/bg500">
+        android:layout_height="match_parent">
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/bnDrug1Image"
+            android:id="@+id/bnDrug11Image"
             android:background="@drawable/bannerdrug" />
 
         <TextView
@@ -74,7 +74,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text=" • ยานี้อยู่ในรูปแบบยาเม็ด ใช้สำหรับรับประทาน โดยทั่วไปรับประทานวันละ 1 ครั้ง หรือให้ใช้ยานี้ตามวิธีใช้ที่ระบุบนฉลากยาอย่างเคร่งครัด โดยห้ามใช้ยาในขนาดที่มากหรือน้อยกว่าที่ระบุ และหากมีข้อสงสัยให้สอบถามแพทย์หรือเภสัชกร\n
-    • ควรรับประทานยานี้ก่อนอาหาร 30 นาที และควรรับประทานยาให้ตรงเวลาทุกครั้ง"
+• ควรรับประทานยานี้ก่อนอาหาร 30 นาที และควรรับประทานยาให้ตรงเวลาทุกครั้ง"
                     android:id="@+id/drug115TextView"
                     android:textSize="@dimen/h5"
                     android:textColor="@color/text"
@@ -94,13 +94,13 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text=" • การแพ้ยาไกลพิไซด์ (Glipizide) หรือแพ้ยาอื่นๆ\n
-    • ยาอื่นๆ ทั้งยาที่แพทย์สั่งจ่ายและยาที่ใช้เอง วิตามิน อาหารเสริม และยาสมุนไพร ที่ท่านใช้อยู่ในขณะนี้หรือกำลังจะใช้\n
-    • มีความผิดปกติของการทำงานของตับหรือไต\n
-    • โรคหัวใจและหลอดเลือด\n
-    • โรคต่อมไทรอยด์\n
-    • ติดเชื้อหรือบาดเจ็บรุนแรง\n
-    • หากต้องเข้ารับการผ่าตัดหรือทำฟัน ต้องแจ้งให้แพทย์ผู้ผ่าตัดหรือทันตแพทย์ทราบก่อนว่าท่านใช้ยาตัวนี้อยู่\n
-    • ตั้งครรภ์ หรือวางแผนจะตั้งครรภ์ หรือให้นมบุตร"
+• ยาอื่นๆ ทั้งยาที่แพทย์สั่งจ่ายและยาที่ใช้เอง วิตามิน อาหารเสริม และยาสมุนไพร ที่ท่านใช้อยู่ในขณะนี้หรือกำลังจะใช้\n
+• มีความผิดปกติของการทำงานของตับหรือไต\n
+• โรคหัวใจและหลอดเลือด\n
+• โรคต่อมไทรอยด์\n
+• ติดเชื้อหรือบาดเจ็บรุนแรง\n
+• หากต้องเข้ารับการผ่าตัดหรือทำฟัน ต้องแจ้งให้แพทย์ผู้ผ่าตัดหรือทันตแพทย์ทราบก่อนว่าท่านใช้ยาตัวนี้อยู่\n
+• ตั้งครรภ์ หรือวางแผนจะตั้งครรภ์ หรือให้นมบุตร"
                     android:id="@+id/drug117TextView"
                     android:textSize="@dimen/h5"
                     android:textColor="@color/text"
