@@ -52,12 +52,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         section2ImageView = (ImageView) findViewById(R.id.imageView2);
         section3ImageView = (ImageView) findViewById(R.id.imageView3);
         section4ImageView = (ImageView) findViewById(R.id.imageView4);
-        section5ImageView = (ImageView) findViewById(R.id.meetDoctorView);
+        section5ImageView = (ImageView) findViewById(R.id.drugImageView);
         section1TextView = (TextView) findViewById(R.id.textView);
         section2TextView = (TextView) findViewById(R.id.textView2);
         section3TextView = (TextView) findViewById(R.id.textView3);
         section4TextView = (TextView) findViewById(R.id.textView4);
-        section5TextView = (TextView) findViewById(R.id.meetDoctorText);
+        section5TextView = (TextView) findViewById(R.id.drugTextView);
     }
 
     @Override
@@ -76,8 +76,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.imageView4:
                 startActivity(new Intent(MainActivity.this, Section4Activity.class));
                 break;
-            case R.id.meetDoctorView:
-
+            case R.id.drugImageView:
+                startActivity(new Intent(MainActivity.this, Section5Activity.class));
                 break;
         } //switch
 
@@ -94,8 +94,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.textView4:
                 startActivity(new Intent(MainActivity.this, Section4Activity.class));
                 break;
-            case R.id.meetDoctorText:
-
+            case R.id.drugTextView:
+                startActivity(new Intent(MainActivity.this, Section5Activity.class));
                 break;
         }//switch TextView
 

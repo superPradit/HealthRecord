@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="appbsru.supergolf.healthrecord.Section5Activity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg500">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/drugImageView"
+            android:cropToPadding="false"
+            android:background="@drawable/bannerdrug" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/drug1"
+                android:id="@+id/drug1Button"
+                android:textColor="@color/text"
+                android:textSize="@dimen/h2" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/drug2"
+                android:id="@+id/drug2Button"
+                android:textColor="@color/text"
+                android:textSize="@dimen/h2" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="      เนื้อหาต่างๆในแอพพลิเคชั่นนี้ เป็นการให้ความรู้ทั่วไปเพื่อส่งเสริมการใช้ยาอย่างเหมาะสม มิได้มุ่งหมายสำหรับการใช้ยาในผู้ป่วยเฉพาะรายหรือการเจ็บป่วยเฉพาะกรณี
+การใช้ยาในผู้ป่วยเฉพาะรายหรือเฉพาะโรค ควรปรึกษาแพทย์หรือเภสัชกร ข้อมูลนี้เป็นความรู้ที่รวบรวมจากแหล่งวิชาการทั้งในและต่างประเทศ
+แต่ละประเทศอาจมีข้อกำหนดเฉพาะ สำหรับการขึ้นทะเบียนยาแตกต่างกัน ข้อมูลผลิตภัณฑ์ที่ขึ้นทะเบียนในประเทศไทย โปรดดูเอกสารกำกับยา"
+                android:id="@+id/infoDrugTextView"
+                android:background="#96ffffff"
+                android:textSize="@dimen/h5"
+                android:textColor="@color/text"
+                android:padding="10dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

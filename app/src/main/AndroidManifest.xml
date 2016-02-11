@@ -7,7 +7,8 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"
+        <activity
+            android:name=".MainActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -15,696 +16,896 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Section1Activity"
+        <activity
+            android:name=".Section1Activity"
             android:label="@string/section1_1"
-            android:parentActivityName="appbsru.supergolf.healthrecord.MainHoldSection1" >
-            <!-- Parent activity meta-data to support 4.0 and lower -->
-            <meta-data
-            android:name="android.support.PARENT_ACTIVITY"
-            android:value="appbsru.supergolf.healthrecord.MainHoldSection1" />
-            </activity>
-        <activity android:name=".MainHoldSection1"
-            android:label="@string/section1"
-            android:parentActivityName="appbsru.supergolf.healthrecord.MainActivity" >
-            <!-- Parent activity meta-data to support 4.0 and lower -->
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="appbsru.supergolf.healthrecord.MainActivity" />
-        </activity>
-        <activity android:name=".ResultOfSection11"
-            android:label="@string/section1_1"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section1Activity" >
-            <!-- Parent activity meta-data to support 4.0 and lower -->
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="appbsru.supergolf.healthrecord.Section1Activity" />
-        </activity>
-        <activity android:name=".Section12Activity"
-            android:label="@string/section1_2"
-            android:parentActivityName="appbsru.supergolf.healthrecord.MainHoldSection1" >
+            android:parentActivityName=".MainHoldSection1">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.MainHoldSection1" />
         </activity>
-        <activity android:name=".ResultOfSection12"
+        <activity
+            android:name=".MainHoldSection1"
+            android:label="@string/section1"
+            android:parentActivityName=".MainActivity">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="appbsru.supergolf.healthrecord.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ResultOfSection11"
+            android:label="@string/section1_1"
+            android:parentActivityName=".Section1Activity">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="appbsru.supergolf.healthrecord.Section1Activity" />
+        </activity>
+        <activity
+            android:name=".Section12Activity"
             android:label="@string/section1_2"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section12Activity" >
+            android:parentActivityName=".MainHoldSection1">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="appbsru.supergolf.healthrecord.MainHoldSection1" />
+        </activity>
+        <activity
+            android:name=".ResultOfSection12"
+            android:label="@string/section1_2"
+            android:parentActivityName=".Section12Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section12Activity" />
         </activity>
-        <activity android:name=".Section2Activity"
+        <activity
+            android:name=".Section2Activity"
             android:label="@string/section2"
-            android:parentActivityName="appbsru.supergolf.healthrecord.MainActivity" >
+            android:parentActivityName=".MainActivity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.MainActivity" />
         </activity>
-        <activity android:name=".Section2HoldActivity"
+        <activity
+            android:name=".Section2HoldActivity"
             android:label="@string/perform1"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section2Activity" >
+            android:parentActivityName=".Section2Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section2Activity" />
         </activity>
-        <activity android:name=".Section2Hold2Activity"
+        <activity
+            android:name=".Section2Hold2Activity"
             android:label="@string/perform2"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section2Activity" >
+            android:parentActivityName=".Section2Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section2Activity" />
         </activity>
-        <activity android:name=".Section2Hold3Activity"
+        <activity
+            android:name=".Section2Hold3Activity"
             android:label="@string/perform3"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section2Activity" >
+            android:parentActivityName=".Section2Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section2Activity" />
         </activity>
-        <activity android:name=".Section2Hold4Activity"
+        <activity
+            android:name=".Section2Hold4Activity"
             android:label="@string/perform6"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section2Activity" >
+            android:parentActivityName=".Section2Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section2Activity" />
         </activity>
-        <activity android:name=".Section2Hold5Activity"
+        <activity
+            android:name=".Section2Hold5Activity"
             android:label="@string/perform7"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section2Activity" >
+            android:parentActivityName=".Section2Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section2Activity" />
         </activity>
-        <activity android:name=".Section2Hold6Activity"
+        <activity
+            android:name=".Section2Hold6Activity"
             android:label="@string/perform8"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section2Activity" >
+            android:parentActivityName=".Section2Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section2Activity" />
         </activity>
-        <activity android:name=".Section2Hold7Activity"
+        <activity
+            android:name=".Section2Hold7Activity"
             android:label="@string/perform9"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section2Activity" >
+            android:parentActivityName=".Section2Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section2Activity" />
         </activity>
-        <activity android:name=".Section2Sup11Activity"
+        <activity
+            android:name=".Section2Sup11Activity"
             android:label="@string/exercise1"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section2HoldActivity" >
+            android:parentActivityName=".Section2HoldActivity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section2HoldActivity" />
         </activity>
-        <activity android:name=".Section2Sup12Activity"
+        <activity
+            android:name=".Section2Sup12Activity"
             android:label="@string/exercise2"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section2HoldActivity" >
+            android:parentActivityName=".Section2HoldActivity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section2HoldActivity" />
         </activity>
-        <activity android:name=".Section2Sup13Activity"
+        <activity
+            android:name=".Section2Sup13Activity"
             android:label="@string/exercise3"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section2HoldActivity" >
+            android:parentActivityName=".Section2HoldActivity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section2HoldActivity" />
         </activity>
-        <activity android:name=".Section2Sup21Activity"
+        <activity
+            android:name=".Section2Sup21Activity"
             android:label="@string/smbg1"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section2Hold2Activity" >
+            android:parentActivityName=".Section2Hold2Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section2Hold2Activity" />
         </activity>
-        <activity android:name=".Section2Sup22Activity"
+        <activity
+            android:name=".Section2Sup22Activity"
             android:label="@string/smbg2"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section2Hold2Activity" >
+            android:parentActivityName=".Section2Hold2Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section2Hold2Activity" />
         </activity>
-        <activity android:name=".Section2Sup31Activity"
+        <activity
+            android:name=".Section2Sup31Activity"
             android:label="@string/urinalysis1"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section2Hold3Activity" >
+            android:parentActivityName=".Section2Hold3Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section2Hold3Activity" />
         </activity>
-        <activity android:name=".Section2Sup32Activity"
+        <activity
+            android:name=".Section2Sup32Activity"
             android:label="@string/urinalysis2"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section2Hold3Activity" >
+            android:parentActivityName=".Section2Hold3Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section2Hold3Activity" />
         </activity>
-        <activity android:name=".Section2Sup33Activity"
+        <activity
+            android:name=".Section2Sup33Activity"
             android:label="@string/urinalysis3"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section2Hold3Activity" >
+            android:parentActivityName=".Section2Hold3Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section2Hold3Activity" />
         </activity>
-        <activity android:name=".Section2Sup34Activity"
+        <activity
+            android:name=".Section2Sup34Activity"
             android:label="@string/urinalysis4"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section2Hold3Activity" >
+            android:parentActivityName=".Section2Hold3Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section2Hold3Activity" />
         </activity>
-        <activity android:name=".Section2Sup41Activity"
+        <activity
+            android:name=".Section2Sup41Activity"
             android:label="@string/perform4"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section2Activity" >
+            android:parentActivityName=".Section2Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section2Activity" />
         </activity>
-        <activity android:name=".Section2Sup51Activity"
+        <activity
+            android:name=".Section2Sup51Activity"
             android:label="@string/perform5"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section2Activity" >
+            android:parentActivityName=".Section2Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section2Activity" />
         </activity>
-        <activity android:name=".Section2Sup61Activity"
+        <activity
+            android:name=".Section2Sup61Activity"
             android:label="@string/foot1"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section2Hold4Activity" >
+            android:parentActivityName=".Section2Hold4Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section2Hold4Activity" />
         </activity>
-        <activity android:name=".Section2Sup62Activity"
+        <activity
+            android:name=".Section2Sup62Activity"
             android:label="@string/foot2"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section2Hold4Activity" >
+            android:parentActivityName=".Section2Hold4Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section2Hold4Activity" />
         </activity>
-        <activity android:name=".Section2Sup63Activity"
+        <activity
+            android:name=".Section2Sup63Activity"
             android:label="@string/foot3"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section2Hold4Activity" >
+            android:parentActivityName=".Section2Hold4Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section2Hold4Activity" />
         </activity>
-        <activity android:name=".Section2Sup64Activity"
+        <activity
+            android:name=".Section2Sup64Activity"
             android:label="@string/foot4"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section2Hold4Activity" >
+            android:parentActivityName=".Section2Hold4Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section2Hold4Activity" />
         </activity>
-        <activity android:name=".Section2Sup71Activity"
+        <activity
+            android:name=".Section2Sup71Activity"
             android:label="@string/pregnant1"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section2Hold5Activity" >
+            android:parentActivityName=".Section2Hold5Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section2Hold5Activity" />
         </activity>
-        <activity android:name=".Section2Sup72Activity"
+        <activity
+            android:name=".Section2Sup72Activity"
             android:label="@string/pregnant2"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section2Hold5Activity" >
+            android:parentActivityName=".Section2Hold5Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section2Hold5Activity" />
         </activity>
-        <activity android:name=".Section2Sup73Activity"
+        <activity
+            android:name=".Section2Sup73Activity"
             android:label="@string/pregnant3"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section2Hold5Activity" >
+            android:parentActivityName=".Section2Hold5Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section2Hold5Activity" />
         </activity>
-        <activity android:name=".Section2Sup81Activity"
+        <activity
+            android:name=".Section2Sup81Activity"
             android:label="@string/emergency1"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section2Hold6Activity" >
+            android:parentActivityName=".Section2Hold6Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section2Hold6Activity" />
         </activity>
-        <activity android:name=".Section2Sup811Activity"
+        <activity
+            android:name=".Section2Sup811Activity"
             android:label="@string/emergency1"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section2Sup81Activity" >
+            android:parentActivityName=".Section2Sup81Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section2Sup81Activity" />
         </activity>
-        <activity android:name=".Section2Sup812Activity"
+        <activity
+            android:name=".Section2Sup812Activity"
             android:label="@string/emergency1"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section2Sup81Activity" >
+            android:parentActivityName=".Section2Sup81Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section2Sup81Activity" />
         </activity>
-        <activity android:name=".Section2Sup813Activity"
+        <activity
+            android:name=".Section2Sup813Activity"
             android:label="@string/emergency1"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section2Sup81Activity" >
+            android:parentActivityName=".Section2Sup81Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section2Sup81Activity" />
         </activity>
-        <activity android:name=".Section2Sup82Activity"
+        <activity
+            android:name=".Section2Sup82Activity"
             android:label="@string/emergency2"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section2Hold6Activity" >
+            android:parentActivityName=".Section2Hold6Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section2Hold6Activity" />
         </activity>
-        <activity android:name=".Section2Sup83Activity"
+        <activity
+            android:name=".Section2Sup83Activity"
             android:label="@string/emergency3"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section2Hold6Activity" >
+            android:parentActivityName=".Section2Hold6Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section2Hold6Activity" />
         </activity>
-        <activity android:name=".Section2Sup821Activity"
+        <activity
+            android:name=".Section2Sup821Activity"
             android:label="@string/emergency2"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section2Sup82Activity" >
+            android:parentActivityName=".Section2Sup82Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section2Sup82Activity" />
         </activity>
-        <activity android:name=".Section2Sup822Activity"
+        <activity
+            android:name=".Section2Sup822Activity"
             android:label="@string/emergency2"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section2Sup82Activity" >
+            android:parentActivityName=".Section2Sup82Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section2Sup82Activity" />
         </activity>
-        <activity android:name=".Section2Sup831Activity"
+        <activity
+            android:name=".Section2Sup831Activity"
             android:label="@string/emergency3"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section2Sup83Activity" >
+            android:parentActivityName=".Section2Sup83Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section2Sup83Activity" />
         </activity>
-        <activity android:name=".Section2Sup832Activity"
+        <activity
+            android:name=".Section2Sup832Activity"
             android:label="@string/emergency3"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section2Sup83Activity" >
+            android:parentActivityName=".Section2Sup83Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section2Sup83Activity" />
         </activity>
-        <activity android:name=".Section2Sup833Activity"
+        <activity
+            android:name=".Section2Sup833Activity"
             android:label="@string/emergency3"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section2Sup83Activity" >
+            android:parentActivityName=".Section2Sup83Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section2Sup83Activity" />
         </activity>
-        <activity android:name=".Section2Sup91Activity"
+        <activity
+            android:name=".Section2Sup91Activity"
             android:label="@string/complication1"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section2Hold7Activity" >
+            android:parentActivityName=".Section2Hold7Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section2Hold7Activity" />
         </activity>
-        <activity android:name=".Section2Sup92Activity"
+        <activity
+            android:name=".Section2Sup92Activity"
             android:label="@string/complication2"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section2Hold7Activity" >
+            android:parentActivityName=".Section2Hold7Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section2Hold7Activity" />
         </activity>
-        <activity android:name=".Section2Sup93Activity"
+        <activity
+            android:name=".Section2Sup93Activity"
             android:label="@string/complication3"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section2Hold7Activity" >
+            android:parentActivityName=".Section2Hold7Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section2Hold7Activity" />
         </activity>
-        <activity android:name=".Section2Sup94Activity"
+        <activity
+            android:name=".Section2Sup94Activity"
             android:label="@string/complication4"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section2Hold7Activity" >
+            android:parentActivityName=".Section2Hold7Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section2Hold7Activity" />
         </activity>
-        <activity android:name=".Section2Sup95Activity"
+        <activity
+            android:name=".Section2Sup95Activity"
             android:label="@string/complication5"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section2Hold7Activity" >
+            android:parentActivityName=".Section2Hold7Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section2Hold7Activity" />
         </activity>
-        <activity android:name=".Section2Sup96Activity"
+        <activity
+            android:name=".Section2Sup96Activity"
             android:label="@string/complication6"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section2Hold7Activity" >
+            android:parentActivityName=".Section2Hold7Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section2Hold7Activity" />
         </activity>
-        <activity android:name=".Section3Activity"
+        <activity
+            android:name=".Section3Activity"
             android:label="@string/section3"
-            android:parentActivityName="appbsru.supergolf.healthrecord.MainActivity" >
+            android:parentActivityName=".MainActivity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.MainActivity" />
         </activity>
-        <activity android:name=".Section3Hold1Activity"
+        <activity
+            android:name=".Section3Hold1Activity"
             android:label="@string/nutrition1"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section3Activity" >
+            android:parentActivityName=".Section3Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section3Activity" />
         </activity>
-        <activity android:name=".Section3Sup11Activity"
+        <activity
+            android:name=".Section3Sup11Activity"
             android:label="@string/menufood1"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section3Hold1Activity" >
+            android:parentActivityName=".Section3Hold1Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section3Hold1Activity" />
         </activity>
-        <activity android:name=".Section3Sup12Activity"
+        <activity
+            android:name=".Section3Sup12Activity"
             android:label="@string/menufood2"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section3Hold1Activity" >
+            android:parentActivityName=".Section3Hold1Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section3Hold1Activity" />
         </activity>
-        <activity android:name=".Section3Sup13Activity"
+        <activity
+            android:name=".Section3Sup13Activity"
             android:label="@string/menufood3"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section3Hold1Activity" >
+            android:parentActivityName=".Section3Hold1Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section3Hold1Activity" />
         </activity>
-        <activity android:name=".Section3Sup14Activity"
+        <activity
+            android:name=".Section3Sup14Activity"
             android:label="@string/menufood4"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section3Hold1Activity" >
+            android:parentActivityName=".Section3Hold1Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section3Hold1Activity" />
         </activity>
-        <activity android:name=".Section3Sup15Activity"
+        <activity
+            android:name=".Section3Sup15Activity"
             android:label="@string/menufood5"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section3Hold1Activity" >
+            android:parentActivityName=".Section3Hold1Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section3Hold1Activity" />
         </activity>
-        <activity android:name=".Section3Hold2Activity"
+        <activity
+            android:name=".Section3Hold2Activity"
             android:label="@string/nutrition2"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section3Activity" >
+            android:parentActivityName=".Section3Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section3Activity" />
         </activity>
-        <activity android:name=".Section3Sup21Activity"
+        <activity
+            android:name=".Section3Sup21Activity"
             android:label="@string/foodrecipe1"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section3Hold2Activity" >
+            android:parentActivityName=".Section3Hold2Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section3Hold2Activity" />
         </activity>
-        <activity android:name=".Section3Sup22Activity"
+        <activity
+            android:name=".Section3Sup22Activity"
             android:label="@string/foodrecipe2"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section3Hold2Activity" >
+            android:parentActivityName=".Section3Hold2Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section3Hold2Activity" />
         </activity>
-        <activity android:name=".Section3Sup23Activity"
+        <activity
+            android:name=".Section3Sup23Activity"
             android:label="@string/foodrecipe3"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section3Hold2Activity" >
+            android:parentActivityName=".Section3Hold2Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section3Hold2Activity" />
         </activity>
-        <activity android:name=".Section3Sup24Activity"
+        <activity
+            android:name=".Section3Sup24Activity"
             android:label="@string/foodrecipe4"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section3Hold2Activity" >
+            android:parentActivityName=".Section3Hold2Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section3Hold2Activity" />
         </activity>
-        <activity android:name=".Section3Sup25Activity"
+        <activity
+            android:name=".Section3Sup25Activity"
             android:label="@string/foodrecipe5"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section3Hold2Activity" >
+            android:parentActivityName=".Section3Hold2Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section3Hold2Activity" />
         </activity>
-        <activity android:name=".Section3Sup26Activity"
+        <activity
+            android:name=".Section3Sup26Activity"
             android:label="@string/foodrecipe6"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section3Hold2Activity" >
+            android:parentActivityName=".Section3Hold2Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section3Hold2Activity" />
         </activity>
-        <activity android:name=".Section3Sup27Activity"
+        <activity
+            android:name=".Section3Sup27Activity"
             android:label="@string/foodrecipe7"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section3Hold2Activity" >
+            android:parentActivityName=".Section3Hold2Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section3Hold2Activity" />
         </activity>
-        <activity android:name=".Section3Sup28Activity"
+        <activity
+            android:name=".Section3Sup28Activity"
             android:label="@string/foodrecipe8"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section3Hold2Activity" >
+            android:parentActivityName=".Section3Hold2Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section3Hold2Activity" />
         </activity>
-        <activity android:name=".Section3Sup29Activity"
+        <activity
+            android:name=".Section3Sup29Activity"
             android:label="@string/foodrecipe9"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section3Hold2Activity" >
+            android:parentActivityName=".Section3Hold2Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section3Hold2Activity" />
         </activity>
-        <activity android:name=".Section3Sup210Activity"
+        <activity
+            android:name=".Section3Sup210Activity"
             android:label="@string/foodrecipe10"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section3Hold2Activity" >
+            android:parentActivityName=".Section3Hold2Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section3Hold2Activity" />
         </activity>
-        <activity android:name=".Section3Sup211Activity"
+        <activity
+            android:name=".Section3Sup211Activity"
             android:label="@string/foodrecipe11"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section3Hold2Activity" >
+            android:parentActivityName=".Section3Hold2Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section3Hold2Activity" />
         </activity>
-        <activity android:name=".Section3Sup212Activity"
+        <activity
+            android:name=".Section3Sup212Activity"
             android:label="@string/foodrecipe12"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section3Hold2Activity" >
+            android:parentActivityName=".Section3Hold2Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section3Hold2Activity" />
         </activity>
-        <activity android:name=".Section3Sup213Activity"
+        <activity
+            android:name=".Section3Sup213Activity"
             android:label="@string/foodrecipe13"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section3Hold2Activity" >
+            android:parentActivityName=".Section3Hold2Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section3Hold2Activity" />
         </activity>
-        <activity android:name=".Section3Sup214Activity"
+        <activity
+            android:name=".Section3Sup214Activity"
             android:label="@string/foodrecipe14"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section3Hold2Activity" >
+            android:parentActivityName=".Section3Hold2Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section3Hold2Activity" />
         </activity>
-        <activity android:name=".Section3Sup215Activity"
+        <activity
+            android:name=".Section3Sup215Activity"
             android:label="@string/foodrecipe15"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section3Hold2Activity" >
+            android:parentActivityName=".Section3Hold2Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section3Hold2Activity" />
         </activity>
-        <activity android:name=".Section3Sup216Activity"
+        <activity
+            android:name=".Section3Sup216Activity"
             android:label="@string/foodrecipe16"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section3Hold2Activity" >
+            android:parentActivityName=".Section3Hold2Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section3Hold2Activity" />
         </activity>
-        <activity android:name=".Section3Sup217Activity"
+        <activity
+            android:name=".Section3Sup217Activity"
             android:label="@string/foodrecipe17"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section3Hold2Activity" >
+            android:parentActivityName=".Section3Hold2Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section3Hold2Activity" />
         </activity>
-        <activity android:name=".Section3Sup218Activity"
+        <activity
+            android:name=".Section3Sup218Activity"
             android:label="@string/foodrecipe18"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section3Hold2Activity" >
+            android:parentActivityName=".Section3Hold2Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section3Hold2Activity" />
         </activity>
-        <activity android:name=".Section3Sup219Activity"
+        <activity
+            android:name=".Section3Sup219Activity"
             android:label="@string/foodrecipe19"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section3Hold2Activity" >
+            android:parentActivityName=".Section3Hold2Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section3Hold2Activity" />
         </activity>
-        <activity android:name=".Section3Sup220Activity"
+        <activity
+            android:name=".Section3Sup220Activity"
             android:label="@string/foodrecipe20"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section3Hold2Activity" >
+            android:parentActivityName=".Section3Hold2Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section3Hold2Activity" />
         </activity>
-        <activity android:name=".Section3Sup221Activity"
+        <activity
+            android:name=".Section3Sup221Activity"
             android:label="@string/foodrecipe21"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section3Hold2Activity" >
+            android:parentActivityName=".Section3Hold2Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section3Hold2Activity" />
         </activity>
-        <activity android:name=".Section3Sup222Activity"
+        <activity
+            android:name=".Section3Sup222Activity"
             android:label="@string/foodrecipe22"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section3Hold2Activity" >
+            android:parentActivityName=".Section3Hold2Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section3Hold2Activity" />
         </activity>
-        <activity android:name=".Section3Sup223Activity"
+        <activity
+            android:name=".Section3Sup223Activity"
             android:label="@string/foodrecipe23"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section3Hold2Activity" >
+            android:parentActivityName=".Section3Hold2Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section3Hold2Activity" />
         </activity>
-        <activity android:name=".Section3Sup224Activity"
+        <activity
+            android:name=".Section3Sup224Activity"
             android:label="@string/foodrecipe24"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section3Hold2Activity" >
+            android:parentActivityName=".Section3Hold2Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section3Hold2Activity" />
         </activity>
-        <activity android:name=".Section3Sup225Activity"
+        <activity
+            android:name=".Section3Sup225Activity"
             android:label="@string/foodrecipe25"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section3Hold2Activity" >
+            android:parentActivityName=".Section3Hold2Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section3Hold2Activity" />
         </activity>
-        <activity android:name=".Section4Activity"
+        <activity
+            android:name=".Section4Activity"
             android:label="@string/section4"
-            android:parentActivityName="appbsru.supergolf.healthrecord.MainActivity" >
+            android:parentActivityName=".MainActivity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.MainActivity" />
         </activity>
-        <activity android:name=".ShowDoctorActivity"
+        <activity
+            android:name=".ShowDoctorActivity"
             android:label="@string/showdoctor"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section4Activity" >
+            android:parentActivityName=".Section4Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section4Activity" />
         </activity>
-        <activity android:name=".AddDoctorActivity"
+        <activity
+            android:name=".AddDoctorActivity"
             android:label="@string/adddoctor"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section4Activity" >
+            android:parentActivityName=".Section4Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section4Activity" />
         </activity>
-        <activity android:name=".EditDoctorActivity"
+        <activity
+            android:name=".EditDoctorActivity"
             android:label="@string/editdoctor"
-            android:parentActivityName="appbsru.supergolf.healthrecord.Section4Activity" >
+            android:parentActivityName=".Section4Activity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.Section4Activity" />
         </activity>
-        <activity android:name=".UpdateDoctorActivity"
+        <activity
+            android:name=".UpdateDoctorActivity"
             android:label="@string/editdoctor"
-            android:parentActivityName="appbsru.supergolf.healthrecord.EditDoctorActivity" >
+            android:parentActivityName=".EditDoctorActivity">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="appbsru.supergolf.healthrecord.EditDoctorActivity" />
         </activity>
+        <activity
+            android:name=".Section5Activity"
+            android:label="@string/section5"
+            android:parentActivityName=".MainActivity">
 
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="appbsru.supergolf.healthrecord.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Section5Sup1Activity"
+            android:label="@string/drug1"
+            android:parentActivityName=".Section5Activity">
 
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="appbsru.supergolf.healthrecord.Section5Activity" />
+        </activity>
+        <activity
+            android:name=".Section5Sup2Activity"
+            android:label="@string/drug2"
+            android:parentActivityName=".Section5Activity">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="appbsru.supergolf.healthrecord.Section5Activity" />
+        </activity>
     </application>
 
 </manifest>
