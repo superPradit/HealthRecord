@@ -3,10 +3,158 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="appbsru.supergolf.healthrecord.Section5Sup18Activity">
+    tools:context="appbsru.supergolf.healthrecord.Section5Sup18Activity"
+    android:background="@drawable/bg500">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bnDrug18Image"
+            android:background="@drawable/bannerdrug" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/drug18"
+            android:id="@+id/drug181TextView"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/text"
+            android:textSize="@dimen/h6" />
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/drug18ScrollView"
+            android:layout_margin="10dp"
+            android:background="#96ffffff">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  สรรพคุณยา"
+                    android:id="@+id/drug182TextView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" • ยานี้ใช้เพื่อควบคุมระดับน้ำตาลในเลือดสำหรับผู้ป่วยเบาหวาน"
+                    android:id="@+id/drug183TextView"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  วิธีการใช้ยา"
+                    android:id="@+id/drug184TextView"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" • ควรใช้ยานี้อย่างต่อเนื่อง ไม่ควรหยุดยาเองโดยไม่ได้รับคำแนะนำจากแพทย์และปฏิบัติตามคำสั่งของแพทย์อย่างเคร่งครัด\n
+• การฉีดอินซูลิน\n
+    * ทำความสะอาดตำแหน่งที่จะฉีดยาด้วยแอลกอฮอล์\n
+    * ใช้มือข้างหนึ่งดึงผิวหนังบริเวณที่จะฉีดยาให้สูงขึ้น\n
+    * แทงเข็มฉีดยาเข้าไปใต้ผิวหนัง กดปุ่มฉีดยาที่ปลายปากกาจนสุด\n
+    * ถอนเข็มออกจากใต้ผิวหนัง ถ้ามีเลือดไหลซึมออกมาให้ใช้สำลีสะอาดกดไว้เบา ๆ ประมาณ 5 นาที ห้ามถูบริเวณที่ฉีดยาโดยเด็ดขาด\n
+    *ไม่ควรฉีดยาในตำแหน่งเดิมทุกวัน โดยตำแหน่งที่ฉีดใหม่ควรมีระยะห่างจากตำแหน่งครั้งหลังสุดประมาณ 1 นิ้ว แต่ไม่ควรย้ายบริเวณที่ฉีดทุกวัน เช่น ย้ายจากหน้าท้องไปแขน หรือขา เพราะจะทำให้การดูดซึมยาไม่สม่ำเสมอ\n
+• ตรวจสอบอินซูลินก่อนการใช้ทุกครั้งว่ามีลักษณะผิดปกติหรือไม่ ซึ่งอินซูลินชนิดนี้จะต้องมีลักษณะน้ำใส ปราศจากสีและตะกอน\n
+• ยานี้อยู่ในรูปแบบยาฉีดน้ำใส ใช้สำหรับฉีดบริเวณใต้ผิวหนัง โดยทั่วไปฉีดวันละครั้ง ก่อนนอน\n
+• ไม่ควรเปลี่ยนยี่ห้อ ชนิดของอินซูลิน หรือขนาดยา (ปริมาณที่ฉีด) ของอินซูลินโดยปราศจากคำแนะนำของแพทย์\n
+• ไม่ควรผสมยานี้กับอินซูลินชนิดอื่น หรือเจือจางยา"
+                    android:id="@+id/drug185TextView"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  สิ่งที่ควรแจ้งให้แพทย์หรือเภสัชกรทราบ"
+                    android:id="@+id/drug186TextView"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" • ประวัติแพ้ยาอินซูลิน หรือยาอื่นๆ\n
+• ใช้หรือกำลังใช้ยาอื่น ๆ ทั้งที่แทย์สั่งจ่ายและยาที่ใช้เอง วิตามิน อาหารเสริม และสมุนไพร\n
+• มีภาวะน้ำตาลในเลือดต่ำ\n
+• มีหรือเคยมีโรคตับ โรคไต หรือ โรคไทรอยด์\n
+• การผ่าตัด รวมถึงการผ่าตัดทางทันตกรรม ควรแจ้งแพทย์ทุกครั้งว่าใช้ยาชนิดนี้อยู่\n
+• ตั้งครรภ์ วางแผนจะตั้งครรภ์ หรือให้นมบุตร"
+                    android:id="@+id/drug187TextView"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  อาการอันไม่พึงประสงค์ทั่วไป"
+                    android:id="@+id/drug188TextView"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      ภาวะน้ำตาลในเลือดต่ำ จะมีอาการ มือสั่น หน้ามืดวิงเวียน มีเหงื่อออก หงุดหงิด กระวนกระวาย อารมณ์แปรปรวน ปวดศรีษะ มีอาการชาหรือปวดเสียวคล้ายหนามแทงบริเวณริมฝีปาก มีอาการอ่อนเพลีย หน้าซีด ตัวซีด รู้สึกหิว เมื่อเกิดอาการเหล่านี้ควรตรวจวัดระดับน้ำตาลในเลือด ทานอาหารหรือดื่มน้ำหวานทันที เช่น ลูกอม หรือน้ำผลไม้ ผิวหนังแดง บวม หรือคันบริเวณที่ฉีดยา รอยบุ๋มหรือผิวหนังนูนขึ้นบริเวณที่ฉีดยา"
+                    android:id="@+id/drug189TextView"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  อาการอันไม่พึงประสงค์รุนแรง"
+                    android:id="@+id/drug1810TextView"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      ภาวะน้ำตาลในเลือดต่ำขั้นรุนแรง ส่วนใหญ่เกิดจากการที่ไม่ได้รับการดูแลอย่างถูกวิธีเมื่อเกิดภาวะน้ำตาลในเลือดต่ำขั้นต้น จะมีอาการ สับสน มีอาการชัก และหมดสติ หายใจผิดปกติ อาการแพ้ผิวหนัง ได้แก่ ผื่นผิวหนังนอกเหนือจากบริเวณที่ฉีดยา และมีอาการคัน ภาวะน้ำตาลในเลือดสูง จะมีอาการกระหายน้ำอย่างรุนแรง ปัสสาวะบ่อยมาก รู้สึกหิวมาก อ่อนเพลีย สายตาพร่ามัว ซึ่งหากยังไม่ได้รับการรักษาจะเกิดภาวะเป็นกรดในเลือด ( diabetic ketoacidosis) จะมีอาการปากแห้ง คลื่นไส้หรือปวดท้องอย่างรุนแรง หายใจหอบถี่(หายใจเร็ว) หายใจมีกลิ่นผลไม้ สติสัมปัชชัญญะลดลง"
+                    android:id="@+id/drug1811TextView"
+                    android:textSize="@dimen/h5"
+                    android:textColor="@color/text"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
 
 </RelativeLayout>
