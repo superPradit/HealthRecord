@@ -909,43 +909,46 @@
         <activity
             android:name=".Section5Sup11Activity"
             android:label="@string/drug11"
-            android:parentActivityName=".Section5Sup1Activity">
-        </activity>
+            android:parentActivityName=".Section5Sup1Activity" />
         <activity
             android:name=".Section5Sup12Activity"
             android:label="@string/drug12"
-            android:parentActivityName=".Section5Sup1Activity">
-        </activity>
+            android:parentActivityName=".Section5Sup1Activity" />
         <activity
             android:name=".Section5Sup13Activity"
             android:label="@string/drug13"
-            android:parentActivityName=".Section5Sup1Activity">
-        </activity>
+            android:parentActivityName=".Section5Sup1Activity" />
         <activity
             android:name=".Section5Sup14Activity"
             android:label="@string/drug14"
-            android:parentActivityName=".Section5Sup1Activity">
-        </activity>
+            android:parentActivityName=".Section5Sup1Activity" />
         <activity
             android:name=".Section5Sup15Activity"
             android:label="@string/drug15"
-            android:parentActivityName=".Section5Sup1Activity">
-        </activity>
+            android:parentActivityName=".Section5Sup1Activity" />
         <activity
             android:name=".Section5Sup16Activity"
             android:label="@string/drug16"
-            android:parentActivityName=".Section5Sup1Activity">
-        </activity>
+            android:parentActivityName=".Section5Sup1Activity" />
         <activity
             android:name=".Section5Sup17Activity"
             android:label="@string/drug17"
-            android:parentActivityName=".Section5Sup1Activity">
-        </activity>
+            android:parentActivityName=".Section5Sup1Activity" />
         <activity
             android:name=".Section5Sup18Activity"
             android:label="@string/drug18"
-            android:parentActivityName=".Section5Sup1Activity">
-        </activity>
+            android:parentActivityName=".Section5Sup1Activity" />
+        <activity android:name=".Section5Sup21Activity" />
+        <activity android:name=".Section5Sup22Activity" />
+        <activity android:name=".Section5Sup23Activity" />
+        <activity android:name=".Section5Sup24Activity" />
+        <activity android:name=".Section5Sup25Activity" />
+        <activity android:name=".Section5Sup26Activity" />
+        <activity android:name=".Section5Sup27Activity" />
+        <activity android:name=".Section5Sup28Activity" />
+        <activity android:name=".Section5Sup29Activity" />
+        <activity android:name=".Section5Sup210Activity" />
+        <activity android:name=".Section5Sup211Activity"></activity>
     </application>
 
 </manifest>

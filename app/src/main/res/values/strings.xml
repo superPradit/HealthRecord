@@ -135,4 +135,17 @@
     <string name="drug17">VOGLIBOSE</string>
     <string name="drug18">INSULIN</string>
 
+    <string name="herb1">มะระขี้นก</string>
+    <string name="herb2">ครอบฟันสี</string>
+    <string name="herb3">ลูกใต้ใบ</string>
+    <string name="herb4">กรดน้ำ</string>
+    <string name="herb5">อบเชย</string>
+    <string name="herb6">ไมยราบ</string>
+    <string name="herb7">เตย</string>
+    <string name="herb8">ผักเชียงดา</string>
+    <string name="herb9">ตำลึง</string>
+    <string name="herb10">ชะพลู</string>
+    <string name="herb11">หว้า</string>
+
+
 </resources>

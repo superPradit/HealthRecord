@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="herb_image_array">
+        <item>@drawable/bitter_gourd</item>
+        <item>@drawable/country_mallow</item>
+        <item>@drawable/egg_woman</item>
+        <item>@drawable/sweet_broomweed</item>
+        <item>@drawable/cinnamon</item>
+        <item>@drawable/sensitive_plant</item>
+        <item>@drawable/pandan_leaves</item>
+        <item>@drawable/gymnema_sylvestre</item>
+        <item>@drawable/ivy_gourd</item>
+        <item>@drawable/wildbetal_leafbush</item>
+        <item>@drawable/jambul</item>
+    </string-array>
+
+    <string-array name="herb_string_array">
+        <item>มะระขี้นก</item>
+        <item>ครอบฟันสี</item>
+        <item>ลูกใต้ใบ</item>
+        <item>กรดน้ำ</item>
+        <item>อบเชย</item>
+        <item>ไมยราบ</item>
+        <item>เตย</item>
+        <item>ผักเชียงดา</item>
+        <item>ตำลึง</item>
+        <item>ชะพลู</item>
+        <item>หว้า</item>
+    </string-array>
+
+</resources>
