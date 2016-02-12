@@ -3,10 +3,175 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="appbsru.supergolf.healthrecord.Section5Sup22Activity">
+    tools:context="appbsru.supergolf.healthrecord.Section5Sup22Activity"
+    android:background="@drawable/bg500">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/herb21ImageView"
+            android:background="@drawable/bnherb" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/herb2"
+            android:id="@+id/herb21TextView"
+            android:textColor="@color/text"
+            android:textSize="@dimen/h2"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/herb2ScrollView"
+            android:layout_margin="16dp"
+            android:background="#96ffffff" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/herb22ImageView"
+                    android:background="@drawable/country_mallow"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ชื่อสามัญ :"
+                        android:id="@+id/herb22TextView"
+                        android:layout_weight="1.5"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/h5"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Country mallow, Indian mallow, Moon Flower"
+                        android:id="@+id/herb23TextView"
+                        android:layout_weight="1"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/h5" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ชื่อวิทยาศาสตร์ :"
+                        android:id="@+id/herb24TextView"
+                        android:layout_weight="1.5"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/h5"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Abutilon indicum (L.) Sweet"
+                        android:id="@+id/herb25TextView"
+                        android:layout_weight="1"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/h5" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ลักษณะของครอบฟันสี"
+                    android:id="@+id/herb26TextView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/text"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h5" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" • ต้นครอบฟันสี จัดเป็นไม้พุ่มขนาดเล็ก มีลำต้นมีความสูงประมาณ 0.5-2.5 เมตร ลำต้นตั้งตรง แตกกิ่งก้านสาขามาก และมีขนสีขาวนวลหรือสีเทาอ่อนนุ่มปกคลุมอยู่ทั่วไป โดยต้นครอบฟันสีนั้น จะมักเกิดตามดินปนทราย\n
+• ใบครอบฟันสี ใบออกสลับกัน ใบมีลักษณะกลมโต ปลายใบแหลมสั้น ฐานใบเว้าเป็นรูปคล้ายหัวใจ ส่วนขอบใบเป็นหยักรูปฟัน ขนาดของใบกว้างประมาณ 2.5-7 เซนติเมตร และยาวประมาณ 3-9 เซนติเมตร ใบสีเขียวค่อนข้างหนาและมีขนสีขาวนวลหรือสีเทาขึ้นปกคุลมทั้งสองด้าน และมีก้านใบยาว\n
+• ดอกครอบฟันสี ดอกออกเป็นดอกเดียวออกจากซอกของก้านใบ ดอกเป็นสีเหลือง มีขนาดเส้นผ่านศูนย์กลางประมาณ 2-3 เซนติเมตร ก้านดอกยาว ทางใกล้โคนดอกมีรอยเป็นข้อ 1 รอย กลีบเลี้ยงดอกติดกัน เมื่อบานออกจะคล้ายจาน และมีรอยแยกฉีก ๆ แบ่งออกเป็นกลีบ 5 กลีบ ลักษณะของกลีบปลายจะแหลมสั้น ๆ มีสีเขียว มีขนนุ่มสีเทาปกคุลมด้านดอกของกลีบดอกทั้งห้า\n
+• ผลครอบฟันสี ผลมีลักษณะกลมเป็นกลีบ ๆ เรียงติดกันลักษณะคล้ายฟันเฟืองข้าว โดยมีกลีบประมาณ 15-20 กลีบ มีขนาดเส้นผ่านศูนย์กลางประมาณ 2 เซนติเมตร และมีความหนาประมาณ 1.5 เซนติเมตร ภายนอกของผลจะมีจนสั้น ๆ ขึ้นปกคุลมอยู่ ชนิดนี้ผลจะมีลักษณะเป็นรูปตูม ๆ ไม่บานอ้าเหมือนกับชนิดอื่น\n
+• เมล็ดครอบฟันสี เมล็ดมีลักษณะคล้ายรูปไต มีขนสั้น ๆ"
+                    android:id="@+id/herb27TextView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="สรรพคุณของครอบฟันสี"
+                    android:id="@+id/herb28TextView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/text"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h5" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      รักษาโรคเบาหวาน สามารถลดระดับน้ำตาลในกระแสเลือด"
+                    android:id="@+id/herb29TextView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="วิธีการใช้"
+                    android:id="@+id/herb210TextView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/text"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h5" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" • แบบที่ 1 ใช้ยอดสดยาว 1 คืบ จำนวน 15 ยอด นำมาต้มกับน้ำ 6 แก้วโอเลี้ยงจนเดือด ใช้ดื่มในขณะยังอุ่นจนหมด ติดต่อกันทุกวันประมาณ 2-3 อาทิตย์\n
+• แบบที่ 2 ใช้ผลต้มกับน้ำกินครั้งละ 8-9 ผลต่อน้ำ 2 ลิตร หากน้ำตาลในเลือดลดลงแล้วให้ใช้เพียง 4-5 ผลต่อน้ำ 2 ลิตร ต้มดื่มต่างน้ำ\n
+• แบบที่ 3 ใช้ทั้ง 5 ส่วนของครอบฟันสี ประมาณ 1 กำมือ ต้มน้ำกิน\n
+• แบบที่ 4 ใช้ครอบฟันสี กับไมยราบ อย่างละ 1 ส่วน หั่น ตากแห้ง คั่วไฟให้สุกเหลือง กินเป็นชา"
+                    android:id="@+id/herb11TextView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:layout_marginBottom="10dp" />
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
 
 </RelativeLayout>

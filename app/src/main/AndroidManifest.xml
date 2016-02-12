@@ -940,7 +940,7 @@
             android:parentActivityName=".Section5Sup1Activity" />
         <activity
             android:name=".Section5Sup21Activity"
-            android:label="@string/herb1"
+            android:label="@string/herb"
             android:parentActivityName=".Section5Sup2Activity" />
         <activity
             android:name=".Section5Sup22Activity"
