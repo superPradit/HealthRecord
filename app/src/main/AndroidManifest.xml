@@ -938,17 +938,50 @@
             android:name=".Section5Sup18Activity"
             android:label="@string/drug18"
             android:parentActivityName=".Section5Sup1Activity" />
-        <activity android:name=".Section5Sup21Activity" />
-        <activity android:name=".Section5Sup22Activity" />
-        <activity android:name=".Section5Sup23Activity" />
-        <activity android:name=".Section5Sup24Activity" />
-        <activity android:name=".Section5Sup25Activity" />
-        <activity android:name=".Section5Sup26Activity" />
-        <activity android:name=".Section5Sup27Activity" />
-        <activity android:name=".Section5Sup28Activity" />
-        <activity android:name=".Section5Sup29Activity" />
-        <activity android:name=".Section5Sup210Activity" />
-        <activity android:name=".Section5Sup211Activity"></activity>
+        <activity
+            android:name=".Section5Sup21Activity"
+            android:label="@string/herb1"
+            android:parentActivityName=".Section5Sup2Activity" />
+        <activity
+            android:name=".Section5Sup22Activity"
+            android:label="@string/herb2"
+            android:parentActivityName=".Section5Sup2Activity" />
+        <activity
+            android:name=".Section5Sup23Activity"
+            android:label="@string/herb3"
+            android:parentActivityName=".Section5Sup2Activity" />
+        <activity
+            android:name=".Section5Sup24Activity"
+            android:label="@string/herb4"
+            android:parentActivityName=".Section5Sup2Activity" />
+        <activity
+            android:name=".Section5Sup25Activity"
+            android:label="@string/herb5"
+            android:parentActivityName=".Section5Sup2Activity" />
+        <activity
+            android:name=".Section5Sup26Activity"
+            android:label="@string/herb6"
+            android:parentActivityName=".Section5Sup2Activity" />
+        <activity
+            android:name=".Section5Sup27Activity"
+            android:label="@string/herb7"
+            android:parentActivityName=".Section5Sup2Activity" />
+        <activity
+            android:name=".Section5Sup28Activity"
+            android:label="@string/herb8"
+            android:parentActivityName=".Section5Sup2Activity" />
+        <activity
+            android:name=".Section5Sup29Activity"
+            android:label="@string/herb9"
+            android:parentActivityName=".Section5Sup2Activity" />
+        <activity
+            android:name=".Section5Sup210Activity"
+            android:label="@string/herb10"
+            android:parentActivityName=".Section5Sup2Activity" />
+        <activity
+            android:name=".Section5Sup211Activity"
+            android:label="@string/herb11"
+            android:parentActivityName=".Section5Sup2Activity" />
     </application>
 
 </manifest>

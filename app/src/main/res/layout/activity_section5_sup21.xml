@@ -3,10 +3,186 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="appbsru.supergolf.healthrecord.Section5Sup21Activity">
+    tools:context="appbsru.supergolf.healthrecord.Section5Sup21Activity"
+    android:background="@drawable/bg500">
 
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/herb11ImageView"
+            android:background="@drawable/bnherb" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/herb1"
+            android:id="@+id/herb11TextView"
+            android:textColor="@color/text"
+            android:textSize="@dimen/h2"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/herb1ScrollView"
+            android:layout_margin="16dp"
+            android:background="#96ffffff" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/herb12ImageView"
+                    android:background="@drawable/bitter_gourd"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ชื่อสามัญ :"
+                        android:id="@+id/herb12TextView"
+                        android:layout_weight="1.5"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/h5"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Bitter gourd"
+                        android:id="@+id/herb13TextView"
+                        android:layout_weight="1"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/h5" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ชื่อวิทยาศาสตร์ :"
+                        android:id="@+id/herb14TextView"
+                        android:layout_weight="1.5"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/h5"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Momordica charantia L."
+                        android:id="@+id/herb15TextView"
+                        android:layout_weight="1"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/h5" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ลักษณะของมะระขี้นก"
+                    android:id="@+id/herb16TextView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/text"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h5" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      เป็นไม้เลื้อยอายุปีเดียว มีมือเกาะเป็นเส้นยาวออกตรงข้ามใบ ใบเป็นใบเดี่ยวเรียงสลับ รูปฝ่ามือ กว้างและยาวประมาณ 4-7 เซนติเมตร ขอบใบเว้าเป็นแฉกลึก 5-7 แฉก เนื้อใบบาง ก้านใบยาว ดอกเป็นดอกเดี่ยวออกที่ซอกใบ แยกเป็นดอกตัวผู้ และดอกตัวเมียอยู่บนต้นเดียวกัน กลีบดอกสีเหลืองรูประฆัง ผลเป็นรูปรี หัวท้ายแหลม ผิวขรุขระ มีรสขมจัด ผลแก่จัดจะมีสีแดง มะระเป็นพืชที่ขึ้นง่ายตามป่า และสามารถนำมาปลูกเป็นพืชสวนครัวได้"
+                    android:id="@+id/herb17TextView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="สรรพคุณชองมะระขี้นก"
+                    android:id="@+id/herb18TextView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/text"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h5" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      รักษาโรคเบาหวาน สามารถลดระดับน้ำตาลในกระแสเลือดได้เป็นอย่างดี"
+                    android:id="@+id/herb19TextView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="วิธีการใช้"
+                    android:id="@+id/herb110TextView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/text"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h5" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" • แบบที่ 1 นำผลมะระขี้นกสด 8-10 ผล นำเมล็ดในออก ใส่น้ำลงไปเล็กน้อย ปั่นให้ละเอียด กรองกากออกจะได้น้ำดื่มประมาณ 100 มิลลิลิตร (หรือกินทั้งกากก็ได้) กินทุกวันติดต่อกัน แบ่งกินวันละ 3 เวลา\n
+• แบบที่ 2 นำเนื้อมะระผลเล็ก (มีตัวยามาก) ผ่านำเมล็ดออก หั่นเนื้อมะระเป็นชิ้นเล็กๆ ตากแดดให้แห้ง แล้วนำมาชงกับน้ำเดือด (มะระ 1-2 ชิ้น น้ำ 1 ถ้วย) ดื่มเป็นน้ำชา ครั้งละ 2 ถ้วย วันละ 3 เวลา หรือจะต้มน้ำดื่มก็ได้ หรือใส่กระติกน้ำร้อนต้มดื่มเป็นกระติกปริมาณมากก็สะดวกดื่มไปเรื่อยๆ แทนน้ำเป็นเวลาประมาณ 3 สัปดาห์ ไม่เกิน 1 เดือนก็เห็นผลให้"
+                    android:id="@+id/herb111TextView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ข้อควรระวัง"
+                    android:id="@+id/herb112TextView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/text"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h5" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" คนท้อง เด็กและคนที่มีน้ำตาลในเลือดต่ำไม่ควรกิน"
+                    android:id="@+id/herb113TextView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
 </RelativeLayout>
