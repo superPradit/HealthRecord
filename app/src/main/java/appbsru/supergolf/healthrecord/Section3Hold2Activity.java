@@ -1,15 +1,14 @@
 package appbsru.supergolf.healthrecord;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.content.res.TypedArray;
+import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
-public class Section3Hold2Activity extends Activity {
-
+public class Section3Hold2Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -149,7 +148,4 @@ public class Section3Hold2Activity extends Activity {
         my_string_array.recycle();
         return array_string;
     }
-
-
-
 }

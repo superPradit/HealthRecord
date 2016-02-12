@@ -567,16 +567,6 @@
                 android:value="appbsru.supergolf.healthrecord.Section3Hold1Activity" />
         </activity>
         <activity
-            android:name=".Section3Hold2Activity"
-            android:label="@string/nutrition2"
-            android:parentActivityName=".Section3Activity">
-
-            <!-- Parent activity meta-data to support 4.0 and lower -->
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="appbsru.supergolf.healthrecord.Section3Activity" />
-        </activity>
-        <activity
             android:name=".Section3Sup21Activity"
             android:label="@string/foodrecipe1"
             android:parentActivityName=".Section3Hold2Activity">
@@ -839,23 +829,11 @@
         <activity
             android:name=".ShowDoctorActivity"
             android:label="@string/showdoctor"
-            android:parentActivityName=".Section4Activity">
-
-            <!-- Parent activity meta-data to support 4.0 and lower -->
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="appbsru.supergolf.healthrecord.Section4Activity" />
-        </activity>
+            android:parentActivityName=".Section4Activity"></activity>
         <activity
             android:name=".AddDoctorActivity"
             android:label="@string/adddoctor"
-            android:parentActivityName=".Section4Activity">
-
-            <!-- Parent activity meta-data to support 4.0 and lower -->
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="appbsru.supergolf.healthrecord.Section4Activity" />
-        </activity>
+            android:parentActivityName=".Section4Activity"></activity>
         <activity
             android:name=".EditDoctorActivity"
             android:label="@string/editdoctor"
@@ -982,6 +960,10 @@
             android:name=".Section5Sup211Activity"
             android:label="@string/herb11"
             android:parentActivityName=".Section5Sup2Activity" />
+        <activity
+            android:name=".Section3Hold2Activity"
+            android:label="@string/nutrition2"
+            android:parentActivityName=".Section3Activity" />
     </application>
 
 </manifest>
