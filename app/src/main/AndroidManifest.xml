@@ -827,10 +827,6 @@
                 android:value="appbsru.supergolf.healthrecord.MainActivity" />
         </activity>
         <activity
-            android:name=".AddDoctorActivity"
-            android:label="@string/adddoctor"
-            android:parentActivityName=".Section4Activity" />
-        <activity
             android:name=".EditDoctorActivity"
             android:label="@string/editdoctor"
             android:parentActivityName=".Section4Activity">
@@ -963,6 +959,10 @@
         <activity
             android:name=".ShowDoctorActivity"
             android:label="@string/showdoctor"
+            android:parentActivityName=".Section4Activity" />
+        <activity
+            android:name=".AddDoctorActivity"
+            android:label="@string/adddoctor"
             android:parentActivityName=".Section4Activity" />
     </application>
 

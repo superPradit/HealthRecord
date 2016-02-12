@@ -1,17 +1,15 @@
 package appbsru.supergolf.healthrecord;
 
-import android.app.Activity;
-
-import android.content.DialogInterface;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-public class AddDoctorActivity extends Activity {
+public class AddDoctorActivity extends AppCompatActivity {
 
     DatabaseDoctor mHelper;
     SQLiteDatabase mDb;
@@ -62,19 +60,17 @@ public class AddDoctorActivity extends Activity {
                         Toast.makeText(getApplicationContext(), "คุณมีข้อมูลแพทย์คนนี้อยู่แล้ว"
                                 , Toast.LENGTH_SHORT).show();
                     }
-                    } else {
-                        Toast.makeText(getApplicationContext(), "กรุณาใส่ข้อมูลแพทย์ให้ครบทุกช่อง"
+                } else {
+                    Toast.makeText(getApplicationContext(), "กรุณาใส่ข้อมูลแพทย์ให้ครบทุกช่อง"
                             , Toast.LENGTH_SHORT).show();
-                    }
+                }
             }
         });
 
-    } //Main Method
-
+    }
     public void onStop() {
         super.onStop();
         mHelper.close();
         mDb.close();
     }
-
-} //Main Class
+}

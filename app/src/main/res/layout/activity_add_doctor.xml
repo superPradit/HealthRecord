@@ -3,7 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
     tools:context="appbsru.supergolf.healthrecord.AddDoctorActivity"
     android:background="@drawable/bg500">
 
@@ -11,25 +10,25 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="right">>
+        android:gravity="right">
 
         <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/section4sup2ImageView"
-                android:background="@drawable/bannerdoctor1" />
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/section4sup2ImageView"
+            android:background="@drawable/bannerdoctor1" />
 
         <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="เพิ่มข้อมูลแพทย์"
-                android:id="@+id/section4sup2TextView"
-                android:paddingTop="20dp"
-                android:paddingLeft="30dp"
-                android:paddingBottom="20dp"
-                android:paddingRight="20dp"
-                android:textColor="@color/text"
-                android:textSize="@dimen/h2" />
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="เพิ่มข้อมูลแพทย์"
+            android:id="@+id/section4sup2TextView"
+            android:paddingTop="20dp"
+            android:paddingLeft="30dp"
+            android:paddingBottom="20dp"
+            android:paddingRight="20dp"
+            android:textColor="@color/text"
+            android:textSize="@dimen/h2" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -58,32 +57,32 @@
         </LinearLayout>
 
         <LinearLayout
-                android:layout_width="match_parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#96ffffff"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <TextView
+                android:layout_width="100dp"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:background="#96ffffff"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp">
+                android:text="สถานที่ทำงาน :"
+                android:textSize="18sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:textColor="@color/text"
+                android:layout_gravity="center_horizontal" />
 
-                <TextView
-                    android:layout_width="100dp"
-                    android:layout_height="wrap_content"
-                    android:text="สถานที่ทำงาน :"
-                    android:textSize="18sp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="5dp"
-                    android:textColor="@color/text"
-                    android:layout_gravity="center_horizontal" />
-
-                <EditText
-                    android:id="@+id/editHospital"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:singleLine="true"
-                    android:inputType="textMultiLine"
-                    android:lines="2" />
-            </LinearLayout>
+            <EditText
+                android:id="@+id/editHospital"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:singleLine="true"
+                android:inputType="textMultiLine"
+                android:lines="2" />
+        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
