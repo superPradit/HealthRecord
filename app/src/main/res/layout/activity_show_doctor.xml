@@ -3,7 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
     tools:context="appbsru.supergolf.healthrecord.ShowDoctorActivity"
     android:background="@drawable/bg500">
 
@@ -47,4 +46,5 @@
         </LinearLayout>
 
     </LinearLayout>
+
 </RelativeLayout>

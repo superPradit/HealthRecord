@@ -1,9 +1,8 @@
 package appbsru.supergolf.healthrecord;
 
-import android.app.Activity;
+import android.app.AlertDialog;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
-import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -13,7 +12,7 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-public class ShowDoctorActivity extends Activity {
+public class ShowDoctorActivity extends AppCompatActivity {
 
     DatabaseDoctor mHelper;
     SQLiteDatabase mDb;
@@ -24,6 +23,7 @@ public class ShowDoctorActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_show_doctor);
+
 
         mHelper = new DatabaseDoctor(this);
         mDb = mHelper.getReadableDatabase();
@@ -61,13 +61,10 @@ public class ShowDoctorActivity extends Activity {
             }
         });
 
-
-        } //Main Method
-
+    }
     public void onStop() {
         super.onStop();
         mHelper.close();
         mDb.close();
     }
-
-} //Main Class
+}
