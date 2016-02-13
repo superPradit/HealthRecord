@@ -3,10 +3,187 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="appbsru.supergolf.healthrecord.Section5Sup25Activity">
+    tools:context="appbsru.supergolf.healthrecord.Section5Sup25Activity"
+    android:background="@drawable/bg500">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/herb51ImageView"
+            android:background="@drawable/bnherb" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/herb5"
+            android:id="@+id/herb51TextView"
+            android:textColor="@color/text"
+            android:textSize="@dimen/h2"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/herb5ScrollView"
+            android:layout_margin="16dp"
+            android:background="#96ffffff" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/herb52ImageView"
+                    android:background="@drawable/cinnamon"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ชื่อสามัญ :"
+                        android:id="@+id/herb52TextView"
+                        android:layout_weight="1.5"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/h5"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Cinnamon, Cassia"
+                        android:id="@+id/herb53TextView"
+                        android:layout_weight="1"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/h5" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ชื่อวิทยาศาสตร์ :"
+                        android:id="@+id/herb54TextView"
+                        android:layout_weight="1.5"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/h5"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Cinnamomum spp."
+                        android:id="@+id/herb55TextView"
+                        android:layout_weight="1"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/h5" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ลักษณะของอบเชย"
+                    android:id="@+id/herb56TextView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/text"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h5" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      อบเชยเป็นเครื่องยาหรือเครื่องเทศที่ได้มาจากการขูดเอาเปลือกชั้นออกให้หมด แล้วลอกเปลือกชั้นในออกจากแก่นลำต้น โดยใช้มีดกรีดตามยาวของกิ่ง แล้วนำไปผึ่งในที่ร่มสลับกับตากแดดประมาณ 5 วัน และในขณะที่ตากให้ใช้มือม้วนเอาขอบทั้งสองข้างเข้าหากัน เมื่อเปลือกแห้งแล้วจึงมัดรวมกัน โดยเปลือกอบเชยที่ดีนั้นจะต้องเป็นสีน้ำตาลอ่อนหรือสีสนิม มีความตรงและยางอย่างสม่ำเสมอ โดยยาวประมาณ 1 เมตร มีรสสุขุม เผ็ด หวานเล็กน้อย และมีกลิ่นหอมแบบเฉพาะ"
+                    android:id="@+id/herb57TextView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="สรรพคุณของอบเชย"
+                    android:id="@+id/herb58TextView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/text"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h5" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      อบเชยมีสรรพคุณช่วยทำให้ร่างกายมีความสามารถในการใช้อินซูลินเพื่อการสันดาปกลูโคสได้ดีขึ้น อบเชยสามารถลดการดื้ออินซูลินทำให้เซลล์ต่าง ๆ นำน้ำตาลในเลือดไปใช้เป็นพลังงานให้หมดไปไม่ค้างอยู่ในเลือด สมุนไพรอบเชยจึงเหมาะสมกับโรคเบาหวานชนิดที่ 2 สำหรับผู้เป็นโรคเบาหวาน"
+                    android:id="@+id/herb59TextView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="วิธีการใช้"
+                    android:id="@+id/herb510TextView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/text"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h5" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  • แบบที่ 1 ให้ใช้อบเชยวันละ 1 ช้อนชา หรือประมาณ 1,200 มิลลิกรัม โดยให้แบ่งการรับประทานออกเป็น 4 มื้อ ซึ่งจะได้ผงอบเชยในปริมาณ 300 มิลลิกรัม หรือมีขนาดเท่ากับแคปซูลเบอร์ 1"
+                    android:id="@+id/herb511TextView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ข้อควรระวัง"
+                    android:id="@+id/herb512TextView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/text"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h5" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  • ผู้ที่เป็นไข้ตัวร้อน ปัสสาวะเป็นเลือด ปัสสาวะขัด อุจจาระแข็งแห้ง เป็นโรคริดสีดวงทวาร เด็กที่มีอายุต่ำกว่า 2 ขวบ และสตรีมีครรภ์ห้ามรับประทานอบเชย และห้ามกินน้ำมันอบเชย เพราะจะทำให้เกิดอาการคลื่นไส้อาเจียนและเป็นอันตรายต่อไตได้\n
+ • อบเชยจีนเป็นสมุนไพรที่ค่อนข้างปลอดภัย แต่ถ้ารับประทานในปริมาณมาก ๆ หรือไม่ได้รับประทานตามคำแนะนำในฉลาดหรือจากแพทย์ผู้เชี่ยวชาญ ก็อาจก่อให้เกิดผลข้างเคียงได้ในบางราย โดยเฉพาะอย่างยิ่งในคนที่เป็นโรคตับ เนื่องจากอบเชยจีนมีสารคูมารินซึ่งเป็นสารที่ก่อให้เกิดผลเสียต่อตับ และการได้รับสารนี้ในในระยะยาวก็อาจมีปัญหาต่อตับได้"
+                    android:id="@+id/herb513TextView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:layout_marginBottom="10dp" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
 
 </RelativeLayout>

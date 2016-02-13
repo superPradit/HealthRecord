@@ -185,8 +185,6 @@
                     android:textColor="@color/text"
                     android:textSize="@dimen/h5"
                     android:layout_marginBottom="10dp" />
-
-
             </LinearLayout>
         </ScrollView>
     </LinearLayout>
