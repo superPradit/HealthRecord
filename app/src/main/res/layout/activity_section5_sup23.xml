@@ -3,10 +3,192 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="appbsru.supergolf.healthrecord.Section5Sup23Activity">
+    tools:context="appbsru.supergolf.healthrecord.Section5Sup23Activity"
+    android:background="@drawable/bg500">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/herb31ImageView"
+            android:background="@drawable/bnherb" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/herb3"
+            android:id="@+id/herb31TextView"
+            android:textColor="@color/text"
+            android:textSize="@dimen/h2"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/herb3ScrollView"
+            android:layout_margin="16dp"
+            android:background="#96ffffff" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/herb32ImageView"
+                    android:background="@drawable/egg_woman"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ชื่อสามัญ :"
+                        android:id="@+id/herb32TextView"
+                        android:layout_weight="1.5"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/h5"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Egg Woman, Tamalaki, Hazardana, Stonebreaker, Seed-under-leaf"
+                        android:id="@+id/herb33TextView"
+                        android:layout_weight="1"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/h5" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ชื่อวิทยาศาสตร์ :"
+                        android:id="@+id/herb34TextView"
+                        android:layout_weight="1.5"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/h5"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Phyllanthus amarus Schumach. and Thonn."
+                        android:id="@+id/herb35TextView"
+                        android:layout_weight="1"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/h5" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ลักษณะของลูกใต้ใบ"
+                    android:id="@+id/herb36TextView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/text"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h5" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  • ต้นลูกใต้ใบ จัดเป็นพืชล้มลุก มีอายุเพียงปีเดียว มีความสูงประมาณ 10-60 เซนติเมตร แตกกิ่งก้านสาขามาก ลำต้นไม่มีขน และทุกส่วนของต้นมีรสขม\n
+ • ใบลูกใต้ใบ ใบเป็นใบประกอบแบบขนนกชั้นเดียวปลายคี่ มีใบย่อยประมาณ 23-25 ใบ ลักษณะของใบย่อยเป็นรูปขอบขนานแกมรูปไข่กลับ โคนใบมนแคบ ส่วนปลายใบมนกว้าง\n
+ • ดอกลูกใต้ใบ ดอกเป็นแบบแยกเพศ ดอกมีขนาดเล็กสีขาว มีเส้นผ่านศูนย์กลางประมาณ 0.08 เซติเมตร ดอกเพศเมียมักจะอยู่บริเวณโคนก้านใบ ส่วนดอกเพศผู้มักจะอยู่บริเวณส่วนปลายของก้านใบ\n
+ • ผลลูกใต้ใบ ลักษณะของผลเป็นรูปทรงกลมแป้น ผิวเรียบมีสีเขียวอ่อนนวล ผลมีขนาดประมาณ 0.15 เซนติเมตร โดยผลมักจะเกาะติดอยู่บริเวณใต้โคนของใบย่อย และอยู่ในบริเวณกลางก้านใบ"
+                    android:id="@+id/herb37TextView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="สรรพคุณของลูกใต้ใบ"
+                    android:id="@+id/herb38TextView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/text"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h5" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      รักษาโรคเบาหวาน สามารถช่วยควบคุมและลดระดับน้ำตาลในเลือด"
+                    android:id="@+id/herb39TextView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5" />
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="วิธีการใช้"
+                android:id="@+id/herb310TextView"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/text"
+                android:textStyle="bold"
+                android:textSize="@dimen/h5" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  • แบบที่ 1 ใช้ทั้งต้นของลูกใต้ใบชนิด P. urinaria จำนวน 1 กำมือ นำมาต้มดื่ม\n
+ • แบบที่ 2 ใช้ลูกใต้ใบ ทั้ง 5 ล้างให้สะอาด สับเป็นชิ้น ตากให้แห้ง ใส่หม้อดิน กินเป็นน้ำชา"
+                    android:id="@+id/herb311TextView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ข้อควรระวัง"
+                    android:id="@+id/herb312TextView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/text"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h5" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      สำหรับผู้ป่วยเบาหวานว่า ต้องรับประทานยาแผนปัจจุบันตามที่แพทย์สั่ง และควรหมั่นตรวจวัดระดับน้ำตาลในเลือดอย่างสม่ำเสมอ"
+                    android:id="@+id/herb313TextView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:layout_marginBottom="10dp" />
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
 
 </RelativeLayout>
