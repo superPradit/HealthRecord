@@ -3,10 +3,186 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="appbsru.supergolf.healthrecord.Section5Sup210Activity">
+    tools:context="appbsru.supergolf.healthrecord.Section5Sup210Activity"
+    android:background="@drawable/bg500">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/herb101ImageView"
+            android:background="@drawable/bnherb" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/herb10"
+            android:id="@+id/herb101TextView"
+            android:textColor="@color/text"
+            android:textSize="@dimen/h2"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/herb10ScrollView"
+            android:layout_margin="16dp"
+            android:background="#96ffffff" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/herb102ImageView"
+                    android:background="@drawable/wildbetal_leafbush"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ชื่อสามัญ :"
+                        android:id="@+id/herb102TextView"
+                        android:layout_weight="1.5"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/h5"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Wildbetal Leafbush"
+                        android:id="@+id/herb103TextView"
+                        android:layout_weight="1"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/h5" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ชื่อวิทยาศาสตร์ :"
+                        android:id="@+id/herb104TextView"
+                        android:layout_weight="1.5"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/h5"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Piper sarmentosum Roxb."
+                        android:id="@+id/herb105TextView"
+                        android:layout_weight="1"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/h5" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ลักษณะของชะพลู"
+                    android:id="@+id/herb106TextView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/text"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h5" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      ไม้ล้มลุก ลำต้นทอดคลานไปตามพื้นดิน สูง 30-80 เซนติเมตร ลำต้นสีเขียว มีไหลงอกเป็นต้นใหม่ มีรากงอกออกตามข้อ  ใบ เป็นใบเดี่ยว ออกเรียงสลับ แผ่นใบบาง ผิวใบเรียบสีเขียวเข้มเป็นมัน  ใบรูปหัวใจ กว้าง 5-10 ซม. ยาว 7-15 ซม. ปลายใบแหลม โคนใบเว้า ดอก ออกเป็นช่อที่ซอกใบรูปทรงกระบอก ดอกเล็กสีขาวอัดแน่นอยู่บนแกนช่อดอก  ดอกแยกเพศ ผล เป็นผลสด กลม อัดแน่นอยู่บนแกน"
+                    android:id="@+id/herb107TextView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="สรรพคุณของชะพลู"
+                    android:id="@+id/herb108TextView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/text"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h5" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      รักษาโรคเบาหวาน"
+                    android:id="@+id/herb109TextView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="วิธีการใช้"
+                    android:id="@+id/herb1010TextView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/text"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h5" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  • แบบที่ 1 ใช้ชะพลูสดทั้งต้นประมาณ 7 ต้น นำมาล้างน้ำให้สะอาด ใส่น้ำพอท่วมแล้วต้มให้เดือดสักพัก แล้วนำมาดื่มเป็นชา"
+                    android:id="@+id/herb1011TextView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ข้อควรระวัง"
+                    android:id="@+id/herb1012TextView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/text"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h5" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      หากรับประทานในปริมาณมากหรือติดต่อกันเป็นเวลานาน แคลเซียมที่มีอยู่ในใบชะพลูจะเปลี่ยนเป็นแคลเซียมออกซาเลต (Oxalate) ซึ่งสารชนิดนี้เป็นสาเหตุที่ทำให้เกิดโรคนิ่วในไตได้ ดังนั้นคุณจึงควรดื่มน้ำตามมาก ๆ เพื่อให้สารออกซาเลตเจือจางลง และถูกขับออกทางปัสสาวะ หรือจะเลือกรับประทานอาหารที่มี โปรตีน สูง ๆเพื่อป้องกันโรคนิ่วก็ทำได้เหมือนกัน เพื่อให้ร่างกายได้รับประโยชน์อย่างสูงสุดคุณควรรับประทานในปริมาณที่เหมาะสม"
+                    android:id="@+id/herb1013TextView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:layout_marginBottom="10dp" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
 
 </RelativeLayout>
