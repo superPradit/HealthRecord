@@ -3,10 +3,169 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="appbsru.supergolf.healthrecord.Section5Sup29Activity">
+    tools:context="appbsru.supergolf.healthrecord.Section5Sup29Activity"
+    android:background="@drawable/bg500">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/herb91ImageView"
+            android:background="@drawable/bnherb" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/herb9"
+            android:id="@+id/herb91TextView"
+            android:textColor="@color/text"
+            android:textSize="@dimen/h2"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/herb9ScrollView"
+            android:layout_margin="16dp"
+            android:background="#96ffffff" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/herb92ImageView"
+                    android:background="@drawable/ivy_gourd"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ชื่อสามัญ :"
+                        android:id="@+id/herb92TextView"
+                        android:layout_weight="1.5"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/h5"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Ivy Gourd"
+                        android:id="@+id/herb93TextView"
+                        android:layout_weight="1"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/h5" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ชื่อวิทยาศาสตร์ :"
+                        android:id="@+id/herb94TextView"
+                        android:layout_weight="1.5"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/h5"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Coccinia grandis (L.) Voigt"
+                        android:id="@+id/herb95TextView"
+                        android:layout_weight="1"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/h5" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ลักษณะของตำลึง"
+                    android:id="@+id/herb96TextView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/text"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h5" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      ไม้เลื้อย มีมือเกาะ ใบเป็นใบเดี่ยว แผ่นใบแผ่เว้าเป็น 5 แฉก ขนาดกว้าง 5-8 ซม. ขอบใบมีต่อมคายน้ำ โคนใบเป็นรูปหัวใจ ปลายใบแหลมมน ผิวใบเกลี้ยง ก้านใบยาว 3-6 ซม. ดอกสีขาว เป็นดอกเดี่ยว แยกเพศ อยู่ต่างต้น ดอกเพศผู้ขนาด 4-6 ซม. กลีบดอก 5 กลีบ เกสรผู้ 3 อัน อับเรณูขนาดใหญ่รูปขอบขนาน สีเหลืองเป็นก้อนอยู่ในคอดอก ดอกเพศเมีย กลีบดอกเหมือนดอกเพศผู้ ยอดเกสรแยกเป็น 3-5 แฉก ผลเป็นผลสด รูปขอบขนานหรือรูปป้อม กว้างประมาณ 2.5 ซม. ยาวประมาณ 5 ซม. ผลแก่สีแดงส้ม เมล็ดแบนรี มีจำนวนมาก ขนาด 2-3 มม."
+                    android:id="@+id/herb97TextView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="สรรพคุณของตำลึง"
+                    android:id="@+id/herb98TextView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/text"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h5" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      รักษาโรคเบาหวาน"
+                    android:id="@+id/herb99TextView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="วิธีการใช้"
+                    android:id="@+id/herb910TextView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/text"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h5" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  • แบบที่ 1 นำรากผักตำลึง รากผักหวานป่า รากฟักข้าว รากกุ่มน้ำ รากุ่มบก ต้มกินติดต่อกันไปเรื่อยๆ\n
+ • แบบที่ 2 ข้อรากผักตำลึงฝนกับน้ำดื่ม หรือใช้เถาผักตำลึงสับเป็นท่อนๆ ยาว 2-3 นิ้ว จำนวน 1 กำมือ ใส่น้ำพอท่วม ต้มนาน 15-20 นาที นำมาดื่มเช้า-เย็น ติดต่อกันอย่างน้อย 7-10 วัน ช่วยลดน้ำตาลในเลือด หรืออาจใช้ส่วนของต้น ใบ และราก ต้มรวมกันแทนเถาอย่างเดียวก็ได้\n
+ • แบบที่ 3 นำยอดตำลึง 1 กำมือหรือขนาดที่กินพออิ่มโรยเกลือหรือเหยาะน้ำปลา (เพื่อให้อร่อยพอกินได้) ห่อด้วยใบตอง นำไปเผาไฟให้สุกแล้วกินให้หมด หรือกินจนอิ่ม กินก่อนนอนติดต่อกัน 3 เดือน"
+                    android:id="@+id/herb911TextView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:layout_marginBottom="10dp" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
 
 </RelativeLayout>
