@@ -3,10 +3,188 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="appbsru.supergolf.healthrecord.Section5Sup26Activity">
+    tools:context="appbsru.supergolf.healthrecord.Section5Sup26Activity"
+    android:background="@drawable/bg500">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/herb61ImageView"
+            android:background="@drawable/bnherb" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/herb6"
+            android:id="@+id/herb61TextView"
+            android:textColor="@color/text"
+            android:textSize="@dimen/h2"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/herb6ScrollView"
+            android:layout_margin="16dp"
+            android:background="#96ffffff" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/herb62ImageView"
+                    android:background="@drawable/sensitive_plant"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ชื่อสามัญ :"
+                        android:id="@+id/herb62TextView"
+                        android:layout_weight="1.5"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/h5"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sensitive plant, Sleeping grass, Shameplant"
+                        android:id="@+id/herb63TextView"
+                        android:layout_weight="1"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/h5" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ชื่อวิทยาศาสตร์ :"
+                        android:id="@+id/herb64TextView"
+                        android:layout_weight="1.5"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/h5"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mimosa pudica L."
+                        android:id="@+id/herb65TextView"
+                        android:layout_weight="1"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/h5" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ลักษณะของไมยราบ"
+                    android:id="@+id/herb66TextView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/text"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h5" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      เป็นไม้ล้มลุกกึ่งเลื้อย ทอดแผ่ไปตามพื้นดิน ลำต้นมีขนละเอียดและหนามโค้งงอ ใบประกอบแบบขนนกสองชั้น เรียงสลับ ไวต่อการสัมผัส ยาว 10-13 ซม. ประกอบด้วย 4 ใบย่อย เรียงตัวแบบนิ้วมือ ยาว 4.5-8 ซม. ใบย่อย 17-22 คู่ รูปใบหอก กว้าง 2.5-3 มม. ยาว 10-14 มม. ผิวใบด้านบนสีเขียว ด้านล่างสีม่วงอ่อน ช่อดอก รูปทรงกลม ออกที่ซอกใบ กลีบดอกสีชมพู ผลเป็นฝักแบน เป็นข้อๆ อยู่รวมกันเป็นช่อ เมื่อสุกสีดำ"
+                    android:id="@+id/herb67TextView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="สรรพคุณของไมยราบ"
+                    android:id="@+id/herb68TextView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/text"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h5" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="      รักษาโรคเบาหวาน สามารถลดระดับน้ำตาลในเลือด"
+                    android:id="@+id/herb69TextView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="วิธีการใช้"
+                    android:id="@+id/herb610TextView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/text"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h5" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  • แบบที่ 1 ใช้ ครอบจักรวาล 1 ส่วน ไมยราบ 1 ส่วน หั่นตากแห้ง คั่วไฟให้สุกเหลือง กินต่างน้ำชา ชงน้ำร้อน"
+                    android:id="@+id/herb611TextView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ข้อควรระวัง"
+                    android:id="@+id/herb612TextView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/text"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/h5" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  • ไม่ควรรับประทานต่อเนื่องกันเป็นเวลานาน เพราะมีฤทธิ์ต่อสมองส่วนกลาง\n
+ • ไม่ควรใช้ในสตรีที่มีครรภ์และหญิงให้นมบุตร\n
+ • ไม่ควรใช้ในเด็กอายุต่ำกว่า 12 ปี"
+                    android:id="@+id/herb613TextView"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:layout_marginBottom="10dp" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
 
 </RelativeLayout>
