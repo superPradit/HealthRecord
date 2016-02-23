@@ -7,191 +7,151 @@
     tools:context="appbsru.supergolf.healthrecord.Section3Sup23Activity"
     android:background="@drawable/bg500">
 
-    <ScrollView
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/recipeFood3ScrollView" >
+        android:layout_height="match_parent">
 
         <LinearLayout
-            android:orientation="vertical"
+            android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content">
 
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/sup323ImageView"
-                    android:background="@drawable/bnrfood2" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
+            <ImageView
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginRight="10dp">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/foodrecipe3"
-                    android:id="@+id/fd323TextView"
-                    android:textColor="@color/text"
-                    android:textSize="@dimen/h2"
-                    android:gravity="center"
-                    android:textStyle="bold" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:orientation="vertical"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="30dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginRight="30dp">
-
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/food3ImageView"
-                    android:src="@drawable/food3"
-                    android:background="#96ffffff" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="ส่วนประกอบ (สำหรับ 1 คน)"
-                    android:id="@+id/sup3231TextView"
-                    android:textColor="@color/text"
-                    android:textSize="@dimen/h4"
-                    android:background="#96ffffff"
-                    android:paddingLeft="10dp"
-                    android:paddingRight="10dp"
-                    android:textStyle="bold"
-                    android:gravity="center" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp" >
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text=" เส้นหมี่ขาวแช่น้ำ\n
-ผักกวางตุ้ง\n
-ถั่วแขก\n
-มะเขือเทศ\n
-อกไก่\n
-น้ำมันถั่วเหลือง\n
-กระเทียมสับ\n
-เต้าเจี้ยวดำ\n
-น้ำตาลทราย\n
-แปงมันสำปะหลัง\n
-ซีอิ๊วขาว\n
-ซีอิ๊วดำ\n
-พริกไทยป่น"
-                    android:id="@+id/sup3232TextView"
-                    android:textColor="@color/text"
-                    android:textSize="@dimen/h5"
-                    android:background="#96ffffff"
-                    android:paddingLeft="10dp"
-                    android:paddingRight="10dp" />
-
-                <TextView
-                    android:layout_width="70dp"
-                    android:layout_height="wrap_content"
-                    android:text=" 100 กรัม\n
-40 กรัม\n
-40 กรัม\n
-20 กรัม\n
-60 กรัม\n
-5 กรัม\n
-5 กรัม\n
-5 กรัม\n
-5 กรัม\n
-12 กรัม\n
-5 กรัม\n
-2 กรัม\n
-1 กรัม"
-                    android:id="@+id/sup3233TextView"
-                    android:textColor="@color/text"
-                    android:textSize="@dimen/h5"
-                    android:background="#96ffffff"
-                    android:gravity="right" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text=" 1 ถ้วยตวง\n
-1 ต้น\n
-5 ฝัก\n
-½ ลูก\n
-¼ ถ้วยตวง\n
-1 ช้อนชา\n
-1 ช้อนชา\n
-1 ช้อนชา\n
-1 ช้อนชา\n
-1 ช้อนกินข้าว\n
-1 ช้อนชา\n
-½ ช้อนชา\n
-¼ ช้อนชา"
-                    android:id="@+id/sup3234TextView"
-                    android:textColor="@color/text"
-                    android:textSize="@dimen/h5"
-                    android:background="#96ffffff"
-                    android:paddingLeft="10dp"
-                    android:paddingRight="10dp" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:orientation="vertical"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp"
-                android:layout_marginBottom="10dp">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="  วิธีทำ"
-                    android:id="@+id/sup3235TextView"
-                    android:textColor="@color/text"
-                    android:textSize="@dimen/h4"
-                    android:background="#96ffffff"
-                    android:paddingLeft="10dp"
-                    android:paddingRight="10dp"
-                    android:textStyle="bold"
-                    android:paddingTop="10dp" />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text=" 1. ล้างผักให้สะอาด หั่นเป็นชิ้น พักไว้ ล้างเนื้อไก่ หั่นเป็นชิ้นพอคำ\n
-2. ตั้งกระทะใส่น้ำมันเล็กน้อย นำเส้นหมี่ที่ลวก ลงผัดให้เส้นนิ่มแล้วใส่ซีอิ๊วดำ ผัดให้เข้ากัน พักไว้\n
-3. ตั้งกระทะใส่น้ำมัน ใส่กระเทียมเจียวให้หอม ใส่เนื้อไก่ผัดให้สุก ใส่น้ำซุป รอให้เดือด ปรุงรสด้วยเต้าเจี้ยวดำ น้ำตาลทราย ซีอิ๊วขาว  ใส่ผักกวางตุ้ง ถั่วแขก มะเขือเทศ รอผักสุก
-ใส่แปงมันที่ละลายน้ำลงไป คนให้ทั่ว ตักราดจานเส้นหมี่ที่เตรียมไว้ โรยด้วยพริกไทยป่น"
-                    android:id="@+id/sup3236TextView"
-                    android:textColor="@color/text"
-                    android:textSize="@dimen/h4"
-                    android:background="#96ffffff"
-                    android:paddingLeft="10dp"
-                    android:paddingRight="10dp"
-                    android:paddingBottom="10dp" />
-            </LinearLayout>
-
+                android:id="@+id/sup323ImageView"
+                android:background="@drawable/bnrfood2" />
         </LinearLayout>
-    </ScrollView>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/foodrecipe3"
+                android:id="@+id/fd323TextView"
+                android:textColor="@color/text"
+                android:textSize="@dimen/h2"
+                android:gravity="center"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/recipeFood3ScrollView"
+            android:layout_margin="5dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/food3ImageView"
+                        android:src="@drawable/food3"
+                        android:background="#96ffffff" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ส่วนประกอบ (สำหรับ 1 คน)"
+                        android:id="@+id/sup3231TextView"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/h4"
+                        android:background="#96ffffff"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:textStyle="bold"
+                        android:gravity="center" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="เส้นหมี่ขาวแช่น้ำ\nผักกวางตุ้ง\nถั่วแขก\nมะเขือเทศ\nอกไก่\nน้ำมันถั่วเหลือง\nกระเทียมสับ\nเต้าเจี้ยวดำ\nน้ำตาลทราย\nแป้งมันสำปะหลัง\nซีอิ๊วขาว\nซีอิ๊วดำ\nพริกไทยป่น"
+                        android:id="@+id/sup3232TextView"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/h5"
+                        android:background="#96ffffff"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="100\n40\n40\n20\n60\n5\n5\n5\n5\n12\n5\n2\n1"
+                        android:id="@+id/sup3233TextView"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/h5"
+                        android:background="#96ffffff"
+                        android:gravity="right" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="กรัม (1 ถ้วยตวง)\nกรัม (1 ต้น)\nกรัม (5 ฝัก)\nกรัม (½ ลูก)\nกรัม (¼ ถ้วยตวง)\nกรัม (1 ช้อนชา)\nกรัม (1 ช้อนชา)\nกรัม (1 ช้อนชา)\nกรัม (1 ช้อนชา)\nกรัม (1 ช้อนกินข้าว)\nกรัม (1 ช้อนชา)\nกรัม (½ ช้อนชา)\nกรัม (¼ ช้อนชา)"
+                        android:id="@+id/sup3234TextView"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/h5"
+                        android:background="#96ffffff"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="  วิธีทำ"
+                        android:id="@+id/sup3235TextView"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/h4"
+                        android:background="#96ffffff"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:textStyle="bold"
+                        android:paddingTop="10dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="       1. ล้างผักให้สะอาด หั่นเป็นชิ้น พักไว้ ล้างเนื้อไก่ หั่นเป็นชิ้นพอคำ\n       2. ตั้งกระทะใส่น้ำมันเล็กน้อย นำเส้นหมี่ที่ลวก ลงผัดให้เส้นนิ่มแล้วใส่ซีอิ๊วดำ ผัดให้เข้ากัน พักไว้\n       3. ตั้งกระทะใส่น้ำมัน ใส่กระเทียมเจียวให้หอม ใส่เนื้อไก่ผัดให้สุก ใส่น้ำซุป รอให้เดือด ปรุงรสด้วยเต้าเจี้ยวดำ น้ำตาลทราย ซีอิ๊วขาว  ใส่ผักกวางตุ้ง ถั่วแขก มะเขือเทศ รอผักสุก ใส่แป้งมันที่ละลายน้ำลงไป คนให้ทั่ว ตักราดจานเส้นหมี่ที่เตรียมไว้ โรยด้วยพริกไทยป่น"
+                        android:id="@+id/sup3236TextView"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/h4"
+                        android:background="#96ffffff"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="10dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
 
 </RelativeLayout>
