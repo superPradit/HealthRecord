@@ -7,196 +7,151 @@
     tools:context="appbsru.supergolf.healthrecord.Section3Sup24Activity"
     android:background="@drawable/bg500">
 
-    <ScrollView
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/recipeFood4ScrollView" >
+        android:layout_height="match_parent">
 
         <LinearLayout
-            android:orientation="vertical"
+            android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content">
 
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/sup324ImageView"
-                    android:background="@drawable/bnrfood2" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
+            <ImageView
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginRight="10dp">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/foodrecipe4"
-                    android:id="@+id/fd324TextView"
-                    android:textColor="@color/text"
-                    android:textSize="@dimen/h2"
-                    android:gravity="center"
-                    android:textStyle="bold" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:orientation="vertical"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="30dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginRight="30dp">
-
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/food4ImageView"
-                    android:src="@drawable/food4"
-                    android:background="#96ffffff" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="ส่วนประกอบ (สำหรับ 4 คน)"
-                    android:id="@+id/sup3241TextView"
-                    android:textColor="@color/text"
-                    android:textSize="@dimen/h4"
-                    android:background="#96ffffff"
-                    android:paddingLeft="10dp"
-                    android:paddingRight="10dp"
-                    android:textStyle="bold"
-                    android:gravity="center" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp" >
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text=" ใบย่านางแก่\n
-เห็ดฟาง\n
-เห็ดนางฟ้า\n
-เห็ดหูหนูขาว\n
-เห็ดหอมสด\n
-ยอดผักหวาน\n
-บวบหอม\n
-ใบแมงลัก\n
-ตะไคร้หั่นแฉลบ\n
-ใบมะกรูด\n
-ข่าหั่น\n
-หอมแดงบุบ\n
-พริกสดสีแดงบุบ\n
-น้ำปลา\n
-ฟักทอง"
-                    android:id="@+id/sup3242TextView"
-                    android:textColor="@color/text"
-                    android:textSize="@dimen/h5"
-                    android:background="#96ffffff"
-                    android:paddingLeft="10dp"
-                    android:paddingRight="10dp" />
-
-                <TextView
-                    android:layout_width="70dp"
-                    android:layout_height="wrap_content"
-                    android:text=" 20 กรัม\n
-25 กรัม\n
-20 กรัม\n
-20 กรัม\n
-20 กรัม\n
-40 กรัม\n
-25 กรัม\n
-8 กรัม\n
-16 กรัม\n
-4 กรัม\n
-8 กรัม\n
-8 กรัม\n
-20 กรัม\n
-15 กรัม\n
-20 กรัม"
-                    android:id="@+id/sup3243TextView"
-                    android:textColor="@color/text"
-                    android:textSize="@dimen/h5"
-                    android:background="#96ffffff"
-                    android:gravity="right" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text=" 1 ถ้วยตวง\n
-¼ ถ้วยตวง\n
-¼ ถ้วยตวง\n
-¼ ถ้วยตวง\n
-¼ ถ้วยตวง\n
-1 ถ้วยตวง\n
-¼ ถ้วยตวง\n
-¼ ถ้วยตวง\n
-2 ต้น\n
-10 ใบ\n
-1 ท่อน\n
-2 หัว\n
-3 เม็ด\n
-1 ช้อนกินข้าว\n
-¼ ถ้วยตวง"
-                    android:id="@+id/sup3244TextView"
-                    android:textColor="@color/text"
-                    android:textSize="@dimen/h5"
-                    android:background="#96ffffff"
-                    android:paddingLeft="10dp"
-                    android:paddingRight="10dp" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:orientation="vertical"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp"
-                android:layout_marginBottom="10dp">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="  วิธีทำ"
-                    android:id="@+id/sup3245TextView"
-                    android:textColor="@color/text"
-                    android:textSize="@dimen/h4"
-                    android:background="#96ffffff"
-                    android:paddingLeft="10dp"
-                    android:paddingRight="10dp"
-                    android:textStyle="bold"
-                    android:paddingTop="10dp" />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text=" 1. ขยำใบย่านางกับน้ำเปล่า 2 ถ้วยให้น้ำมีสีเขียว กรองด้วยผ้าขาวบาง นำน้ำที่ได้ใส่หม้อตั้งไฟ\n
-2. ใส่ข่า ตะไคร้ใบมะกรูด หอมแดงและพริกสด คนให้เข้ากันพอเดือด\n
-3. ใส่ฟักทอง บวบ เห็ดต่างๆ ยอดผักหวาน  และใบแมงลัก รอจนสุกเดือด ปรุงรสด้วยน้ำปลา คนให้เข้ากัน"
-                    android:id="@+id/sup3246TextView"
-                    android:textColor="@color/text"
-                    android:textSize="@dimen/h4"
-                    android:background="#96ffffff"
-                    android:paddingLeft="10dp"
-                    android:paddingRight="10dp"
-                    android:paddingBottom="10dp" />
-            </LinearLayout>
-
+                android:id="@+id/sup324ImageView"
+                android:background="@drawable/bnrfood2" />
         </LinearLayout>
-    </ScrollView>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/foodrecipe4"
+                android:id="@+id/fd324TextView"
+                android:textColor="@color/text"
+                android:textSize="@dimen/h2"
+                android:gravity="center"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/recipeFood4ScrollView"
+            android:layout_margin="5dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/food4ImageView"
+                        android:src="@drawable/food4"
+                        android:background="#96ffffff" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ส่วนประกอบ (สำหรับ 4 คน)"
+                        android:id="@+id/sup3241TextView"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/h4"
+                        android:background="#96ffffff"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:textStyle="bold"
+                        android:gravity="center" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ใบย่านางแก่\nเห็ดฟาง\nเห็ดนางฟ้า\nเห็ดหูหนูขาว\nห็ดหอมสด\nยอดผักหวาน\nบวบหอม\nใบแมงลัก\nตะไคร้หั่นแฉลบ\nใบมะกรูด\nข่าหั่น\nหอมแดงบุบ\nพริกสดสีแดงบุบ\nน้ำปลา\nฟักทอง"
+                        android:id="@+id/sup3242TextView"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/h5"
+                        android:background="#96ffffff"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="20\n25\n20\n20\n20\n40\n25\n8\n16\n4\n8\n8\n20\n15\n20"
+                        android:id="@+id/sup3243TextView"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/h5"
+                        android:background="#96ffffff"
+                        android:gravity="right" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="กรัม (1 ถ้วยตวง)\nกรัม (¼ ถ้วยตวง)\nกรัม (¼ ถ้วยตวง)\nกรัม (¼ ถ้วยตวง)\nกรัม (¼ ถ้วยตวง)\nกรัม (1 ถ้วยตวง)\nกรัม (¼ ถ้วยตวง)\nกรัม (¼ ถ้วยตวง)\nกรัม (2 ต้น)\nกรัม (10 ใบ)\nกรัม (1 ท่อน)\nกรัม (2 หัว)\nกรัม (3 เม็ด)\nกรัม (1 ช้อนกินข้าว)\nกรัม (¼ ถ้วยตวง)"
+                        android:id="@+id/sup3244TextView"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/h5"
+                        android:background="#96ffffff"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="  วิธีทำ"
+                        android:id="@+id/sup3245TextView"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/h4"
+                        android:background="#96ffffff"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:textStyle="bold"
+                        android:paddingTop="10dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="      1. ขยำใบย่านางกับน้ำเปล่า 2 ถ้วยให้น้ำมีสีเขียว กรองด้วยผ้าขาวบาง นำน้ำที่ได้ใส่หม้อตั้งไฟ\n      2. ใส่ข่า ตะไคร้ใบมะกรูด หอมแดงและพริกสด คนให้เข้ากันพอเดือด\n      3. ใส่ฟักทอง บวบ เห็ดต่างๆ ยอดผักหวาน  และใบแมงลัก รอจนสุกเดือด ปรุงรสด้วยน้ำปลา คนให้เข้ากัน"
+                        android:id="@+id/sup3246TextView"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/h4"
+                        android:background="#96ffffff"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="10dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
 
 </RelativeLayout>
