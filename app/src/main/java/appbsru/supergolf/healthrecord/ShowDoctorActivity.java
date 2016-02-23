@@ -54,7 +54,7 @@ public class ShowDoctorActivity extends AppCompatActivity {
                 String phone = mCursor.getString(mCursor.getColumnIndex(DatabaseDoctor.COL_PHONE));
 
                 AlertDialog.Builder builder = new AlertDialog.Builder(ShowDoctorActivity.this);
-                builder.setTitle("ข้อมูลนักเรียน");
+                builder.setTitle("ข้อมูลแพทย์");
                 builder.setMessage("ชื่อ : " + name + "\n\nสถานที่ทำงาน : " + hospital + "\n\nความชำนาญ : " + suggest + "\n\nเบอร์ติดต่อ : " + phone);
                 builder.setNeutralButton("OK", null);
                 builder.show();
