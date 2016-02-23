@@ -7,181 +7,151 @@
     tools:context="appbsru.supergolf.healthrecord.Section3Sup28Activity"
     android:background="@drawable/bg500">
 
-    <ScrollView
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/recipeFood8ScrollView" >
+        android:layout_height="match_parent">
 
         <LinearLayout
-            android:orientation="vertical"
+            android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content">
 
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/sup328ImageView"
-                    android:background="@drawable/bnrfood2" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
+            <ImageView
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginRight="10dp">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/foodrecipe8"
-                    android:id="@+id/fd328TextView"
-                    android:textColor="@color/text"
-                    android:textSize="@dimen/h2"
-                    android:gravity="center"
-                    android:textStyle="bold" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:orientation="vertical"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="30dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginRight="30dp">
-
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/food8ImageView"
-                    android:src="@drawable/food8"
-                    android:background="#96ffffff" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="ส่วนประกอบ (สำหรับ 4 คน)"
-                    android:id="@+id/sup3281TextView"
-                    android:textColor="@color/text"
-                    android:textSize="@dimen/h4"
-                    android:background="#96ffffff"
-                    android:paddingLeft="10dp"
-                    android:paddingRight="10dp"
-                    android:textStyle="bold"
-                    android:gravity="center" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp" >
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text=" เนื้อปลาหั่นบางๆ\n
-กุ้งหั่นบางๆ\n
-เนื้อไก่หั่นบางๆ\n
-รากผักชี\n
-กระเทียม\n
-ต้นหอม\n
-ผักชี\n
-กะหล่ำปลี\n
-ซีอิ๊วขาว\n
-แครอท"
-                    android:id="@+id/sup3282TextView"
-                    android:textColor="@color/text"
-                    android:textSize="@dimen/h5"
-                    android:background="#96ffffff"
-                    android:paddingLeft="10dp"
-                    android:paddingRight="10dp" />
-
-                <TextView
-                    android:layout_width="70dp"
-                    android:layout_height="wrap_content"
-                    android:text=" 80 กรัม\n
-80 กรัม\n
-80 กรัม\n
-12 กรัม\n
-20 กรัม\n
-40 กรัม\n
-20 กรัม\n
-280 กรัม\n
-15 กรัม\n
-20 กรัม"
-                    android:id="@+id/sup3283TextView"
-                    android:textColor="@color/text"
-                    android:textSize="@dimen/h5"
-                    android:background="#96ffffff"
-                    android:gravity="right" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text=" ½ ถ้วยตวง\n
-½ ถ้วยตวง\n
-½ ถ้วยตวง\n
-3 ราก\n
-2 ช้อนกินข้าว\n
-½ ถ้วยตวง\n
-3 ต้น\n
-1 หัว\n
-1 ช้อนกินข้าว\n
-2 ช้อนกินข้าว"
-                    android:id="@+id/sup3284TextView"
-                    android:textColor="@color/text"
-                    android:textSize="@dimen/h5"
-                    android:background="#96ffffff"
-                    android:paddingLeft="10dp"
-                    android:paddingRight="10dp" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:orientation="vertical"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp"
-                android:layout_marginBottom="10dp">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="  วิธีทำ"
-                    android:id="@+id/sup3285TextView"
-                    android:textColor="@color/text"
-                    android:textSize="@dimen/h4"
-                    android:background="#96ffffff"
-                    android:paddingLeft="10dp"
-                    android:paddingRight="10dp"
-                    android:textStyle="bold"
-                    android:paddingTop="10dp" />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text=" 1. นำเนื้อปลา ไก่ และกุ้ง ที่หั่นบางๆแล้วมัดรวมกัน ห่อด้วยใบกะหล่ำปลีที่ลวกแล้ว แล้วมัดเข้าด้วยกันด้วยใบต้นหอมลวก\n
-2. ใส่น้ำลงในหม้อ ตั้งไฟพอเดือดใส่รากผักชี พริกไทยกระเทียมที่โขลกแล้วลงไป\n
-3. เมื่อน้ำเดือดใส่กะหล่ำปลีที่มัดแล้วลงในหม้อต้มพอเดือดอีกครั้ง ใส่แครอทปรุงรสด้วยซีอิ๊วขาวแล้วใส่ต้นหอม ผักชี ลงไป ตักใส่ถ้วย พร้อมเสิร์ฟ"
-                    android:id="@+id/sup3286TextView"
-                    android:textColor="@color/text"
-                    android:textSize="@dimen/h4"
-                    android:background="#96ffffff"
-                    android:paddingLeft="10dp"
-                    android:paddingRight="10dp"
-                    android:paddingBottom="10dp" />
-            </LinearLayout>
-
+                android:id="@+id/sup328ImageView"
+                android:background="@drawable/bnrfood2" />
         </LinearLayout>
-    </ScrollView>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/foodrecipe8"
+                android:id="@+id/fd328TextView"
+                android:textColor="@color/text"
+                android:textSize="@dimen/h2"
+                android:gravity="center"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/recipeFood8ScrollView"
+            android:layout_margin="5dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/food8ImageView"
+                        android:src="@drawable/food8"
+                        android:background="#96ffffff" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ส่วนประกอบ (สำหรับ 4 คน)"
+                        android:id="@+id/sup3281TextView"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/h4"
+                        android:background="#96ffffff"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:textStyle="bold"
+                        android:gravity="center" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="เนื้อปลาหั่นบางๆ\nกุ้งหั่นบางๆ\nเนื้อไก่หั่นบางๆ\nรากผักชี\nกระเทียม\nต้นหอม\nผักชี\nกะหล่ำปลี\nซีอิ๊วขาว\nแครอท"
+                        android:id="@+id/sup3282TextView"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/h5"
+                        android:background="#96ffffff"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="80\n80\n80\n12\n20\n40\n20\n280\n15\n20"
+                        android:id="@+id/sup3283TextView"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/h5"
+                        android:background="#96ffffff"
+                        android:gravity="right" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="กรัม (½ ถ้วยตวง)\nกรัม (½ ถ้วยตวง)\nกรัม (½ ถ้วยตวง)\nกรัม (3 ราก)\nกรัม (2 ช้อนกินข้าว)\nกรัม (½ ถ้วยตวง)\nกรัม (3 ต้น)\nกรัม (1 หัว)\nกรัม (1 ช้อนกินข้าว)\nกรัม (2 ช้อนกินข้าว)"
+                        android:id="@+id/sup3284TextView"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/h5"
+                        android:background="#96ffffff"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="  วิธีทำ"
+                        android:id="@+id/sup3285TextView"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/h4"
+                        android:background="#96ffffff"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:textStyle="bold"
+                        android:paddingTop="10dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="      1. นำเนื้อปลา ไก่ และกุ้ง ที่หั่นบางๆแล้วมัดรวมกัน ห่อด้วยใบกะหล่ำปลีที่ลวกแล้ว แล้วมัดเข้าด้วยกันด้วยใบต้นหอมลวก\n      2. ใส่น้ำลงในหม้อ ตั้งไฟพอเดือดใส่รากผักชี พริกไทยกระเทียมที่โขลกแล้วลงไป\n      3. เมื่อน้ำเดือดใส่กะหล่ำปลีที่มัดแล้วลงในหม้อต้มพอเดือดอีกครั้ง ใส่แครอทปรุงรสด้วยซีอิ๊วขาวแล้วใส่ต้นหอม ผักชี ลงไป ตักใส่ถ้วย พร้อมเสิร์ฟ"
+                        android:id="@+id/sup3286TextView"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/h4"
+                        android:background="#96ffffff"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="10dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
 
 </RelativeLayout>
