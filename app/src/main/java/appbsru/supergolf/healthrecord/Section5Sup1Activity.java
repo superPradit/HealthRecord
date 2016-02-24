@@ -15,8 +15,8 @@ public class Section5Sup1Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_section5_sup1);
 
-        String[] list = {"GLIPIZIDE", "GLIBENCLAMIDE", "REPAGLINIDE", "METFORMIN", "PIOGLITAZONE"
-                , "ACARBOSE", "VOGLIBOSE", "INSULIN"};
+        String[] list = {"Glipizide", "Glibenclamide", "Repaglinide", "Metformin", "Pioglitazone"
+                , "Acarbose", "Voglibose", "Insulin"};
 
         CustomAdapter adapter = new CustomAdapter(getApplicationContext(), list);
 
