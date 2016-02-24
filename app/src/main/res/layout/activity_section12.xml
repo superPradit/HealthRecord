@@ -92,7 +92,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/editText6"
                 android:layout_weight="1"
-                android:hint="@string/meter" />
+                android:hint="@string/centi" />
         </LinearLayout>
 
         <TextView

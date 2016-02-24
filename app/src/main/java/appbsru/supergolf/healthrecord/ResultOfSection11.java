@@ -46,13 +46,13 @@ public class ResultOfSection11 extends AppCompatActivity {
 
     private void showIntro() {
         if (summaryAnInt <= 2) {
-            introTextView.setText("ออกกำลังกายสม่ำเสมอ\nควมคุมน้ำหนักตัวให้อยู่ในเกณฑ์ที่เหมาะสม\nตรวจวัดความดันโลหิต\nควรประเมินความเสี่ยงซ้ำทุก 3 ปี");
+            introTextView.setText(" • ออกกำลังกายสม่ำเสมอ\n • ควมคุมน้ำหนักตัวให้อยู่ในเกณฑ์ที่เหมาะสม\n • ตรวจวัดความดันโลหิต\n • ควรประเมินความเสี่ยงซ้ำทุก 3 ปี");
         } else if (summaryAnInt <= 5) {
-            introTextView.setText("ออกกำลังกายสม่ำเสมอ\nควมคุมน้ำหนักตัวให้อยู่ในเกณฑ์ที่เหมาะสม\nตรวจวัดความดันโลหิต\nควรประเมินความเสี่ยงซ้ำทุก 1-3 ปี");
+            introTextView.setText(" • ออกกำลังกายสม่ำเสมอ\n • ควมคุมน้ำหนักตัวให้อยู่ในเกณฑ์ที่เหมาะสม\n • ตรวจวัดความดันโลหิต\n • ควรประเมินความเสี่ยงซ้ำทุก 1-3 ปี");
         } else if (summaryAnInt <= 8) {
-            introTextView.setText("ออกกำลังกายสม่ำเสมอ\nควมคุมน้ำหนักตัวให้อยู่ในเกณฑ์ที่เหมาะสม\nตรวจวัดความดันโลหิต\nตรวจระดับน้ำตาลในเลือด\nควรประเมินความเสี่ยงซ้ำทุก 1-3 ปี\n");
+            introTextView.setText(" • ออกกำลังกายสม่ำเสมอ\n • ควมคุมน้ำหนักตัวให้อยู่ในเกณฑ์ที่เหมาะสม\n • ตรวจวัดความดันโลหิต\n • ตรวจระดับน้ำตาลในเลือด\n • ควรประเมินความเสี่ยงซ้ำทุก 1-3 ปี");
         } else {
-            introTextView.setText("ออกกำลังกายสม่ำเสมอ\nควมคุมน้ำหนักตัวให้อยู่ในเกณฑ์ที่เหมาะสม\nตรวจวัดความดันโลหิต\nตรวจระดับน้ำตาลในเลือด\nควรประเมินความเสี่ยงซ้ำทุก 1 ปี");
+            introTextView.setText(" • ออกกำลังกายสม่ำเสมอ\n • ควมคุมน้ำหนักตัวให้อยู่ในเกณฑ์ที่เหมาะสม\n • ตรวจวัดความดันโลหิต\n • ตรวจระดับน้ำตาลในเลือด\n • ควรประเมินความเสี่ยงซ้ำทุก 1 ปี");
         }
     }
 
@@ -91,7 +91,7 @@ public class ResultOfSection11 extends AppCompatActivity {
         int intIndex = 0;
         if (sexAnInt == 0) {
             //Male
-            if (widthADouble < 90.0) {
+            if ((widthADouble*2.54) < 90.0) {
                 intIndex = 0;
             } else {
                 intIndex = 2;
@@ -99,7 +99,7 @@ public class ResultOfSection11 extends AppCompatActivity {
 
         } else {
             //Female
-            if (widthADouble < 80.0) {
+            if ((widthADouble*2.54) < 80.0) {
                 intIndex = 0;
             } else {
                 intIndex = 2;
@@ -112,17 +112,24 @@ public class ResultOfSection11 extends AppCompatActivity {
     private void showLog() {
 
         String tag = "Result11";
-        Log.d(tag, "indexDouble = " + indexMassADouble);
-        Log.d(tag, "indexAnInt = " + indexMassAnInt);
+        Log.d(tag, "heightADouble = " + heightADouble);
+        Log.d(tag, "weightADouble = " + weightADouble);
+        Log.d(tag, "widthADouble = " + widthADouble);
+        Log.d(tag, "ageAnInt = " + ageAnInt);
+        Log.d(tag, "sexAnInt = " + sexAnInt);
+        Log.d(tag, "pressureAnInt = " + pressureAnInt);
+        Log.d(tag, "diabetesAnInt = " + diabetesAnInt);
+        Log.d(tag, "indexMassDouble = " + indexMassADouble);
+        Log.d(tag, "indexMassAnInt = " + indexMassAnInt);
         Log.d(tag, "indexWidth = " + widthAnInt);
-        Log.d(tag, "indexHealth = " + summaryAnInt);
+        Log.d(tag, "indexSummary = " + summaryAnInt);
 
     } // showLog
 
     private int findIndexMass() {
 
         int intIndex = 0;
-        indexMassADouble = weightADouble / Math.pow(heightADouble, 2);
+        indexMassADouble = weightADouble / Math.pow(heightADouble/100, 2);
         if (indexMassADouble < 23.0) {
             intIndex = 0;
         } else if (indexMassADouble < 27.5) {

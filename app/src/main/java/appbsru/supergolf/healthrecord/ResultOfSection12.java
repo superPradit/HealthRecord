@@ -69,7 +69,7 @@ public class ResultOfSection12 extends AppCompatActivity {
 
     private Double resultBMI() {
         Double DoubleResultBMI = 0.0;
-        DoubleResultBMI = 5.0 * (weightADouble / Math.pow(heightADouble, 2));
+        DoubleResultBMI = 5.0 * (weightADouble / Math.pow(heightADouble/100, 2));
         return DoubleResultBMI;
     } //resultBMI
 
