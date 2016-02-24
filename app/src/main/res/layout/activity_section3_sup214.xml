@@ -7,88 +7,89 @@
     tools:context="appbsru.supergolf.healthrecord.Section3Sup214Activity"
     android:background="@drawable/bg500">
 
-    <ScrollView
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/recipeFood14ScrollView" >
+        android:layout_height="match_parent">
 
         <LinearLayout
-            android:orientation="vertical"
+            android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content">
 
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sup3214ImageView"
+                android:background="@drawable/bnrfood2" />
+        </LinearLayout>
 
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/sup3214ImageView"
-                    android:background="@drawable/bnrfood2" />
-            </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp">
 
-            <LinearLayout
-                android:orientation="horizontal"
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginRight="10dp">
+                android:text="@string/foodrecipe14"
+                android:id="@+id/fd3214TextView"
+                android:textColor="@color/text"
+                android:textSize="@dimen/h2"
+                android:gravity="center"
+                android:textStyle="bold" />
+        </LinearLayout>
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/foodrecipe14"
-                    android:id="@+id/fd3214TextView"
-                    android:textColor="@color/text"
-                    android:textSize="@dimen/h2"
-                    android:gravity="center"
-                    android:textStyle="bold" />
-            </LinearLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/recipeFood14ScrollView"
+            android:layout_margin="5dp">
 
             <LinearLayout
                 android:orientation="vertical"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="30dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginRight="30dp">
+                android:layout_height="match_parent">
 
-                <ImageView
+                <LinearLayout
+                    android:orientation="vertical"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/food14ImageView"
-                    android:src="@drawable/food14"
-                    android:background="#96ffffff" />
+                    android:layout_height="wrap_content">
 
-                <TextView
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/food14ImageView"
+                        android:src="@drawable/food14"
+                        android:background="#96ffffff" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ส่วนประกอบ (สำหรับ 4 คน)"
+                        android:id="@+id/sup32141TextView"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/h4"
+                        android:background="#96ffffff"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:textStyle="bold"
+                        android:gravity="center" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="ส่วนประกอบ (สำหรับ 4 คน)"
-                    android:id="@+id/sup32141TextView"
-                    android:textColor="@color/text"
-                    android:textSize="@dimen/h4"
-                    android:background="#96ffffff"
-                    android:paddingLeft="10dp"
-                    android:paddingRight="10dp"
-                    android:textStyle="bold"
-                    android:gravity="center" />
+                    android:layout_height="wrap_content">
 
-            </LinearLayout>
-
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp" >
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text=" พริกสดเผา\n
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" พริกสดเผา\n
 หอมแดงเผา\n
 กระเทียมเผา\n
 น้ำปลาร้า\n
@@ -99,17 +100,17 @@
 น้ำสุก\n
 แตงกวา\n
 กะหล่ำปลี"
-                    android:id="@+id/sup32142TextView"
-                    android:textColor="@color/text"
-                    android:textSize="@dimen/h5"
-                    android:background="#96ffffff"
-                    android:paddingLeft="10dp"
-                    android:paddingRight="10dp" />
+                        android:id="@+id/sup32142TextView"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/h5"
+                        android:background="#96ffffff"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp" />
 
-                <TextView
-                    android:layout_width="70dp"
-                    android:layout_height="wrap_content"
-                    android:text=" 40 กรัม\n
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" 40 กรัม\n
 40 กรัม\n
 40 กรัม\n
 8 กรัม\n
@@ -120,71 +121,69 @@
 40 กรัม\n
 80 กรัม\n
 80 กรัม"
-                    android:id="@+id/sup32143TextView"
-                    android:textColor="@color/text"
-                    android:textSize="@dimen/h5"
-                    android:background="#96ffffff"
-                    android:gravity="right" />
+                        android:id="@+id/sup32143TextView"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/h5"
+                        android:background="#96ffffff"
+                        android:gravity="right" />
 
-                <TextView
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" (6 เม็ด)\n
+(8 หัว)\n
+(2 หัว)\n
+(2 ช้อนชา)\n
+(¼ ถ้วยตวง)\n
+(¼ ถ้วยตวง)\n
+(1½ ถ้วยตวง)\n
+(1½ ช้อนกินข้าว)\n
+(¼ ถ้วยตวง)\n
+(4 ลูก)\n
+(¼ หัว)"
+                        android:id="@+id/sup32144TextView"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/h5"
+                        android:background="#96ffffff"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text=" 6 เม็ด\n
-8 หัว\n
-2 หัว\n
-2 ช้อนชา\n
-¼ ถ้วยตวง	\n
-¼ ถ้วยตวง\n
-1½ ถ้วยตวง\n
-1½ ช้อนกินข้าว\n
-¼ ถ้วยตวง\n
-4 ลูก\n
-¼ หัว"
-                    android:id="@+id/sup32144TextView"
-                    android:textColor="@color/text"
-                    android:textSize="@dimen/h5"
-                    android:background="#96ffffff"
-                    android:paddingLeft="10dp"
-                    android:paddingRight="10dp" />
+                    android:layout_height="wrap_content">
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="  วิธีทำ"
+                        android:id="@+id/sup32145TextView"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/h4"
+                        android:background="#96ffffff"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:textStyle="bold"
+                        android:paddingTop="10dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="      1. ปอกเปลือกหอมแดง กระเทียม พริก และโขลกให้เข้ากัน\n
+     2. ต้มน้ำให้เดือด ใส่ปลาและปลาร้า ต้มจนสุกตักเนื้อปลาขึ้น แกะเอาแต่เนื้อ\n
+     3. นำเนื้อปลาโขลกกับเครื่องแกง ข้อ 1ใส่น้ำมะนาว ส่วนน้ำต้มปลา กรองเอาแต่น้ำ ใส่ในเครื่องแกงที่โขลกไว้แต่งด้วยผักชีต้นหอมซอย รับประทานกับผักสด เช่น แตงกวา กะหล่ำปลีหรือผักอื่นๆ ตามชอบ"
+                        android:id="@+id/sup32146TextView"
+                        android:textColor="@color/text"
+                        android:textSize="@dimen/h4"
+                        android:background="#96ffffff"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="10dp" />
+                </LinearLayout>
             </LinearLayout>
+        </ScrollView>
 
-            <LinearLayout
-                android:orientation="vertical"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="30dp"
-                android:layout_marginRight="30dp"
-                android:layout_marginBottom="10dp">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="  วิธีทำ"
-                    android:id="@+id/sup32145TextView"
-                    android:textColor="@color/text"
-                    android:textSize="@dimen/h4"
-                    android:background="#96ffffff"
-                    android:paddingLeft="10dp"
-                    android:paddingRight="10dp"
-                    android:textStyle="bold"
-                    android:paddingTop="10dp" />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text=" 1. ปอกเปลือกหอมแดง กระเทียม พริก และโขลกให้เข้ากัน\n
-2. ต้มน้ำให้เดือด ใส่ปลาและปลาร้า ต้มจนสุกตักเนื้อปลาขึ้น แกะเอาแต่เนื้อ\n
-3. นำเนื้อปลาโขลกกับเครื่องแกง ข้อ 1ใส่น้ำมะนาว ส่วนน้ำต้มปลา กรองเอาแต่น้ำ ใส่ในเครื่องแกงที่โขลกไว้แต่งด้วยผักชีต้นหอมซอย รับประทานกับผักสด เช่น แตงกวา กะหล่ำปลีหรือผักอื่นๆ ตามชอบ"
-                    android:id="@+id/sup32146TextView"
-                    android:textColor="@color/text"
-                    android:textSize="@dimen/h4"
-                    android:background="#96ffffff"
-                    android:paddingLeft="10dp"
-                    android:paddingRight="10dp"
-                    android:paddingBottom="10dp" />
-            </LinearLayout>
-
-        </LinearLayout>
-    </ScrollView>
+    </LinearLayout>
 
 </RelativeLayout>
