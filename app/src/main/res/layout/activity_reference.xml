@@ -46,8 +46,18 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text=" 2. ณัฏฐิรา ทองบัวศิริไล, กุลพร สุขุมาลตระกูล, และวีระวัลย กรมงคลลักษณ. (2555). อิ่มอร่อยได้สุขภาพสไตล์เบาหวานสำหรับผู้ที่เป็นเบาหวานที่ยังไม่มีภาวะของโรคแทรกซ้อน. กรุงเทพมหานคร: ศูนย์สื่อและสิ่งพิมพ์แก้วเจ้าจอม. "
+                    android:text=" 2. ณัฏฐิรา ทองบัวศิริไล, กุลพร สุขุมาลตระกูล, และวีระวัลย กรมงคลลักษณ. (2555). อิ่มอร่อยได้สุขภาพสไตล์เบาหวานสำหรับผู้ที่เป็นเบาหวานที่ยังไม่มีภาวะของโรคแทรกซ้อน. กรุงเทพมหานคร: ศูนย์สื่อและสิ่งพิมพ์แก้วเจ้าจอม."
                     android:id="@+id/reference2TextView"
+                    android:background="#96ffffff"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" 3. มูลนิธิเพื่อการวิจัยและพัฒนาระบบยา .  (ม.ป.ป.).  ยากับคุณ.  สืบค้นจาก http://www.yaandyou.net/index.php"
+                    android:id="@+id/reference3TextView"
                     android:background="#96ffffff"
                     android:textColor="@color/text"
                     android:textSize="@dimen/h5"
