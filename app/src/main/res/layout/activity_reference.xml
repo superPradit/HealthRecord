@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="appbsru.supergolf.healthrecord.Reference"
+    android:background="@drawable/bg500">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/refer1ImageView"
+            android:background="@drawable/bnrefer" />
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView33"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" 1. สมาคมโรคเบาหวานแห่งประเทศไทย, สมาคมต่อมไร้ท่อแห่งประเทศไทย, กรมการแพทย์ กระทรวงสาธารณสุข, และ สำนักงานหลักประกันสุขภาพแห่งชาติ.  (2557).  แนวทางเวชปฏิบัติการรักษาโรคเบาหวาน 2557.  กรุงเทพมหานคร: หจก.อรุณการพิมพ์."
+                    android:id="@+id/reference1TextView"
+                    android:background="#96ffffff"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=" 2. ณัฏฐิรา ทองบัวศิริไล, กุลพร สุขุมาลตระกูล, และวีระวัลย กรมงคลลักษณ. (2555). อิ่มอร่อยได้สุขภาพสไตล์เบาหวานสำหรับผู้ที่เป็นเบาหวานที่ยังไม่มีภาวะของโรคแทรกซ้อน. กรุงเทพมหานคร: ศูนย์สื่อและสิ่งพิมพ์แก้วเจ้าจอม. "
+                    android:id="@+id/reference2TextView"
+                    android:background="#96ffffff"
+                    android:textColor="@color/text"
+                    android:textSize="@dimen/h5"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</RelativeLayout>

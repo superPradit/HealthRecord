@@ -128,23 +128,39 @@
                     android:id="@+id/drugImageView"
                     android:src="@drawable/icon66"
                     android:layout_weight="1" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/referImageView"
+                    android:layout_weight="1"
+                    android:src="@drawable/info" />
             </LinearLayout>
 
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="wrap_content">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/section5"
                     android:id="@+id/drugTextView"
-                    android:layout_weight="1"
                     android:textSize="@dimen/h6"
                     android:gravity="center|center_horizontal"
                     android:textColor="@color/text"
-                    android:textIsSelectable="false" />
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/section6"
+                    android:id="@+id/referTextView"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/h6"
+                    android:gravity="center|center_horizontal"
+                    android:textColor="@color/text" />
             </LinearLayout>
 
         </LinearLayout>

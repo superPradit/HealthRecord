@@ -6,7 +6,8 @@
     <string name="section2">หลักปฎิบัติ</string>
     <string name="section3">โภชนาการ</string>
     <string name="section4">แนะนำแพทย์</string>
-    <string name="section5">ยารักษาโรคเบาหวาน</string>
+    <string name="section5">ยารักษาเบาหวาน</string>
+    <string name="section6">เอกสารอ้างอิง</string>
 
     <string name="section1_1">ประเมินความเสี่ยงเพื่อป้องกันโรค</string>
     <string name="section1_2">ประเมินความเสี่ยงในช่วงเวลานั้น</string>

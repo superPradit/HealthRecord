@@ -9,8 +9,8 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
-            android:theme="@style/Theme.AppCompat.NoActionBar"
-            android:screenOrientation="userPortrait">
+            android:screenOrientation="userPortrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -965,6 +965,12 @@
             android:name=".AddDoctorActivity"
             android:label="@string/adddoctor"
             android:parentActivityName=".Section4Activity" />
+        <activity
+            android:name=".Reference"
+            android:label="@string/section6"
+            android:screenOrientation="userPortrait"
+            android:parentActivityName=".MainActivity">
+        </activity>
     </application>
 
 </manifest>

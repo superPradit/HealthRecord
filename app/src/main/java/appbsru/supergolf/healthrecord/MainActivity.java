@@ -11,9 +11,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     //Explicit
     private ImageView section1ImageView, section2ImageView,
-            section3ImageView, section4ImageView, section5ImageView;
+            section3ImageView, section4ImageView, section5ImageView, section6ImageView ;
 
-    private TextView section1TextView, section2TextView, section3TextView, section4TextView, section5TextView;
+    private TextView section1TextView, section2TextView, section3TextView, section4TextView, section5TextView, section6TextView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         section3TextView.setOnClickListener(this);
         section4TextView.setOnClickListener(this);
         section5TextView.setOnClickListener(this);
+        section6TextView.setOnClickListener(this);
     }
 
     private void imageController() {
@@ -45,6 +46,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         section3ImageView.setOnClickListener(this);
         section4ImageView.setOnClickListener(this);
         section5ImageView.setOnClickListener(this);
+        section6ImageView.setOnClickListener(this);
     }
 
     private void bindwidget() {
@@ -53,11 +55,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         section3ImageView = (ImageView) findViewById(R.id.imageView3);
         section4ImageView = (ImageView) findViewById(R.id.imageView4);
         section5ImageView = (ImageView) findViewById(R.id.drugImageView);
+        section6ImageView = (ImageView) findViewById(R.id.referImageView);
         section1TextView = (TextView) findViewById(R.id.textView);
         section2TextView = (TextView) findViewById(R.id.textView2);
         section3TextView = (TextView) findViewById(R.id.textView3);
         section4TextView = (TextView) findViewById(R.id.textView4);
         section5TextView = (TextView) findViewById(R.id.drugTextView);
+        section6TextView = (TextView) findViewById(R.id.referTextView);
     }
 
     @Override
@@ -79,6 +83,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.drugImageView:
                 startActivity(new Intent(MainActivity.this, Section5Activity.class));
                 break;
+            case R.id.referImageView:
+                startActivity(new Intent(MainActivity.this, Reference.class));
+                break;
         } //switch
 
         switch (v.getId()) {
@@ -96,6 +103,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.drugTextView:
                 startActivity(new Intent(MainActivity.this, Section5Activity.class));
+                break;
+            case R.id.referTextView:
+                startActivity(new Intent(MainActivity.this, Reference.class));
                 break;
         }//switch TextView
 
