@@ -62,8 +62,8 @@ public class EditDoctorActivity extends AppCompatActivity {
                 mCursor.moveToPosition(arg2);
 
                 AlertDialog.Builder builder = new AlertDialog.Builder(EditDoctorActivity.this);
-                builder.setTitle("ลบข้อมูลนักเรียน");
-                builder.setMessage("คุณต้องการลบข้อมูลนักเรียนคนนี้ใช่หรือไม่?");
+                builder.setTitle("ลบข้อมูลแพทย์");
+                builder.setMessage("คุณต้องการลบข้อมูลแพทย์ท่านนี้ใช่หรือไม่?");
                 builder.setPositiveButton("ใช่", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
                         String name = mCursor.getString(mCursor.getColumnIndex(DatabaseDoctor.COL_NAME));
@@ -81,7 +81,7 @@ public class EditDoctorActivity extends AppCompatActivity {
 
                         listDoctor.setAdapter(updateListView());
 
-                        Toast.makeText(getApplicationContext(),"ลบข้อมูลนักเรียนเรียบร้อย"
+                        Toast.makeText(getApplicationContext(),"ลบข้อมูลแพทย์เรียบร้อย"
                                 , Toast.LENGTH_SHORT).show();
                     }
                 });

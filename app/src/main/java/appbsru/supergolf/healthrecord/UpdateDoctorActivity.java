@@ -63,13 +63,13 @@ public class UpdateDoctorActivity extends AppCompatActivity {
                             + " AND " + DatabaseDoctor.COL_SUGGEST + "='" + suggest + "'"
                             + " AND " + DatabaseDoctor.COL_PHONE + "='" + phone + "';");
 
-                    Toast.makeText(getApplicationContext(), "แก้ไขข้อมูลนักเรียนเรียบร้อยแล้ว"
+                    Toast.makeText(getApplicationContext(), "แก้ไขข้อมูลแพทย์เรียบร้อยแล้ว"
                             , Toast.LENGTH_SHORT).show();
 
                     finish();
 
                 } else {
-                    Toast.makeText(getApplicationContext(), "กรุณาใส่ข้อมูลนักเรียนให้ครบทุกช่อง"
+                    Toast.makeText(getApplicationContext(), "กรุณาใส่ข้อมูลแพทย์ให้ครบทุกช่อง"
                             , Toast.LENGTH_SHORT).show();
                 }
             }
