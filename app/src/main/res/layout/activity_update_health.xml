@@ -51,7 +51,8 @@
                 android:singleLine="true"
                 android:textSize="20sp"
                 android:layout_marginRight="5dp"
-                android:hint="วว/ดด/ปปปป" />
+                android:hint="วว/ดด/ปปปป"
+                android:inputType="phone" />
 
             <Button
                 android:id="@+id/buttonDate"
@@ -87,7 +88,8 @@
                 android:singleLine="true"
                 android:textSize="20sp"
                 android:layout_marginRight="5dp"
-                android:hint="กิโลแคลอรี/วัน" />
+                android:hint="กิโลแคลอรี/วัน"
+                android:inputType="numberDecimal" />
 
             <Button
                 android:id="@+id/buttonFood"
@@ -122,7 +124,8 @@
                 android:singleLine="true"
                 android:textSize="20sp"
                 android:layout_marginRight="5dp"
-                android:hint="นาที/วัน" />
+                android:hint="นาที/วัน"
+                android:inputType="numberDecimal" />
 
             <Button
                 android:id="@+id/buttonExercise"
@@ -156,7 +159,8 @@
                 android:singleLine="true"
                 android:textSize="20sp"
                 android:layout_marginRight="5dp"
-                android:hint="กิโลกรัม" />
+                android:hint="กิโลกรัม"
+                android:inputType="numberDecimal" />
 
             <Button
                 android:id="@+id/buttonWeight"
@@ -190,7 +194,8 @@
                 android:singleLine="true"
                 android:textSize="20sp"
                 android:layout_marginRight="5dp"
-                android:hint="เซนติเมตร" />
+                android:hint="เซนติเมตร"
+                android:inputType="numberDecimal" />
 
             <Button
                 android:id="@+id/buttonHeight"

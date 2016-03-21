@@ -32,8 +32,8 @@ public class ShowHealthActivity extends AppCompatActivity {
         mCursor.moveToFirst();
         while(!mCursor.isAfterLast() ) {
             arr_list.add("วันที่ : " + mCursor.getString(mCursor.getColumnIndex(DatabaseHealth.COL_DATE))
-                    + "\nพลังงานที่ได้รับ : " + mCursor.getString(mCursor.getColumnIndex(DatabaseHealth.COL_FOOD))
-                    + " กิโลแคลอรี/วัน\nเวลาในการออกกำลังกาย : " + mCursor.getString(mCursor.getColumnIndex(DatabaseHealth.COL_EXERCISE))
+                    + "\nพลังงานที่ได้รับ : \n\t\t\t\t" + mCursor.getString(mCursor.getColumnIndex(DatabaseHealth.COL_FOOD))
+                    + " กิโลแคลอรี/วัน\nเวลาในการออกกำลังกาย : \n\t\t\t\t" + mCursor.getString(mCursor.getColumnIndex(DatabaseHealth.COL_EXERCISE))
                     + " นาที/วัน\nน้ำหนัก : " + mCursor.getString(mCursor.getColumnIndex(DatabaseHealth.COL_WEIGHT))
                     + " กิโลกรัม\nส่วนสูง : " + mCursor.getString(mCursor.getColumnIndex(DatabaseHealth.COL_HEIGHT)) + " เซนติเมตร");
             mCursor.moveToNext();
@@ -55,7 +55,7 @@ public class ShowHealthActivity extends AppCompatActivity {
 
                 AlertDialog.Builder builder = new AlertDialog.Builder(ShowHealthActivity.this);
                 builder.setTitle("ข้อมูลบันทึกสุขภาพ");
-                builder.setMessage("วันที่ : " + date + "\n\nพลังงานที่ได้รับ : " + food + " กิโลแคลอรี/วัน\n\nเวลาในการออกกำลังกาย : " + exercise + " นาที/วัน\n\nน้ำหนัก : " + weight + " กิโลกรัม\n\nส่วนสูง : " + height + " เซนติเมตร");
+                builder.setMessage("วันที่ : " + date + "\nพลังงานที่ได้รับ : \n\t\t\t\t" + food + " กิโลแคลอรี/วัน\nเวลาในการออกกำลังกาย : \n\t\t\t\t" + exercise + " นาที/วัน\nน้ำหนัก : " + weight + " กิโลกรัม\nส่วนสูง : " + height + " เซนติเมตร");
                 builder.setNeutralButton("OK", null);
                 builder.show();
             }

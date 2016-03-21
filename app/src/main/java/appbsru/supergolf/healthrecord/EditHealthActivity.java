@@ -113,8 +113,8 @@ public class EditHealthActivity extends AppCompatActivity {
         mCursor.moveToFirst();
         while(!mCursor.isAfterLast()){
             arr_list.add("วันที่ : " + mCursor.getString(mCursor.getColumnIndex(DatabaseHealth.COL_DATE)) + "\n"
-                    + "พลังงานที่ได้รับ : " + mCursor.getString(mCursor.getColumnIndex(DatabaseHealth.COL_FOOD)) + " กิโลแคลอรี/วัน\n"
-                    + "เวลาในการออกกำลังกาย : " + mCursor.getString(mCursor.getColumnIndex(DatabaseHealth.COL_EXERCISE)) + " นาที/วัน\n"
+                    + "พลังงานที่ได้รับ : \n\t\t\t\t" + mCursor.getString(mCursor.getColumnIndex(DatabaseHealth.COL_FOOD)) + " กิโลแคลอรี/วัน\n"
+                    + "เวลาในการออกกำลังกาย : \n\t\t\t\t" + mCursor.getString(mCursor.getColumnIndex(DatabaseHealth.COL_EXERCISE)) + " นาที/วัน\n"
                     + "น้ำหนัก : " + mCursor.getString(mCursor.getColumnIndex(DatabaseHealth.COL_WEIGHT)) + " กิโลกรัม\n"
                     + "ส่วนสูง : " + mCursor.getString(mCursor.getColumnIndex(DatabaseHealth.COL_HEIGHT)) + " เซนติเมตร");
             mCursor.moveToNext();

@@ -32,7 +32,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/listHealth"
-            android:layout_margin="10dp"
+            android:layout_margin="5dp"
             android:background="#96ffffff" />
     </LinearLayout>
 
