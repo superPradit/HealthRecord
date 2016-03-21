@@ -1087,10 +1087,15 @@
             android:name=".EditHealthActivity"
             android:label="@string/edithealth"
             android:parentActivityName=".Section6Activity"
-            android:screenOrientation="userPortrait"/>
+            android:screenOrientation="userPortrait" />
         <activity
             android:name=".UpdateHealthActivity"
             android:label="@string/edithealth"
+            android:parentActivityName=".Section6Activity"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name=".AddHealthActivity"
+            android:label="@string/addhealth"
             android:parentActivityName=".Section6Activity"
             android:screenOrientation="userPortrait"/>
     </application>
