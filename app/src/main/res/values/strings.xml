@@ -148,5 +148,8 @@
     <string name="herb10">ชะพลู</string>
     <string name="herb11">หว้า</string>
 
+    <string name="showhealth">แสดงบันทึกสุขภาพ</string>
+    <string name="addhealth">เพิ่มบันทึกสุขภาพ</string>
+    <string name="edithealth">แก้ไขบันทึกสุขภาพ</string>
 
 </resources>

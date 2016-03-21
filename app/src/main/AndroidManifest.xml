@@ -1075,11 +1075,14 @@
             android:screenOrientation="userPortrait" />
         <activity
             android:name=".Section6Activity"
-            android:label="@string/adddoctor"
+            android:label="@string/section6"
             android:parentActivityName=".MainActivity"
             android:screenOrientation="userPortrait" />
-
-
+        <activity
+            android:name=".ShowHealthActivity"
+            android:label="@string/showhealth"
+            android:parentActivityName=".Section6Activity"
+            android:screenOrientation="userPortrait" />
     </application>
 
 </manifest>

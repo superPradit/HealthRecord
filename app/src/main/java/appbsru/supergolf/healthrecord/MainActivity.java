@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(new Intent(MainActivity.this, Section5Activity.class));
                 break;
             case R.id.referImageView:
-                startActivity(new Intent(MainActivity.this, Reference.class));
+                startActivity(new Intent(MainActivity.this, Section6Activity.class));
                 break;
         } //switch
 
@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(new Intent(MainActivity.this, Section5Activity.class));
                 break;
             case R.id.referTextView:
-                startActivity(new Intent(MainActivity.this, Reference.class));
+                startActivity(new Intent(MainActivity.this, Section6Activity.class));
                 break;
         }//switch TextView
 
