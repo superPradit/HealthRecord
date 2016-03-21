@@ -15,7 +15,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/section6sup3ImageView"
-            android:background="@drawable/bannerdoctor1" />
+            android:background="@drawable/bnhealth" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
