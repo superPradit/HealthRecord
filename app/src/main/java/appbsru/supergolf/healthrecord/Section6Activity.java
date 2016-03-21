@@ -46,10 +46,10 @@ public class Section6Activity extends AppCompatActivity implements View.OnClickL
                 break;
             /*case R.id.addHealthImageButton:
                 startActivity(new Intent(Section6Activity.this, AddHealthActivity.class));
-                break;
+                break;*/
             case R.id.editHealthImageButton:
                 startActivity(new Intent(Section6Activity.this, EditHealthActivity.class));
-                break;*/
+                break;
         }
     }
 }

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg500"
+    tools:context="appbsru.supergolf.healthrecord.EditHealthActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/section6sup3ImageView"
+            android:background="@drawable/bannerdoctor1" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="บันทึกสุขภาพ"
+            android:id="@+id/section6sup3TextView"
+            android:paddingTop="20dp"
+            android:paddingLeft="30dp"
+            android:paddingBottom="20dp"
+            android:paddingRight="20dp"
+            android:textColor="@color/text"
+            android:textSize="@dimen/h2" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listHealth"
+            android:layout_margin="10dp"
+            android:background="#96ffffff" />
+    </LinearLayout>
+
+</RelativeLayout>
