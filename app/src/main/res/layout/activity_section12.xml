@@ -48,7 +48,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/editText4"
                 android:layout_weight="1"
-                android:hint="@string/year" />
+                android:hint="@string/year"
+                android:inputType="numberDecimal" />
         </LinearLayout>
 
         <LinearLayout
@@ -70,7 +71,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/editText5"
                 android:layout_weight="1"
-                android:hint="@string/kilo" />
+                android:hint="@string/kilo"
+                android:inputType="numberDecimal" />
         </LinearLayout>
 
         <LinearLayout
@@ -92,7 +94,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/editText6"
                 android:layout_weight="1"
-                android:hint="@string/centi" />
+                android:hint="@string/centi"
+                android:inputType="numberDecimal" />
         </LinearLayout>
 
         <TextView
