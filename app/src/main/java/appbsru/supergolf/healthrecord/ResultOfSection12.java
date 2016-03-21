@@ -10,7 +10,7 @@ import android.widget.TextView;
 public class ResultOfSection12 extends AppCompatActivity {
 
     //Explicit
-    private int ageAnInt, pressureAnInt, riskScoreAnInt, bmiAnInt, riskScoreAnInt2;
+    private int ageAnInt, pressureAnInt, riskScoreAnInt1, bmiAnInt, riskScoreAnInt;
     private Double weightADouble, heightADouble, bmiADouble;
     private TextView result12TextView;
 
@@ -26,7 +26,7 @@ public class ResultOfSection12 extends AppCompatActivity {
         receiveValueFormIntent();
 
         //riskScore
-        riskScoreAnInt = riskScore1();
+        riskScoreAnInt1 = riskScore1();
 
         //BMI
         bmiADouble = resultBMI();
@@ -35,7 +35,7 @@ public class ResultOfSection12 extends AppCompatActivity {
         bmiAnInt = resultBMIInt();
 
         //riskScore
-        riskScoreAnInt2 = riskScore2();
+        riskScoreAnInt = riskScore();
 
         //showTxt
         showResult12Text();
@@ -45,14 +45,14 @@ public class ResultOfSection12 extends AppCompatActivity {
 
     } //Main Method
 
-    private int riskScore2() {
+    private int riskScore() {
         int intriskScore2;
-        intriskScore2 = riskScoreAnInt + bmiAnInt;
+        intriskScore2 = riskScoreAnInt1 + bmiAnInt;
         return intriskScore2;
     }
 
     private void showResult12Text() {
-        if (riskScoreAnInt2 < 240) {
+        if (riskScoreAnInt < 240) {
             result12TextView.setText("ผู้ใช้ไม่มีความเสี่ยงเป็นโรคเบาหวาน");
         } else {
             result12TextView.setText("ผู้ใช้มีความเสี่ยงเป็นโรคเบาหวานสูง\nควรพบแพทย์ตรวจวัดอย่างละเอียด");
@@ -92,8 +92,8 @@ public class ResultOfSection12 extends AppCompatActivity {
         Log.d(tag, "pressure = " + pressureAnInt);
         Log.d(tag, "BMIADouble = " + bmiADouble);
         Log.d(tag, "BMIAnInt = " + bmiAnInt);
-        Log.d(tag, "RiskScore1 = " + riskScoreAnInt);
-        Log.d(tag, "RiskScore2 = " + riskScoreAnInt2);
+        Log.d(tag, "RiskScore1 = " + riskScoreAnInt1);
+        Log.d(tag, "RiskScore = " + riskScoreAnInt);
 
     }
 
