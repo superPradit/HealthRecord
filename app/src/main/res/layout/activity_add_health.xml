@@ -19,7 +19,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="แก้ไขบันทึกสุขภาพ"
+            android:text="เพิ่มบันทึกสุขภาพ"
             android:id="@+id/section6sup32TextView"
             android:paddingTop="20dp"
             android:paddingLeft="30dp"
