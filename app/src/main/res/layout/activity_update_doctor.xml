@@ -32,12 +32,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
             android:background="#96ffffff">
 
             <TextView
-                android:layout_width="105dp"
+                android:layout_width="120dp"
                 android:layout_height="wrap_content"
                 android:text="ชื่อ :"
                 android:textSize="20sp"
@@ -57,8 +57,7 @@
                 android:id="@+id/buttonNameClear"
                 android:layout_width="24dp"
                 android:layout_height="24dp"
-                android:background="@drawable/rubbish7"
-                android:layout_marginRight="5dp" />
+                android:background="@drawable/rubbish7"/>
 
         </LinearLayout>
 
@@ -66,12 +65,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
             android:background="#96ffffff">
 
             <TextView
-                android:layout_width="105dp"
+                android:layout_width="120dp"
                 android:layout_height="wrap_content"
                 android:text="สถานที่ทำงาน :"
                 android:textSize="20sp"
@@ -94,20 +93,19 @@
                 android:id="@+id/buttonHospitalClear"
                 android:layout_width="24dp"
                 android:layout_height="24dp"
-                android:background="@drawable/rubbish7"
-                android:layout_marginRight="5dp" />
+                android:background="@drawable/rubbish7"/>
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
             android:background="#96ffffff">
 
             <TextView
-                android:layout_width="105dp"
+                android:layout_width="120dp"
                 android:layout_height="wrap_content"
                 android:text="ความชำนาญ :"
                 android:textSize="20sp"
@@ -123,27 +121,25 @@
                 android:singleLine="true"
                 android:textSize="20sp"
                 android:layout_marginRight="5dp"
-                android:lines="2"
                 android:inputType="textMultiLine" />
 
             <Button
                 android:id="@+id/buttonSuggestClear"
                 android:layout_width="24dp"
                 android:layout_height="24dp"
-                android:background="@drawable/rubbish7"
-                android:layout_marginRight="5dp" />
+                android:background="@drawable/rubbish7"/>
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
             android:background="#96ffffff">
 
             <TextView
-                android:layout_width="105dp"
+                android:layout_width="120dp"
                 android:layout_height="wrap_content"
                 android:text="เบอร์ติดต่อ :"
                 android:textSize="20sp"
@@ -163,8 +159,7 @@
                 android:id="@+id/buttonPhoneClear"
                 android:layout_width="24dp"
                 android:layout_height="24dp"
-                android:background="@drawable/rubbish7"
-                android:layout_marginRight="5dp" />
+                android:background="@drawable/rubbish7"/>
         </LinearLayout>
 
         <Button
